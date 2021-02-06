@@ -27,7 +27,7 @@ export default function Layout({
                 <title>{head.title}</title>
                 <link rel="icon" type="image/png" href="/images/logos/favicon-dark.png" />
                 <meta name="description" content={head.description} />
-                <meta name="robots" content={head.robots !== false ? "index, follow" : "noindex, nofollow"} />
+                <meta name="robots" content={head.robots === false ? "noindex, nofollow" : "index, follow"} />
                 {/* {pageMeta.canonical ? <link rel="canonical" href={`https://webdacity.dev${pageMeta.canonical.toLowerCase()}`} /> : null} */}
 
 

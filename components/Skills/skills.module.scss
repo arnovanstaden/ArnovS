@@ -1,6 +1,23 @@
 @import "../../styles/variables.scss";
 
-.skills {
+.filter {
+    margin-bottom: 2rem;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+
+        li {
+            cursor: pointer;
+        }
+    }
+}
+
+.grid {
     display: flex;
     justify-content: center;
     align-items: center;

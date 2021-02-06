@@ -188,3 +188,12 @@ a {
   -moz-box-shadow: 15px 15px 15px rgba(10, 10, 10, 0.05);
   box-shadow: 15px 15px 15px rgba(10, 10, 10, 0.05);
 }
+
+
+// Project Grid
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 2rem;
+}

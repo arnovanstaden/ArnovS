@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.project {
+    width: 30%;
+    background-color: $black;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    .imageContainer {
+        width: 100%;
+
+        >div {
+            position: unset !important;
+        }
+
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
+    .name {
+        font-size: 1.25rem;
+        margin: 1rem 0 0.25rem 0;
+    }
+
+    .services {
+        font-size: 0.8rem;
+        color: $blue;
+        margin: 0;
+        font-family: $headingfont;
+    }
+
+    .tools {
+        display: flex;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        padding: 0;
+        list-style: none;
+        flex-wrap: wrap;
+
+        li {
+            padding: 0.2rem 0.5rem;
+            background-color: $blue;
+            font-size: 0.8rem;
+        }
+    }
+}

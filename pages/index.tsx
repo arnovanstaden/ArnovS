@@ -5,9 +5,13 @@ import Section from "../components/Section/Section";
 import Skills from "../components/Skills/Skills";
 import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
+import Project from "../components/Project/Project";
 
 // Styles, Icons, Fonts
 import styles from '../styles/index.module.scss';
+
+// Data
+import devProjects from "../assets/data/projects-development.json";
 
 export default function Home() {
   return (
@@ -20,8 +24,12 @@ export default function Home() {
       <main className={styles.main}>
         <Landing />
 
-        <Section light idProp="projects" heading="My Projects">
-
+        <Section light idProp="projects" heading="Featured Projects">
+          <div className="project-grid">
+            {devProjects.map((project, index) => (
+              project.home ? <Project {...project} key={index} /> : null
+            ))}
+          </div>
         </Section>
 
         <Section idProp="skills" heading="My Skills">
@@ -32,7 +40,7 @@ export default function Home() {
           <About />
         </Section>
 
-        <Section idProp="contact" heading="Contact Me">
+        <Section idProp="contact" heading="Get in Touch">
           <Contact />
         </Section>
       </main>
