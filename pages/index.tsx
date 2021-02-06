@@ -4,6 +4,7 @@ import Landing from "../components/Landing/Landing";
 import Section from "../components/Section/Section";
 import Skills from "../components/Skills/Skills";
 import About from "../components/About/About";
+import Contact from "../components/Contact/Contact";
 
 // Styles, Icons, Fonts
 import styles from '../styles/index.module.scss';
@@ -32,7 +33,7 @@ export default function Home() {
         </Section>
 
         <Section idProp="contact" heading="Contact Me">
-
+          <Contact />
         </Section>
       </main>
 
