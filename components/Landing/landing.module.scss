@@ -1,0 +1,71 @@
+@import "../../styles/variables.scss";
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .grid {
+        display: flex;
+        column-gap: 2rem;
+
+        .image {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .content {
+            width: 50%;
+            position: relative;
+            padding-top: 4rem;
+
+            .name {
+                font-size: 2.25rem;
+                font-weight: 500;
+                letter-spacing: -0.5px;
+                margin: 0;
+                margin-bottom: 1.5rem;
+            }
+
+            .description {
+                margin: 0;
+                font-weight: 300;
+
+                a {
+                    font-weight: 500;
+                    color: $blue;
+                }
+            }
+
+            .status {
+                margin-top: 2rem;
+
+                p {
+                    color: $lightgrey;
+                }
+
+                span {
+                    font-size: 0.8rem;
+                    background-color: $blue;
+                    padding: 0.25rem 0.5rem;
+                    display: inline-block;
+                    margin-right: 1rem;
+                    color: $white;
+                    font-weight: 500;
+                }
+            }
+
+            .buttons {
+                margin-top: 2rem;
+                display: flex;
+                column-gap: 1.5rem;
+            }
+        }
+    }
+}
