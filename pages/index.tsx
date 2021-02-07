@@ -27,7 +27,7 @@ export default function Home() {
         <Section light idProp="projects" heading="Featured Projects">
           <div className="project-grid">
             {devProjects.map((project, index) => (
-              project.home ? <Project {...project} key={index} /> : null
+              project.featured ? <Project {...project} key={index} /> : null
             ))}
           </div>
         </Section>

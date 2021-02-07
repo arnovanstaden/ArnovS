@@ -1,0 +1,148 @@
+@import "./variables.scss";
+
+.landing {
+    height: 100vh;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+
+        h1 {
+            font-family: $mainfont;
+            font-weight: 600;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin: 0;
+            font-family: $headingfont;
+            color: $blue;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        width: 25vw;
+        z-index: 0;
+        opacity: 0.05;
+    }
+}
+
+.details {
+    display: flex;
+    column-gap: 3rem;
+    align-items: flex-start;
+
+
+    .text {
+        width: 50%;
+        box-sizing: border-box;
+
+        h3 {
+            font-family: $mainfont;
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h6 {
+            margin: 0;
+            font-family: $headingfont;
+            color: $blue;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .buttons {
+            display: flex;
+            column-gap: 1.5rem;
+            margin-top: 2rem;
+        }
+    }
+
+    .info {
+        width: 50%;
+        box-sizing: border-box;
+        background-color: $black;
+        padding: 1rem 1.5rem;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $lightgrey;
+            padding: 1rem;
+
+            h5 {
+                margin: 0;
+                font-family: $mainfont;
+                font-size: 1.1rem;
+                font-weight: 400;
+            }
+
+            p {
+                color: $lightgrey;
+                margin: 0;
+            }
+
+            .tools {
+                display: flex;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                column-gap: 0.5rem;
+
+                li {
+                    color: $lightgrey;
+                    transition: 0.3s ease-in-out;
+                    font-size: 1.1rem;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+
+    .imageContainer {
+        width: 100%;
+
+        >div {
+            position: unset !important;
+        }
+
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
+}

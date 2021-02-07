@@ -1,36 +1,29 @@
 // Components
 import Layout from './../../components/Layout/Layout';
+import Project from "../../components/Project/Project";
+import Section from "../../components/Section/Section";
 
 // Styles 
 // import styles from "../styles/projects.module.scss"
 
+// Data
+import devProjects from "../../assets/data/projects-development.json";
+
 export default function Projects() {
+
     return (
         <Layout
             head={{
                 title: "Projects",
                 description: "Projects Description",
             }}>
-            <h1>Projects List</h1>
+            <Section>
+                <div className="project-grid">
+                    {devProjects.map((project, index) => (
+                        project.visible ? <Project {...project} key={index} /> : null
+                    ))}
+                </div>
+            </Section>
         </Layout>
     )
 }
-
-// export function getAllProjectNames() {
-//     return devProjects.map(project => {
-//         return {
-//             params: {
-//                 name: project.name
-//             }
-//         }
-//     })
-// }
-
-// export function getProjectData(name) {
-//     const project = devProjects.find(project => project.name === name);
-//     return {
-//         name,
-//         ...project
-//     }
-// }
-

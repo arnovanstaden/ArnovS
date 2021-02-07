@@ -6,7 +6,7 @@ import styles from "./section.module.scss";
 
 interface SectionProps {
     children: React.ReactNode;
-    idProp: string;
+    idProp?: string;
     light?: boolean;
     simple?: boolean;
     heading?: string;
