@@ -1,4 +1,4 @@
-import projects from "../../../assets/data/projects-development.json";
+import projects from "../../../assets/data/projects.json";
 
 export default (req, res) => {
   const {

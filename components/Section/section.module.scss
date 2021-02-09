@@ -22,7 +22,7 @@
 
     .heading {
         text-align: center;
-        padding-bottom: 4rem;
+        padding-bottom: 5rem;
         text-align: center;
 
         img {
@@ -35,6 +35,15 @@
             margin: 0;
             font-size: 2.5rem;
             font-weight: 600;
+        }
+
+        h6 {
+            margin: 0;
+            margin-top: 0.75rem;
+            color: $white;
+            font-size: 1rem;
+            font-family: $mainfont;
+            font-weight: 400;
         }
 
         @media (max-width: 576px) {

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 // Components
 import Layout from "../components/Layout/Layout";
 import Landing from "../components/Landing/Landing";
@@ -11,7 +13,7 @@ import Project from "../components/Project/Project";
 import styles from '../styles/index.module.scss';
 
 // Data
-import devProjects from "../assets/data/projects-development.json";
+import projects from "../assets/data/projects.json";
 
 export default function Home() {
   return (
@@ -24,23 +26,46 @@ export default function Home() {
       <main className={styles.main}>
         <Landing />
 
-        <Section light idProp="projects" heading="Featured Projects">
+        <Section light
+          idProp="projects"
+          heading="Featured Projects"
+          subheading="A developer is best evaluated by what they've built. Here are some of my featured projects."
+        >
           <div className="project-grid">
-            {devProjects.map((project, index) => (
+            {projects.map((project, index) => (
               project.featured ? <Project {...project} key={index} /> : null
             ))}
           </div>
+          <div className={styles.projectButtons}>
+            <Link href="/projects">
+              <button className="button">
+                <a>View All My Work</a>
+              </button>
+            </Link>
+          </div>
         </Section>
 
-        <Section idProp="skills" heading="My Skills">
+        <Section
+          idProp="skills"
+          heading="My Skills"
+          subheading="Every project is a new story, yet some things stay the same. This is some of the tech I love using."
+        >
           <Skills />
         </Section>
 
-        <Section light idProp="about" heading="About Me">
+        <Section light
+          idProp="about"
+          heading="About Me"
+          subheading="I'm more than just a techy, although I love everything techy."
+        >
           <About />
         </Section>
 
-        <Section idProp="contact" heading="Get in Touch">
+        <Section
+          idProp="contact"
+          heading="Get in Touch"
+          subheading="If you're interested and would like to hear more about what makes me tick as a developer, please don't hesitate to get in touch."
+        >
           <Contact />
         </Section>
       </main>

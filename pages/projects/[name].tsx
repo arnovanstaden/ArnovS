@@ -26,7 +26,7 @@ export default function Project({ project, imageCount }) {
     const { name } = router.query;
     // Project Images 
     const ProjectImages = () => {
-        let array = new Array(imageCount - 1).fill(0);
+        let array = new Array(imageCount - 2).fill(0);
         const otherImages = array.map((value, index) => (
             <div className={styles.imageContainer} key={index}>
                 <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} layout="fill" alt={`${project.name} project image`} className={styles.image} />
@@ -67,7 +67,7 @@ export default function Project({ project, imageCount }) {
             <div className={styles.details}>
                 <div className={styles.text}>
                     <h3>{project.name}</h3>
-                    <h6>{project.services}</h6>
+                    <h6>{project.brief}</h6>
                     <p>{project.description}</p>
                     <div className={styles.buttons}>
                         <button className="button">
@@ -127,7 +127,9 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const paths = devProjects.map(project => {
+    const res = await fetch(`http://localhost:3000/api/projects`);
+    const projects = await res.json();
+    const paths = projects.map(project => {
         return {
             params: {
                 name: project.name.replace(/ /g, "").toLowerCase()

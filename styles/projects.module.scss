@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+.types {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    padding: 2rem 0 3rem 0;
+
+    .button {
+        background-color: $blue;
+        border: 1.75px solid $blue;
+        padding: 0;
+
+        display: block;
+        padding: 0.4rem 1.25rem;
+        color: $white;
+        font-size: 0.8rem;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: $headingfont;
+
+        &:hover {
+            background-color: transparent;
+            transition: 0.3s ease;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &.hollow {
+            background-color: transparent;
+            border-color: transparent;
+
+            &:hover {
+                border-color: $blue;
+            }
+        }
+    }
+}

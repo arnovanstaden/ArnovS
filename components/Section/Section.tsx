@@ -10,6 +10,7 @@ interface SectionProps {
     light?: boolean;
     simple?: boolean;
     heading?: string;
+    subheading?: string;
 }
 
 export default function Section({
@@ -17,7 +18,8 @@ export default function Section({
     idProp,
     light,
     simple,
-    heading
+    heading,
+    subheading
 }: SectionProps) {
 
     type TSectionSkew = {
@@ -25,14 +27,16 @@ export default function Section({
     }
 
     type TSectionHeading = {
-        text: string
+        heading: string,
+        subheading?: string
     }
 
-    const SectionHeading = ({ text }: TSectionHeading) => {
+    const SectionHeading = ({ heading, subheading }: TSectionHeading) => {
         return (
             <div className={styles.heading}>
                 <img src="/images/logos/logo-light.svg" alt="" />
-                <h1>{text}</h1>
+                <h1>{heading}</h1>
+                <h6>{subheading}</h6>
             </div>
         )
     }
@@ -46,7 +50,7 @@ export default function Section({
     return (
         <section className={sectionClass} id={idProp}>
             <div className="container">
-                {heading ? <SectionHeading text={heading} /> : null}
+                {heading ? <SectionHeading heading={heading} subheading={subheading} /> : null}
                 {children}
             </div>
         </section>

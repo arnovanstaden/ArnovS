@@ -1,4 +1,5 @@
-import Link from "next/link"
+import Link from "next/link";
+
 
 // Styles
 import styles from "./header.module.scss";
@@ -13,10 +14,18 @@ export default function Header() {
                 </a>
             </Link>
             <nav className={styles.nav}>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <Link href="/#projects">
+                    <a>Projects</a>
+                </Link>
+                <Link href="/#skills">
+                    <a>Skills</a>
+                </Link>
+                <Link href="/#about">
+                    <a>About</a>
+                </Link>
+                <Link href="/#contact">
+                    <a>Contact</a>
+                </Link>
             </nav>
             <ul className={styles.social}>
                 <li>

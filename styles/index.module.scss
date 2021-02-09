@@ -1,3 +1,7 @@
 @import "./variables.scss";
 
-.main {}
+.projectButtons {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+}
