@@ -171,6 +171,7 @@
     {
         "name": "LesleyD Training",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "July 2020",
         "industry": "Training",
@@ -181,6 +182,7 @@
     {
         "name": "Asante2gether",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "September 2020",
         "industry": "Skills Development",
@@ -191,6 +193,7 @@
     {
         "name": "HundredFold",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "September 2020",
         "industry": "Finance | Business",
@@ -201,6 +204,7 @@
     }, {
         "name": "Reset Capital",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "June 2019",
         "industry": "Finance | Business",
@@ -212,6 +216,7 @@
     {
         "name": "Together Through Skills",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "August 2020",
         "industry": "Skills Development",
@@ -222,6 +227,7 @@
     {
         "name": "PR Engineering",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "March 2019",
         "industry": "Engineering",
@@ -233,6 +239,7 @@
     {
         "name": "Oosthuizens Attorneys",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "November 2018",
         "industry": "Legal",
@@ -244,6 +251,7 @@
     {
         "name": "CCPT",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "February 2020",
         "industry": "Engineering",
@@ -255,6 +263,7 @@
     {
         "name": "NC Chemicals",
         "type": "Design",
+        "category": "Design",
         "services": "Brand Identity",
         "date": "March 2020",
         "industry": "Manufacturing",

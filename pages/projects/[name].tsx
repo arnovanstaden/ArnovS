@@ -8,8 +8,6 @@ import { getFileCount } from "../../utils/utils"
 import Layout from '../../components/Layout/Layout';
 import Section from '../../components/Section/Section';
 
-// Data
-import devProjects from "../../assets/data/projects-development.json";
 
 // Styles
 import styles from "../../styles/[project].module.scss";
