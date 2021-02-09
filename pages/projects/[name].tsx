@@ -113,7 +113,7 @@ export default function Project({ project, imageCount }) {
 }
 
 export async function getStaticProps({ params }) {
-    const res = await fetch(`http://localhost:3000/api/projects/${params.name}`);
+    const res = await fetch(`${process.env.API_URL}/projects/${params.name}`);
     const project = await res.json();
     const imageCount = getFileCount(project);
     return {
@@ -125,7 +125,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const res = await fetch(`http://localhost:3000/api/projects`);
+    const res = await fetch(`${process.env.API_URL}/projects`);
     const projects = await res.json();
     const paths = projects.map(project => {
         return {
