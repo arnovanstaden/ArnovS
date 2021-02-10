@@ -30,7 +30,7 @@ export default function Home() {
         <Section light
           idProp="projects"
           heading="Featured Projects"
-          subheading="A developer is best evaluated by what they've built. Here are some of my featured projects."
+          subheading="I don't like talking about what I can do, I prefer showing. Here are some of my featured projects."
         >
           <div className="project-grid">
             {projects.map((project, index) => (

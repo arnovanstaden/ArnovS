@@ -22,7 +22,10 @@ export default function Projects() {
             noFooter={true}
         >
 
-            <Section light>
+            <Section light
+                heading="Featured Projects"
+                subheading="I don't like talking about what I can do, I prefer showing. Here are some of my featured projects."
+            >
                 <div className={styles.types}>
                     <button className={styles.button}>
                         All

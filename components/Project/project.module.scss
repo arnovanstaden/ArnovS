@@ -10,7 +10,9 @@
         width: 100%;
 
         >div {
-            position: unset !important;
+            >div {
+                display: none !important;
+            }
         }
 
         .image {
