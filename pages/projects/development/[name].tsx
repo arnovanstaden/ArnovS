@@ -58,6 +58,20 @@ export default function Project({ project, imageCount }) {
             <div className={styles.text}>
                 <h1>{project.name}</h1>
                 <p>{project.services}</p>
+                <div className={styles.buttons}>
+                    <button className="button">
+                        <a href={project.link} target="blank">
+                            <i className="icon-link"></i>
+                            Visit Site
+                        </a>
+                    </button>
+                    <button className="button button--border">
+                        <a href={project.repo} target="blank">
+                            <i className="icon-github"></i>
+                        Repo
+                        </a>
+                    </button>
+                </div>
             </div>
             <img className={styles.logo} src="/images/logos/logo-light.svg" alt="" />
         </section>
@@ -70,14 +84,6 @@ export default function Project({ project, imageCount }) {
                     <h3>{project.name}</h3>
                     <h6>{project.brief}</h6>
                     <p>{project.description}</p>
-                    <div className={styles.buttons}>
-                        <button className="button">
-                            <a href="">Visit Site</a>
-                        </button>
-                        <button className="button button--hollow">
-                            <a href="">Repo</a>
-                        </button>
-                    </div>
                 </div>
                 <div className={styles.info}>
                     <div className={styles.row}>
@@ -116,10 +122,7 @@ export default function Project({ project, imageCount }) {
 }
 
 export async function getStaticProps({ params }) {
-    // const res = await fetch(`${process.env.API_URL}/projects/${params.name}`);
-    // const project = await res.json();
-    const project = projects.find(project => project.name.replace(/ /g, "").toLowerCase() === params.name && project.type === "Development");
-
+    const project = projects.find(project => project.name.replace(/ /g, "").toLowerCase() === params.name);
     const imageCount = getFileCount(project);
     return {
         props: {
@@ -130,7 +133,8 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const paths = projects.map(project => {
+    const projectPaths = projects.filter(project => project.type === "Development" && project.visible)
+    const paths = projectPaths.map(project => {
         return {
             params: {
                 name: project.name.replace(/ /g, "").toLowerCase()

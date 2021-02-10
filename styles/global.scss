@@ -76,13 +76,18 @@ a {
   padding: 0;
 
   a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 0.4rem 1.25rem;
     color: $white;
     font-size: 0.8rem;
     font-weight: 500;
     cursor: pointer;
     font-family: $headingfont;
+
+    i {
+      margin-right: 0.5rem;
+    }
   }
 
   &:hover {
@@ -100,6 +105,14 @@ a {
 
     &:hover {
       border-color: $blue;
+    }
+  }
+
+  &--border {
+    background-color: transparent;
+
+    &:hover {
+      background-color: $blue;
     }
   }
 }

@@ -4,7 +4,9 @@
     display: flex;
     justify-content: center;
     column-gap: 1.5rem;
+    row-gap: 1rem;
     padding: 2rem 0 3rem 0;
+    flex-wrap: wrap;
 
     .button {
         background-color: $blue;

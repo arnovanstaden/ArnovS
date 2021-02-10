@@ -70,14 +70,6 @@ export default function Project({ project, imageCount }) {
                     <h3>{project.name}</h3>
                     <h6>{project.brief}</h6>
                     <p>{project.description}</p>
-                    <div className={styles.buttons}>
-                        <button className="button">
-                            <a href="">Visit Site</a>
-                        </button>
-                        <button className="button button--hollow">
-                            <a href="">Repo</a>
-                        </button>
-                    </div>
                 </div>
                 <div className={styles.info}>
                     <div className={styles.row}>
@@ -108,7 +100,7 @@ export default function Project({ project, imageCount }) {
 export async function getStaticProps({ params }) {
     // const res = await fetch(`${process.env.API_URL}/projects/${params.name}`);
     // const project = await res.json();
-    const project = projects.find(project => project.name.replace(/ /g, "").toLowerCase() === params.name && project.type === "Design");
+    const project = projects.find(project => project.name.replace(/ /g, "").toLowerCase() === params.name);
 
     const imageCount = getFileCount(project);
     return {
@@ -120,7 +112,8 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const paths = projects.map(project => {
+    const projectPaths = projects.filter(project => project.type === "Design" && project.visible)
+    const paths = projectPaths.map(project => {
         return {
             params: {
                 name: project.name.replace(/ /g, "").toLowerCase()
