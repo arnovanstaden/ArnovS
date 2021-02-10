@@ -1,12 +1,23 @@
 import styles from "./contact.module.scss";
+import ClassNames from 'classnames';
 
+type TContact = {
+    footer?: boolean
+}
 
-export default function Contact() {
+export default function Contact({ footer }: TContact) {
+    const contactClasses = ClassNames({
+        [styles.grid]: true,
+        [styles.footer]: footer
+    })
+
     return (
-        <div className={styles.grid}>
-            <button className="button">
-                <a href="/other/CV-Arno_van_Staden.pdf" target="_blank">Download My CV</a>
-            </button>
+        <div className={contactClasses}>
+            {footer ? null :
+                <button className="button">
+                    <a href="/other/CV-Arno_van_Staden.pdf" target="_blank">Download My CV</a>
+                </button>
+            }
             <div className={styles.contact}>
                 <a href="mailto:arno@webdacity.dev">
                     <i className="icon-email"></i>

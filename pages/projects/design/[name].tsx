@@ -2,15 +2,18 @@ import { useRouter } from "next/router";
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import ReactTooltip from 'react-tooltip';
-import { getFileCount } from "../../utils/utils"
+import { getFileCount } from "../../../utils/utils"
 
 // Components
-import Layout from '../../components/Layout/Layout';
-import Section from '../../components/Section/Section';
+import Layout from '../../../components/Layout/Layout';
+import Section from '../../../components/Section/Section';
 
 
 // Styles
-import styles from "../../styles/[project].module.scss";
+import styles from "../../../styles/[project].module.scss";
+
+// Data
+import projects from "../../../assets/data/projects.json";
 
 export default function Project({ project, imageCount }) {
     const [render, setRender] = useState(false);
@@ -45,7 +48,7 @@ export default function Project({ project, imageCount }) {
 
     return <Layout
         head={{
-            title: project.name,
+            title: `${project.name} | Arno van Staden`,
             description: project.description,
             robots: false
         }}
@@ -85,16 +88,6 @@ export default function Project({ project, imageCount }) {
                         <h5>Industry</h5>
                         <p>{project.industry}</p>
                     </div>
-                    <div className={styles.row}>
-                        <h5>Tools</h5>
-                        <ul className={styles.tools}>
-                            {project.tools.map((tool, index) => (
-                                <li key={index}>
-                                    <i className={`icon-${tool.toLowerCase()}`} data-tip={tool}></i>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
                 </div>
             </div>
             {render ? <ReactTooltip
@@ -113,8 +106,10 @@ export default function Project({ project, imageCount }) {
 }
 
 export async function getStaticProps({ params }) {
-    const res = await fetch(`${process.env.API_URL}/projects/${params.name}`);
-    const project = await res.json();
+    // const res = await fetch(`${process.env.API_URL}/projects/${params.name}`);
+    // const project = await res.json();
+    const project = projects.find(project => project.name.replace(/ /g, "").toLowerCase() === params.name && project.type === "Design");
+
     const imageCount = getFileCount(project);
     return {
         props: {
@@ -125,8 +120,6 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const res = await fetch(`${process.env.API_URL}/projects`);
-    const projects = await res.json();
     const paths = projects.map(project => {
         return {
             params: {

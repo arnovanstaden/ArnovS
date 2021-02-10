@@ -41,7 +41,7 @@ export default function Section({
         )
     }
 
-    var sectionClass = ClassNames({
+    const sectionClass = ClassNames({
         [styles.section]: true,
         [styles.light]: light,
         [styles.simple]: simple,

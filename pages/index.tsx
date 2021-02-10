@@ -6,7 +6,7 @@ import Landing from "../components/Landing/Landing";
 import Section from "../components/Section/Section";
 import Skills from "../components/Skills/Skills";
 import About from "../components/About/About";
-import Contact from "../components/Contact/Contact";
+import Contact from '../components/Contact/Contact';
 import Project from "../components/Project/Project";
 
 // Styles, Icons, Fonts
@@ -22,6 +22,7 @@ export default function Home() {
         title: "Arno van Staden",
         description: "I am a web developer"
       }}
+      noFooter={true}
     >
       <main className={styles.main}>
         <Landing />

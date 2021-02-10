@@ -2,7 +2,8 @@
 import Layout from './../../components/Layout/Layout';
 import Project from "../../components/Project/Project";
 import Section from "../../components/Section/Section";
-import Contact from './../../components/Contact/Contact';
+import Contact from '../../components/Contact/Contact';
+
 
 // Styles 
 import styles from "../../styles/projects.module.scss";
@@ -17,7 +18,9 @@ export default function Projects() {
             head={{
                 title: "Projects",
                 description: "Projects Description",
-            }}>
+            }}
+            noFooter={true}
+        >
 
             <Section light>
                 <div className={styles.types}>
@@ -48,6 +51,8 @@ export default function Projects() {
             >
                 <Contact />
             </Section>
+
+
 
         </Layout>
     )

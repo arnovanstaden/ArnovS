@@ -9,7 +9,8 @@ import styles from "./layout.module.scss";
 
 export default function Layout({
     children,
-    head
+    head,
+    noFooter
 }: {
     children: React.ReactNode
     head: {
@@ -17,6 +18,7 @@ export default function Layout({
         description: string,
         robots?: boolean
     }
+    noFooter?: boolean
 }) {
     const date = new Date();
     const currentYear = date.getFullYear();
@@ -49,7 +51,7 @@ export default function Layout({
             </Head>
             <Header />
             {children}
-            <Footer />
+            {noFooter ? null : <Footer />}
         </>
     )
 }

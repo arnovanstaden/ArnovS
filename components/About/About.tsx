@@ -27,24 +27,26 @@ export default function About() {
                 <p><span>Disclaimer: I believe tabs are superior to spaces [especially when used on a mechanical keyboard in the presence of others]. I'm fiercely loyal and will never leave a friend behind, hence my preference for  <span>"</span>  over  <span>'</span>.</span></p>
             </div>
             <div className={styles.extra}>
-                <p className="info-block">Stats</p>
-                <div className={styles.stats}>
-                    <div className={styles.stat}>
-                        <h3>03+</h3>
-                        <p>Years <br /> Experience</p>
-                    </div>
-                    <div className={styles.stat}>
-                        <h3>55+</h3>
-                        <p>Projects <br /> Completed</p>
-                    </div>
-                    <div className={styles.stat}>
-                        <h3>2k+</h3>
-                        <p>Commits <br />on GitHub</p>
+                <div className={styles.block}>
+                    <p className="info-block">Stats</p>
+                    <div className={styles.stats}>
+                        <div className={styles.stat}>
+                            <h3>03+</h3>
+                            <p>Years <br /> Experience</p>
+                        </div>
+                        <div className={styles.stat}>
+                            <h3>55+</h3>
+                            <p>Projects <br /> Completed</p>
+                        </div>
+                        <div className={styles.stat}>
+                            <h3>2k+</h3>
+                            <p>Commits <br />on GitHub</p>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.languages}>
+                <div className={styles.block}>
                     <p className="info-block">Languages</p>
-                    <ul>
+                    <ul className={styles.languages}>
                         <li>
                             <i></i>
                             English <span>- Native</span>
@@ -59,16 +61,17 @@ export default function About() {
                         </li>
                     </ul>
                 </div>
-                <div className={styles.motto}>
+                <div className={styles.block}>
                     <p className="info-block">Motto</p>
-
-                    <p>Any application that can be written in JavaScript, will eventually be written in JavaScript.
+                    <div className={styles.motto}>
+                        <p>Any application that can be written in JavaScript, will eventually be written in JavaScript.
                     <span>- Atwood's Law</span>
-                    </p>
+                        </p>
+                    </div>
                 </div>
-                <div className={styles.interests}>
+                <div className={styles.block}>
                     <p className="info-block">Interests</p>
-                    <div className={styles.grid}>
+                    <div className={styles.interests}>
                         <i className="icon-reading" data-tip="Reading"></i>
                         <i className="icon-coding" data-tip="Coding"></i>
                         <i className="icon-gaming" data-tip="Gaming"></i>

@@ -8,50 +8,34 @@
         width: 30%;
         padding-left: 1rem;
 
-        .stats {
+        .block {
             margin-bottom: 2rem;
 
-            .stat {
-                display: flex;
-                align-items: center;
-                column-gap: 1rem;
-                margin-bottom: 1rem;
+            .stats {
 
-                h3 {
-                    margin: 0;
-                    font-size: 1.75rem;
-                    font-family: $mainfont;
-                    letter-spacing: 1px;
-                }
+                .stat {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 1rem;
+                    margin-bottom: 1rem;
 
-                p {
-                    font-size: 0.9rem;
-                    margin: 0;
-                    color: $lightgrey;
-                    font-family: $mainfont;
-                }
-            }
-        }
+                    h3 {
+                        margin: 0;
+                        font-size: 1.75rem;
+                        font-family: $mainfont;
+                        letter-spacing: 1px;
+                    }
 
-        .interests {
-
-            .grid {
-                display: flex;
-                flex-wrap: wrap;
-                column-gap: 0.75rem;
-
-                i {
-                    color: $white;
-                    font-size: 1.25rem;
-                    font-weight: 300;
+                    p {
+                        font-size: 0.9rem;
+                        margin: 0;
+                        color: $lightgrey;
+                        font-family: $mainfont;
+                    }
                 }
             }
-        }
 
-        .languages {
-            margin-bottom: 2rem;
-
-            ul {
+            .languages {
                 list-style: none;
                 padding: 0;
                 margin: 0;
@@ -76,22 +60,38 @@
                     }
                 }
             }
-        }
 
-        .motto {
-            margin-bottom: 2rem;
+            .interests {
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 0.75rem;
+                row-gap: 0.75rem;
 
-            p:last-child {
-                margin: 0;
-
-                span {
-                    display: block;
+                i {
+                    color: $white;
+                    font-size: 1.25rem;
                     font-weight: 300;
-                    font-style: italic;
-                    color: $lightgrey;
+                }
+            }
+
+
+
+            .motto {
+
+                p:last-child {
+                    margin: 0;
+
+                    span {
+                        display: block;
+                        font-weight: 300;
+                        font-style: italic;
+                        color: $lightgrey;
+                    }
                 }
             }
         }
+
+
     }
 
     .text {
@@ -117,6 +117,57 @@
             a {
                 font-weight: 500;
                 color: $blue;
+            }
+        }
+    }
+
+
+    @media screen and (max-width:768px) {
+        flex-wrap: wrap;
+
+        .extra {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0;
+            padding-top: 2rem;
+
+            .block {
+                width: 45%;
+            }
+        }
+
+        .text {
+            width: 100%;
+            padding: 0;
+            padding-bottom: 2rem;
+            border: 0;
+            border-bottom: 1.75px solid $blue;
+        }
+    }
+
+    @media screen and (max-width:576px) {
+        flex-wrap: wrap;
+
+        .extra {
+            justify-content: center;
+
+            .block {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .languages {
+                    li {
+                        justify-content: center;
+                    }
+                }
+
+                .motto {
+                    text-align: center;
+                }
             }
         }
     }

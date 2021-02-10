@@ -14,7 +14,7 @@ type TProject = {
 
 export default function Project({ name, type, services, category }: TProject) {
 
-    const projectPath = `/projects/${name.replace(/ /g, "").toLowerCase()}`
+    const projectPath = `/projects/${type.toLowerCase()}/${name.replace(/ /g, "").toLowerCase()}`
     const projectImagePath = `${type.toLowerCase()}/${name.replace(/ /g, "-")}/${type === "Development" ? `cover` : `landing`}.jpg`;
 
 
