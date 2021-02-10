@@ -38,11 +38,11 @@ export default function Home() {
             ))}
           </div>
           <div className={styles.projectButtons}>
-            <Link href="/projects">
-              <button className="button">
+            <button className="button">
+              <Link href="/projects">
                 <a>View All My Work</a>
-              </button>
-            </Link>
+              </Link>
+            </button>
           </div>
         </Section>
 

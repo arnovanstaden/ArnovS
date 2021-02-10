@@ -34,9 +34,9 @@ export default function Section({
     const SectionHeading = ({ heading, subheading }: TSectionHeading) => {
         return (
             <div className={styles.heading}>
-                <img src="/images/logos/logo-light.svg" alt="" />
+                <img src="/images/logos/logo-light.svg" alt="arnovs logo" width="32px" height="100%" />
                 <h1>{heading}</h1>
-                <h6>{subheading}</h6>
+                <h2>{subheading}</h2>
             </div>
         )
     }

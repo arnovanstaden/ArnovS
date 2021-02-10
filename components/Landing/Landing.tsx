@@ -22,11 +22,11 @@ export default function Landing() {
                             <p><span>Status</span> Seeking Employment in Berlin, Germany.</p>
                         </div>
                         <div className={styles.buttons}>
-                            <Link href="/projects">
-                                <button className="button">
+                            <button className="button">
+                                <Link href="/projects">
                                     <a>View My Work</a>
-                                </button>
-                            </Link>
+                                </Link>
+                            </button>
                             <button className="button button--hollow">
                                 <a href="#contact">Let's Talk</a>
                             </button>

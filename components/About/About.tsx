@@ -31,15 +31,15 @@ export default function About() {
                     <p className="info-block">Stats</p>
                     <div className={styles.stats}>
                         <div className={styles.stat}>
-                            <h3>03+</h3>
+                            <span>03+</span>
                             <p>Years <br /> Experience</p>
                         </div>
                         <div className={styles.stat}>
-                            <h3>55+</h3>
+                            <span>55+</span>
                             <p>Projects <br /> Completed</p>
                         </div>
                         <div className={styles.stat}>
-                            <h3>2k+</h3>
+                            <span>2k+</span>
                             <p>Commits <br />on GitHub</p>
                         </div>
                     </div>
