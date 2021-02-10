@@ -22,7 +22,7 @@ export default function Project({ name, type, services, category }: TProject) {
         <Link href={projectPath}>
             <a className={styles.project} data-category={category}>
                 <div className={styles.imageContainer}>
-                    <Image src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${name} Cover`} width={500} height="auto" />
+                    <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${name} Cover`} width={500} height="auto" />
                 </div>
                 <p className={styles.name}>{name}</p>
                 <p className={styles.services}>{services}</p>

@@ -1,7 +1,8 @@
 import Head from 'next/head';
+import Fade from 'react-reveal/Fade';
+
 
 // Components
-import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 // Styles
@@ -49,8 +50,9 @@ export default function Layout({
                 <meta property="og:image:height" content="500" />
                 <meta property="og:image:alt" content="Arno van Staden Logo" />
             </Head>
-            <Header />
-            {children}
+            <Fade duration={500}>
+                {children}
+            </Fade>
             {noFooter ? null : <Footer />}
         </>
     )

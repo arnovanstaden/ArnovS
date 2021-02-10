@@ -34,7 +34,7 @@ export default function ProjectTemplate({ project, imageCount }) {
         return (
             <>
                 <div className={styles.imageContainer}>
-                    <Image src={`${getProjectImagePath(project)}/landing.jpg`} layout="fill" alt={`${project.name} landing image`} className={styles.image} />
+                    <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} layout="fill" alt={`${project.name} landing image`} className={styles.image} />
                 </div>
                 {otherImages}
             </>
