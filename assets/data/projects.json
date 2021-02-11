@@ -68,7 +68,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "ReactJS", "Gatsby"],
         "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
         "design": true,
-        "visible": true,
+        "visible": false,
         "repo": "https://github.com/Webdacity/HundredFold"
     }, {
         "name": "Together Through Skills",
@@ -196,7 +196,7 @@
         "industry": "Manufacturing",
         "tools": ["HTML", "CSS", "Javascript", "JQuery"],
         "description": "Isaacson Ladders is a manufacturer based in Johannesburg that produces & wholesales ladders, castors, trolleys and wheels. \n\nThey required a website revamp that works in symbioses with their current brand and functions as a platform to showcase a catalogue of the products they manufacture, as well as provide valuable information relating to the company. ",
-        "visible": true,
+        "visible": false,
         "repo": "https://github.com/Webdacity/IsaacsonLadders"
     }, {
         "name": "PR Engineering",
