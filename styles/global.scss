@@ -75,13 +75,24 @@ a {
 
 .button {
   background-color: $blue;
-  border: 1.75px solid $blue;
+  border: 2px solid $blue;
   padding: 0;
+  position: relative;
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 
   a {
     display: flex;
     align-items: center;
-    padding: 0.4rem 1.25rem;
+    padding: 0.5rem 1.25rem;
     color: $white;
     font-size: 0.8rem;
     font-weight: 500;
@@ -106,8 +117,39 @@ a {
     background-color: transparent;
     border-color: transparent;
 
+    a {
+      padding: 0.7rem 1.45rem;
+    }
+
     &:hover {
-      border-color: $blue;
+      color: $blue;
+    }
+
+    &::before,
+    &::after {
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      // transform-origin: center;
+    }
+
+    &::before {
+      border-top: 2px solid $blue;
+      border-bottom: 2px solid $blue;
+      transform: scale3d(0, 1, 1);
+    }
+
+    &::after {
+      border-left: 2px solid $blue;
+      border-right: 2px solid $blue;
+      transform: scale3d(1, 0, 1); // Shrink only height
+    }
+
+    &:hover::before,
+    &:hover::after {
+      transform: scale3d(1, 1, 1); // Show full-size
+      transition: transform 0.4s ease-in-out;
     }
   }
 

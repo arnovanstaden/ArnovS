@@ -17,9 +17,6 @@ export default function LandingAnimation() {
         radius: () => Math.random() * 0.5 + 0.5,
         mass: () => 10,
         friction: () => 0.25,
-        // initialPosition: ({ canvasDimensions }) => {
-        //     return new Vector(canvasDimensions.width / 2, canvasDimensions.height / 2);
-        // }
     };
 
     const motionForce = (x: number, y: number): ParticleForce => {
@@ -30,7 +27,7 @@ export default function LandingAnimation() {
         <ParticleImage
             src={"/images/other/arno-landing.png"}
             scale={0.6}
-            entropy={2}
+            entropy={5}
             maxParticles={22500}
             particleOptions={particleOptions}
             mouseMoveForce={motionForce}

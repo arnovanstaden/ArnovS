@@ -124,6 +124,7 @@
         padding: 0.25rem 0.5rem;
         transition: 0.3s ease;
         display: none;
+        cursor: pointer;
 
         i {
             font-size: 1.1rem;
@@ -143,11 +144,13 @@
     .mobileNav {
         position: fixed;
         top: 0;
-        left: 0;
+        right: 0;
         height: 100vh;
-        width: 100vw;
+        width: 0;
         z-index: 1000;
-        display: none;
+        display: flex;
+        overflow: hidden;
+        transition: 0.4s ease-in-out;
 
 
         .notNav {
@@ -163,6 +166,7 @@
             align-items: center;
             flex-direction: column;
             row-gap: 1rem;
+            position: relative;
 
             a {
                 font-size: 1.1rem;
@@ -177,6 +181,19 @@
                     font-size: 0.9rem;
                 }
             }
+
+            .close {
+                font-size: 1.5rem;
+                color: $white;
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                padding: 1rem;
+            }
+        }
+
+        &.open {
+            width: 100vw;
         }
     }
 
@@ -203,11 +220,11 @@
     @media screen and (max-width: 991px) {
         .mobileNav {
             .notNav {
-                width: 40%;
+                width: 30%;
             }
 
             .menu {
-                width: 60%;
+                width: 70%;
             }
         }
     }

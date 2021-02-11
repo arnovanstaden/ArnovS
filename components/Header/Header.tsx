@@ -7,9 +7,16 @@ import styles from "./header.module.scss";
 export default function Header() {
 
     // Handlers
-    const handleNav = () => {
-
+    const handleNavToggle = () => {
+        const menu = document.querySelector(`.${styles.mobileNav}`);
+        if (menu.classList.contains(styles.open)) {
+            menu.classList.remove(styles.open)
+        } else {
+            menu.classList.add(styles.open)
+        }
     }
+
+
 
 
     // Subcomponents
@@ -62,12 +69,13 @@ export default function Header() {
                 <Menu />
             </nav>
             <Social />
-            <button className={styles.mobileButton} onClick={() => handleNav()}>
+            <button className={styles.mobileButton} onClick={() => handleNavToggle()}>
                 <i className="icon-menu"></i>
             </button>
             <div className={styles.mobileNav}>
-                <div className={styles.notNav}></div>
+                <div className={styles.notNav} onClick={() => handleNavToggle()}></div>
                 <nav className={styles.menu}>
+                    <i className={`icon-clear ${styles.close}`} onClick={() => handleNavToggle()}></i>
                     <Menu />
                     <Social />
                 </nav>

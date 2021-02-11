@@ -6,6 +6,8 @@
     padding: 1rem;
     box-sizing: border-box;
     cursor: pointer;
+    border: 2px solid transparent;
+    position: relative;
 
     .imageContainer {
         width: 100%;
@@ -28,7 +30,7 @@
     .name {
         font-size: 1.25rem;
         margin: 1rem 0 0.25rem 0;
-        transition: 0.3s ease-in-out;
+        transition: 0.1s ease-in-out;
     }
 
     .brief {
@@ -38,11 +40,50 @@
         font-family: $headingfont;
     }
 
+    &::before,
+    &::after {
+        box-sizing: inherit;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
 
     &:hover {
+        color: $blue;
+    }
+
+    &::before,
+    &::after {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        // transform-origin: center;
+    }
+
+    &::before {
+        border-top: 2px solid $blue;
+        border-bottom: 2px solid $blue;
+        transform: scale3d(0, 1, 1);
+    }
+
+    &::after {
+        border-left: 2px solid $blue;
+        border-right: 2px solid $blue;
+        transform: scale3d(1, 0, 1); // Shrink only height
+    }
+
+    &:hover::before,
+    &:hover::after {
+        transform: scale3d(1, 1, 1); // Show full-size
+        transition: transform 0.4s ease-in-out;
+
+
         .name {
             color: $blue;
         }
+
     }
 
     @media screen and (max-width:991px) {
