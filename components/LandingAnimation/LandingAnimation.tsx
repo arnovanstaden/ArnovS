@@ -29,7 +29,7 @@ export default function LandingAnimation() {
     return (
         <ParticleImage
             src={"/images/other/arno-landing.png"}
-            scale={0.2}
+            scale={0.6}
             entropy={2}
             maxParticles={22500}
             particleOptions={particleOptions}
