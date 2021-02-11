@@ -20,7 +20,7 @@ export default function About() {
 
                 <p>After university, I indulged my ever-present wanderlust and embarked on an expedition across South East Asia "living my best life" and "finding myself". <span>/* Insert the usual hipster saying like learning adaptability, open-mindedness and communication skills here. Remember to delete later! */</span></p>
 
-                <p>In 2018 I founded <a href="https://webdacity.dev" target="blank">Webdacity</a>, a web design &amp; development studio. Since then I've had roaring success creating awesome websites, web applications and crafting brand identities for a lengthy array of clients and I have been voted as the funniest guy in my workplace of 1 every year since. Because I can apparently do everything in the IT sphere [according to everyone that's not in the industry], I'm also an expert at resetting routers and getting printers to work.</p>
+                <p>In 2018 I founded <a href="https://webdacity.dev" target="blank">Webdacity</a>, a web design &amp; development studio. Since then I've had roaring success creating awesome websites, web applications and crafting brand identities for a lengthy array of clients. I have also been voted as the funniest guy in my workplace of one every year since. Because I can apparently do everything in the IT sphere [according to everyone that's not in the industry], I'm also an expert at resetting routers and getting printers to work.</p>
 
                 <p>In my fleeting spare time, I enjoy playing console games, diving into the rabbit hole of cats on the internet and helping my mom adjust the settings on her phone. Oh, and building awesome digital products that deliver real intrinsic value to its users.</p>
 

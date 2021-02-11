@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { Link as Scroll } from "react-scroll";
 
 // Styles
 import styles from "./header.module.scss";

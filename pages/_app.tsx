@@ -1,3 +1,4 @@
+// Components
 import Header from './../components/Header/Header';
 
 // Global Styles
@@ -11,6 +12,7 @@ import "@fontsource/source-sans-pro";
 // Fonts
 
 function MyApp({ Component, pageProps }) {
+
   return (
     <>
       <Header />

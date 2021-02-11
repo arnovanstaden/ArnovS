@@ -1,12 +1,11 @@
 @import "../../styles/variables.scss";
 
 .landing {
-    height: 100vh;
     position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4rem;
 
     .text {
         text-align: center;
@@ -23,17 +22,10 @@
         p {
             margin: 0;
             font-family: $headingfont;
-            color: $blue;
-            font-size: 1.1rem;
+            color: $lightgrey;
+            font-size: 1rem;
             font-weight: 500;
         }
-    }
-
-    .logo {
-        position: absolute;
-        width: 25vw;
-        z-index: 0;
-        opacity: 0.05;
     }
 
     .buttons {
@@ -153,6 +145,8 @@
         width: 100%;
 
         >div {
+            width: 100%;
+
             >div {
                 display: none !important;
             }
@@ -163,6 +157,7 @@
             width: 100% !important;
             position: relative !important;
             height: unset !important;
+            object-position: center center;
         }
     }
 

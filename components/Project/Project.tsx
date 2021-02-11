@@ -13,22 +13,20 @@ type TProject = {
     [key: string]: any;
 }
 
-export default function Project({ name, type, services, category }: TProject) {
+export default function Project(project: TProject) {
 
-    const projectPath = `/projects/${type.toLowerCase()}/${name.replace(/ /g, "").toLowerCase()}`
-    const projectImagePath = `${type.toLowerCase()}/${name.replace(/ /g, "-")}/${type === "Development" ? `cover` : `landing`}.jpg`;
+    const projectPath = `/projects/${project.type.toLowerCase()}/${project.name.replace(/ /g, "").toLowerCase()}`
+    const projectImagePath = `${project.type.toLowerCase()}/${project.name.replace(/ /g, "-")}/cover.jpg`;
 
     return (
         <Link href={projectPath}>
-            <Fade>
-                <a className={styles.project} data-category={category}>
-                    <div className={styles.imageContainer}>
-                        <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${name} Cover`} width={500} height="auto" />
-                    </div>
-                    <p className={styles.name}>{name}</p>
-                    <p className={styles.services}>{services}</p>
-                </a>
-            </Fade>
+            <a className={styles.project} data-category={project.category}>
+                <div className={styles.imageContainer}>
+                    <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
+                </div>
+                <p className={styles.name}>{project.name}</p>
+                <p className={styles.brief}>{project.brief}</p>
+            </a>
         </Link>
     )
 }

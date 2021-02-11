@@ -1,21 +1,66 @@
 
 // Styles
 import styles from "./skills.module.scss";
+import { Fade } from 'react-reveal/Fade';
 
 export default function Skills() {
 
+    const skills = [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "TypeScript",
+        "NodeJS",
+        "React",
+        "NextJS",
+        "Gatsby",
+        "JQuery",
+        "Bootstrap",
+        "JSON",
+        "Jest",
+        "Webpack",
+        "GIT",
+        "GitHub",
+        "NPM",
+        "MongoDB",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Adobe After Effects",]
+
     type TSkill = {
         name: string,
+        index: number
     }
 
-    const Skill = ({ name }: TSkill) => {
+    const Skill = ({ name, index }: TSkill) => {
         const iconName = name.replace(/ /g, "").toLowerCase()
         return (
-            <div className={styles.skill}>
+            <div className={styles.skill}
+                onMouseEnter={() => handleHoverEnter(index)}
+                onMouseLeave={() => handleMouseLeave()}
+            >
                 <i className={`icon-${iconName}`}></i>
                 <p>{name}</p>
             </div>
         )
+    }
+
+    const handleHoverEnter = (index: number) => {
+        const grid = document.querySelector(`.${styles.grid}`)
+        const children = Array.from(grid.children);
+        children.forEach((child) => {
+            child.classList.add(styles.fade);
+        })
+        children[index].classList.remove(styles.fade)
+    }
+
+    const handleMouseLeave = () => {
+        const grid = document.querySelector(`.${styles.grid}`)
+        const children = Array.from(grid.children);
+        children.forEach((child) => {
+            child.classList.remove(styles.fade)
+        })
     }
 
 
@@ -38,27 +83,10 @@ export default function Skills() {
                 </ul>
             </div> */}
             <div className={styles.grid}>
-                <Skill name="HTML" />
-                <Skill name="CSS" />
-                <Skill name="SASS" />
-                <Skill name="JavaScript" />
-                <Skill name="TypeScript" />
-                <Skill name="NodeJS" />
-                <Skill name="React" />
-                <Skill name="NextJS" />
-                <Skill name="Gatsby" />
-                <Skill name="JQuery" />
-                <Skill name="Bootstrap" />
-                <Skill name="JSON" />
-                <Skill name="Jest" />
-                <Skill name="Webpack" />
-                <Skill name="GIT" />
-                <Skill name="GitHub" />
-                <Skill name="NPM" />
-                <Skill name="MongoDB" />
-                <Skill name="Adobe Illustrator" />
-                <Skill name="Adobe Photoshop" />
-                <Skill name="Adobe After Effects" />
+                {skills.map((skill, index) => (
+                    <Skill name={skill} key={index} index={index} />
+                ))}
+
             </div>
         </>
     )

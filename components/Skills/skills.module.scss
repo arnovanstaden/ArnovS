@@ -25,10 +25,6 @@
     flex-wrap: wrap;
     column-gap: 1rem;
 
-    &:hover .skill {
-        opacity: 0.5;
-    }
-
     .skill {
         display: flex;
         background-color: $grey;
@@ -52,6 +48,10 @@
         &:hover {
             transform: scale(1.1);
             opacity: 1;
+        }
+
+        &.fade {
+            opacity: 0.5;
         }
     }
 }

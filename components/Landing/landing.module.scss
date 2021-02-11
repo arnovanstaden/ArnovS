@@ -11,19 +11,29 @@
     .grid {
         display: flex;
         column-gap: 2rem;
+        height: 100vh;
+        // align-items: center;
 
         .image {
             width: 50%;
             display: flex;
             justify-content: center;
-            align-items: center;
-            overflow: hidden;
+            align-items: flex-end;
+
+            canvas {
+                height: 90%;
+                width: 100%;
+            }
         }
 
         .content {
             width: 50%;
             position: relative;
-            padding-top: 4rem;
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
 
             .name {
                 font-size: 2.25rem;
@@ -45,19 +55,17 @@
 
             .status {
                 margin-top: 2rem;
+                display: flex;
+                align-items: center;
 
                 p {
-                    color: $lightgrey;
+                    margin: 0;
                 }
 
-                span {
-                    font-size: 0.8rem;
-                    background-color: $blue;
-                    padding: 0.25rem 0.5rem;
-                    display: inline-block;
-                    margin-right: 1rem;
-                    color: $white;
-                    font-weight: 500;
+                p:last-child {
+                    color: $lightgrey;
+                    margin: 0;
+                    margin-left: 1rem;
                 }
             }
 
@@ -65,6 +73,38 @@
                 margin-top: 2rem;
                 display: flex;
                 column-gap: 1.5rem;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        height: unset;
+
+        .grid {
+            height: unset;
+            flex-direction: column-reverse;
+            padding-top: 8rem;
+            column-gap: 0;
+            row-gap: 3rem;
+
+            .content {
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                padding-top: 0;
+
+                .status {
+                    flex-direction: column;
+
+                    p:last-child {
+                        margin: 0;
+                        margin-top: 0.75rem;
+                    }
+                }
+            }
+
+            .image {
+                width: 100%;
             }
         }
     }

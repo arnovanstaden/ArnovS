@@ -52,31 +52,31 @@ export default function ProjectTemplate({ project, imageCount }) {
             }}
         >
 
-            <section className={styles.landing}>
-                <div className={styles.text}>
-                    <h1>{project.name}</h1>
-                    <p>{project.services}</p>
-                    <div className={styles.buttons}>
-                        <button className="button">
-                            <a href={project.link} target="blank">
-                                <i className="icon-link"></i>
-                            Visit Site
-                        </a>
-                        </button>
-                        <button className="button button--border">
-                            <a href={project.repo} target="blank">
-                                <i className="icon-github"></i>
-                        Repo
-                        </a>
-                        </button>
-                    </div>
-                </div>
-                <img className={styles.logo} src="/images/logos/logo-light.svg" alt="" />
-            </section>
+
 
             <Section
                 light
             >
+                <section className={styles.landing}>
+                    <div className={styles.text}>
+                        <h1>{project.name}</h1>
+                        <p>{project.brief}</p>
+                        <div className={styles.buttons}>
+                            <button className="button">
+                                <a href={project.link} target="blank">
+                                    <i className="icon-link"></i>
+                                    Visit Site
+                                </a>
+                            </button>
+                            <button className="button button--border">
+                                <a href={project.repo} target="blank">
+                                    <i className="icon-github"></i>
+                                    Repo
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </section>
                 <div className={styles.details}>
                     <div className={styles.text}>
                         <div className={styles.overview}>
