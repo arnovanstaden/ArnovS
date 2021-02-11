@@ -8,7 +8,6 @@ import styles from "./project.module.scss";
 type TProject = {
     name: string;
     type: string;
-    services: string;
     category: string;
     [key: string]: any;
 }
