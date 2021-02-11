@@ -27,14 +27,14 @@ export default function ProjectTemplate({ project, imageCount }) {
         let array = new Array(imageCount - 2).fill(0);
         const otherImages = array.map((value, index) => (
             <div className={styles.imageContainer} key={index}>
-                <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} layout="fill" alt={`${project.name} project image`} className={styles.image} />
+                <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} width={1200} height="auto" alt={`${project.name} project image`} className={styles.image} />
             </div>
         ))
 
         return (
             <>
                 <div className={styles.imageContainer}>
-                    <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} layout="fill" alt={`${project.name} landing image`} className={styles.image} />
+                    <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} width={1200} height="auto" alt={`${project.name} landing image`} className={styles.image} />
                 </div>
                 {otherImages}
             </>
@@ -79,9 +79,23 @@ export default function ProjectTemplate({ project, imageCount }) {
             >
                 <div className={styles.details}>
                     <div className={styles.text}>
-                        <h3>{project.name}</h3>
-                        <h6>{project.brief}</h6>
-                        <p>{project.description}</p>
+                        <div className={styles.overview}>
+                            <p className="info-block">Overview</p>
+                            <p className={styles.description}>{project.description}</p>
+                        </div>
+                        {project.features ?
+                            <div className={styles.features}>
+                                <p className="info-block">Features</p>
+                                <ul>
+                                    {project.features.map((feature, index) => (
+                                        <li key={index}>
+                                            <i></i>
+                                            {feature}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            : null}
                     </div>
                     <div className={styles.info}>
                         <div className={styles.row}>

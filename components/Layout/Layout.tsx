@@ -50,7 +50,7 @@ export default function Layout({
                 <meta property="og:image:height" content="500" />
                 <meta property="og:image:alt" content="Arno van Staden Logo" />
             </Head>
-            <Fade duration={500}>
+            <Fade duration={750}>
                 {children}
             </Fade>
             {noFooter ? null : <Footer />}

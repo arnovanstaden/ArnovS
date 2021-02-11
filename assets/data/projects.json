@@ -5,9 +5,16 @@
         "services": "Web Application Design & Development",
         "link": "https://www.themishdish.co.za",
         "date": "February 2020",
-        "industry": "Blog",
+        "industry": "Food Blog",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "ExpressJS", "NodeJS", "MongoDB"],
-        "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\nOriginally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested I help her with setting up a food blog. \n\nShe required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
+        "description": "The Mish Dish as a unique & personalised food-blog with a twist.",
+        "features": [
+            "Dynamic Recipe Pages",
+            "Custom Dashboard for Managing Recipes",
+            "Advanced Search & Filter Functions",
+            "User Login to Faciliate Comments & Favourites",
+            "Unique UI Design"
+        ],
         "visible": true,
         "repo": "https://github.com/Webdacity/TheMishDish"
     }, {
