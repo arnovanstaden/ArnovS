@@ -1,7 +1,7 @@
 [{
         "name": "The Mish Dish",
         "type": "Development",
-        "category": "Web Application",
+        "category": "Web Applications",
         "services": "Web Application Design & Development",
         "link": "https://www.themishdish.co.za",
         "date": "February 2020",
@@ -20,7 +20,7 @@
     }, {
         "name": "Varkhart",
         "type": "Development",
-        "category": "Web Application",
+        "category": "Web Applications",
         "services": "Web Application Design & Development",
         "link": "https://www.varkhart.co.za",
         "date": "April 2020",
@@ -33,7 +33,7 @@
     }, {
         "name": "Gemma Institute",
         "type": "Development",
-        "category": "Web Application",
+        "category": "Web Applications",
         "services": "Web Application Design & Development",
         "link": "https://www.gemmainstitute.com",
         "date": "May 2020",
@@ -46,7 +46,7 @@
     }, {
         "name": "Oosthuizens Attorneys",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.oosthuizensjhb.com/",
         "date": "April 2020",
@@ -60,7 +60,7 @@
     }, {
         "name": "HundredFold",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.hundredfold.co.za",
         "date": "October 2020",
@@ -74,7 +74,7 @@
     }, {
         "name": "NC Chemicals",
         "type": "Development",
-        "category": "Web Application",
+        "category": "Web Applications",
         "services": "Web Application Design & Development",
         "link": "https://www.ncchemicals.co.za",
         "date": "May 2020",
@@ -87,7 +87,7 @@
     }, {
         "name": "PR Engineering",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.engpr.com",
         "date": "June 2019",
@@ -99,7 +99,7 @@
     }, {
         "name": "Africaneur IQ",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.africaneuriq.co.za/",
         "date": "July 2019",
@@ -111,7 +111,7 @@
     }, {
         "name": "SmartFunder",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.smartfunder.co.za",
         "date": "October 2019",
@@ -123,7 +123,7 @@
     }, {
         "name": "Reset Capital",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.resetcapital.co.za",
         "date": "June 2019",
@@ -136,7 +136,7 @@
     }, {
         "name": "Craft Consulting",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.craft-sa.co.za",
         "date": "September 2020",
@@ -148,7 +148,7 @@
     }, {
         "name": "CCPT",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.ccptech.co.za",
         "date": "October 2020",
@@ -161,7 +161,7 @@
     }, {
         "name": "Isaacson Ladders",
         "type": "Development",
-        "category": "Website",
+        "category": "Websites",
         "services": "Website Design & Development",
         "link": "https://www.isaacsonladders.co.za",
         "date": "February 2020",
