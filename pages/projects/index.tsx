@@ -44,15 +44,15 @@ export default function Projects() {
     return (
         <Layout
             head={{
-                title: "Projects",
-                description: "Projects Description",
+                title: "Projects | Arno van Staden",
+                description: "My work is a testament to my skill. Here are some of my featured web development projects.",
             }}
             noFooter={true}
         >
 
             <Section light
                 heading="Featured Projects"
-                subheading="I don't like talking about what I can do, I prefer showing. Here are some of my featured projects."
+                subheading="My work is a testament to my skill. Here are some of my featured web development projects."
             >
                 <div className={styles.filters}>
                     {projectFilters.map((item, index) => (

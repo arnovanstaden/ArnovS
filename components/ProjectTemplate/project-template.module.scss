@@ -51,6 +51,7 @@
 
             .description {
                 margin: 0;
+                white-space: pre-wrap;
             }
         }
 
@@ -182,6 +183,16 @@
         .text {
             width: 100%;
             text-align: center;
+
+            .features {
+
+                ul {
+                    li {
+                        justify-content: center;
+                    }
+
+                }
+            }
         }
     }
 

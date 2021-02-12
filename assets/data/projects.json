@@ -2,12 +2,12 @@
         "name": "The Mish Dish",
         "type": "Development",
         "category": "Web Applications",
-        "brief": "An awesome, no life-story included, full-stack recipe-saving application.",
+        "brief": "An awesome, no life-story included, full-stack recipe-saving application. ",
         "link": "https://www.themishdish.co.za",
         "date": "February 2020",
         "industry": "Food | Recipe Blog",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS", "MongoDB"],
-        "description": "The Mish Dish as a unique & personalised food-blog with a twist.",
+        "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\n Originally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested we help her with setting up a food blog. \n\n She required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
         "features": [
             "Dynamic Recipe Pages",
             "Custom Dashboard for Managing Recipes",
@@ -26,7 +26,12 @@
         "date": "April 2020",
         "industry": "Fashion | E-Commerce",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS", "MongoDB"],
-        "description": "Varkhart started as a small e-commerce store but has since grown to a vast online retail endeavour with a substantial online presence. Originally built upon our custom e-commerce platform, it has since grown to encompass fully-fledged reseller & affiliate programs. \n\nWe were involved for every step of the project, from branding to product development. If you'd like to check it out for yourself, head over to",
+        "description": "Varkhart started as a small e-commerce store but has since grown to a vast online retail endeavour with a substantial online presence. Originally built upon my custom e-commerce platform, it has since grown to encompass fully-fledged reseller & affiliate programs. \n\nWe were involved for every step of the project, from branding to product development. If you'd like to check it out for yourself, head over to",
+        "features": [
+            "Dynamic product pages",
+            "Local payment portal integration",
+            "Custom dashboard for managing products, orders, affiliates, resellers, coupons & shop settings"
+        ],
         "repo": "https://github.com/Webdacity/Varkhart",
         "featured": true,
         "visible": true,
@@ -41,6 +46,11 @@
         "industry": "Medical",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS"],
         "description": "The GEMMA Institute is a Psychotherapy Clinic based in Frankfurt, Germany. They assist individuals, couples and families experiencing personal and social challenges.\n\nWe met their needs by creating a clean & modern website where they can effectively communicate their therapeutic concept and how their therapy works. Custom functionality includes the ability for patients to apply for & complete the relevant consent documentation online, as well as provide feedback for their sessions at the clinic. \n\n Their website is available in both English & German.",
+        "features": [
+            "Bilingual content",
+            "Custom & detailed therapy application & feedback forms",
+            "Custom Dashboard for managing applications"
+        ],
         "featured": true,
         "visible": true,
         "repo": "https://github.com/Webdacity/GEMMA-English",
@@ -55,6 +65,11 @@
         "industry": "Art | E-Commerce",
         "tools": ["HTML", "CSS", "Javascript", "React", "Gatsby", "NodeJS", "MongoDB"],
         "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "features": [
+            "Dynamic product & artwork pages",
+            "Local payment portal integration",
+            "Custom dashboard (CMS) for managing products, orders, artwork & shop settings"
+        ],
         "design": true,
         "visible": true,
         "repo": "https://github.com/Webdacity/HundredFold",
@@ -83,8 +98,14 @@
         "link": "https://artbyjaret.netlify.app",
         "date": "November 2020",
         "industry": "Art | E-Commerce",
-        "tools": ["HTML", "CSS", "Javascript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "tools": ["HTML", "CSS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
         "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "features": [
+            "Dynamic product pages",
+            "Local payment portal integration",
+            "Custom catalogue order system",
+            "Custom dashboard (CMS) for managing products, orders, blog posts & shop settings"
+        ],
         "design": true,
         "visible": true,
         "repo": "https://github.com/Webdacity/C-DOC",
@@ -114,7 +135,12 @@
         "date": "May 2020",
         "industry": "Manufacturing",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-        "description": "NC Chemicals is a manufacturer and distributor of cleaning chemicals for the car wash and industrial industry. \n\nThey originally needed a simple online presence featuring who they are and what they do, as well as accompanying print documents to be designed showcasing their product catalogue. \n\nWe recommended integrating our e-commerce platform into their website to function as a one-stop-shop to showcase & sell their products online, from anywhere.",
+        "description": "NC Chemicals is a manufacturer and distributor of cleaning chemicals for the car wash and industrial industry. \n\nThey originally needed a simple online presence featuring who they are and what they do, as well as accompanying print documents to be designed showcasing their product catalogue. \n\nI recommended integrating my e-commerce platform into their website to function as a one-stop-shop to showcase & sell their products online, from anywhere.",
+        "features": [
+            "Dynamic product pages",
+            "Local payment portal integration",
+            "Custom dashboard (CMS) for managing products, orders, & shop settings"
+        ],
         "design": true,
         "visible": true,
         "repo": "https://github.com/Webdacity/NC-Chemicals/settings",
@@ -302,7 +328,7 @@
         "date": "May 2020",
         "industry": "Manufacturing",
         "elements": ["Logo", "Business Cards", "Email Signatures"],
-        "description": "NC Chemicals is a manufacturer and distributor of cleaning chemicals for the car wash and industrial industry. \n\nThey originally needed a simple online presence featuring who they are and what they do, as well as accompanying print documents to be designed showcasing their product catalogue. \n\nWe recommended integrating our e-commerce platform into their website to function as a one-stop-shop to showcase & sell their products online, from anywhere.",
+        "description": "NC Chemicals is a manufacturer and distributor of cleaning chemicals for the car wash and industrial industry.",
         "visible": true,
         "stack": "Full Stack App"
     }

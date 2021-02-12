@@ -20,7 +20,7 @@ export default function Home() {
     <Layout
       head={{
         title: "Arno van Staden",
-        description: "I am a web developer"
+        description: "I'm a front-end web developer from South Africa offering web development & design services."
       }}
       noFooter={true}
     >

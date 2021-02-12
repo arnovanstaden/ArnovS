@@ -51,8 +51,8 @@ export default function ProjectTemplate({ project, imageCount }) {
     return (
         <Layout
             head={{
-                title: `${project.name} | Arno van Staden`,
-                description: project.description,
+                title: `${project.name}`,
+                description: project.brief,
                 robots: false
             }}
         >
