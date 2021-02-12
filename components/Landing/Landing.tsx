@@ -1,17 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
 import LandingAnimation from '../LandingAnimation/LandingAnimation';
+import { useMediaQuery } from 'react-responsive'
+
 
 // Styles
 import styles from "./landing.module.scss";
 
 export default function Landing() {
+    const isMobile = useMediaQuery({
+        query: '(max-width: 768px)'
+    })
+
     return (
         <section className={styles.landing}>
             <div className="container">
                 <div className={styles.grid}>
                     <div className={styles.image}>
-                        <LandingAnimation />
+                        {isMobile
+                            ? <Image priority src={`/images/other/Arno-Pixel.png`} className={styles.image} alt="Arno" width={500} height="500" />
+                            : <LandingAnimation />
+                        }
                     </div>
                     <div className={styles.content}>
                         <p className="info-block">Front End Developer</p>

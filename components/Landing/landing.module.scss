@@ -78,6 +78,20 @@
         }
     }
 
+    @media screen and (min-width:1500px) {
+        .grid {
+            .content {
+                width: 40%;
+            }
+
+            .image {
+                width: 60%;
+            }
+        }
+
+    }
+
+
     @media screen and (max-width:768px) {
         height: unset;
 

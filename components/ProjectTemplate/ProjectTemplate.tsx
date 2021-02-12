@@ -27,14 +27,17 @@ export default function ProjectTemplate({ project, imageCount }) {
         let array = new Array(imageCount - 2).fill(0);
         const otherImages = array.map((value, index) => (
             <div className={styles.imageContainer} key={index}>
-                <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} width={1200} height="auto" alt={`${project.name} project image`} className={styles.image} />
+                <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} project image`} className={styles.image} />
             </div>
         ))
 
         return (
             <>
                 <div className={styles.imageContainer}>
-                    <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} width={1200} height="auto" alt={`${project.name} landing image`} className={styles.image} />
+                    <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} landing image`} className={styles.image} />
+                </div>
+                <div className={styles.imageContainer}>
+                    <Image priority src={`${getProjectImagePath(project)}/cover.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} landing image`} className={styles.image} />
                 </div>
                 {otherImages}
             </>
@@ -99,15 +102,21 @@ export default function ProjectTemplate({ project, imageCount }) {
                     </div>
                     <div className={styles.info}>
                         <div className={styles.row}>
-                            <h5>Project Date</h5>
+                            <h5>Date</h5>
                             <p>{project.date}</p>
                         </div>
                         <div className={styles.row}>
                             <h5>Industry</h5>
                             <p>{project.industry}</p>
                         </div>
-                        {project.tools ?
+                        {project.stack ?
                             <div className={styles.row}>
+                                <h5>Type</h5>
+                                <p>{project.stack}</p>
+                            </div>
+                            : null}
+                        {project.tools
+                            ? <div className={styles.row}>
                                 <h5>Tools</h5>
                                 <ul className={styles.tools}>
                                     {project.tools.map((tool, index) => (
@@ -116,7 +125,8 @@ export default function ProjectTemplate({ project, imageCount }) {
                                         </li>
                                     ))}
                                 </ul>
-                            </div> : null}
+                            </div>
+                            : null}
                     </div>
                 </div>
                 {render ? <ReactTooltip
