@@ -7,7 +7,7 @@
         "date": "February 2020",
         "industry": "Food | Recipe Blog",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS", "MongoDB"],
-        "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\n Originally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested we help her with setting up a food blog. \n\n She required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
+        "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\n Originally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested I help her with setting up a food blog. \n\n She required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
         "features": [
             "Dynamic Recipe Pages",
             "Custom Dashboard for Managing Recipes",
@@ -26,10 +26,14 @@
         "date": "April 2020",
         "industry": "Fashion | E-Commerce",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS", "MongoDB"],
-        "description": "Varkhart started as a small e-commerce store but has since grown to a vast online retail endeavour with a substantial online presence. Originally built upon my custom e-commerce platform, it has since grown to encompass fully-fledged reseller & affiliate programs. \n\nWe were involved for every step of the project, from branding to product development. If you'd like to check it out for yourself, head over to",
+        "description": "Varkhart started as a small e-commerce store but has since grown to a vast online retail endeavour with a substantial online presence. Originally built upon my custom e-commerce platform, it has since grown to encompass fully-fledged reseller, affiliate & coupon programs. \n\nI was involved for every step of the project, from branding to product development.",
         "features": [
             "Dynamic product pages",
             "Local payment portal integration",
+            "Affiliate code system (with automatic payment splitting, code tracking & invoice management)",
+            "Coupon code system (newsletter subscriptions + upsell coupons with sms integration)",
+            "Reseller system with cost-price purchasing",
+            "Review system",
             "Custom dashboard for managing products, orders, affiliates, resellers, coupons & shop settings"
         ],
         "repo": "https://github.com/Webdacity/Varkhart",
@@ -45,7 +49,7 @@
         "date": "May 2020",
         "industry": "Medical",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS"],
-        "description": "The GEMMA Institute is a Psychotherapy Clinic based in Frankfurt, Germany. They assist individuals, couples and families experiencing personal and social challenges.\n\nWe met their needs by creating a clean & modern website where they can effectively communicate their therapeutic concept and how their therapy works. Custom functionality includes the ability for patients to apply for & complete the relevant consent documentation online, as well as provide feedback for their sessions at the clinic. \n\n Their website is available in both English & German.",
+        "description": "The GEMMA Institute is a Psychotherapy Clinic based in Frankfurt, Germany. They assist individuals, couples and families experiencing personal and social challenges.\n\nI met their needs by creating a clean & modern website where they can effectively communicate their therapeutic concept and how their therapy works. Custom functionality includes the ability for patients to apply for & complete the relevant consent documentation online, as well as provide feedback for their sessions at the clinic. \n\n Their website is available in both English & German.",
         "features": [
             "Bilingual content",
             "Custom & detailed therapy application & feedback forms",
@@ -84,7 +88,7 @@
         "date": "October 2020",
         "industry": "Web Development",
         "tools": ["HTML", "CSS", "Javascript", "React", "Gatsby"],
-        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "description": "Webdacity is my web development & design studio based in CapeTown, South Africa. The website provides more information about Webdacity's history, services & past projects.",
         "design": true,
         "visible": true,
         "featured": true,
@@ -154,7 +158,7 @@
         "date": "April 2020",
         "industry": "Legal",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-        "description": "Oosthuizens Attorneys requested a minimalist site where potential clients can reach them,learn more about their history and the legal services they offer, and also get in touch with them regarding legal advice.",
+        "description": "Oosthuizens Attorneys requested a minimalist site where potential clients can reach them, learn more about their history and the legal services they offer and also get in touch with them regarding legal advice.",
         "visible": true,
         "repo": "https://github.com/Webdacity/OosthuizensAttorneys",
         "stack": "Website"
@@ -249,7 +253,7 @@
         "date": "June 2019",
         "industry": "Engineering",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the cast array of professional services they offer & other important information relating to the company.",
+        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
         "visible": true,
         "repo": "https://github.com/Webdacity/PR-Engineering",
         "stack": "Website"
@@ -262,7 +266,7 @@
         "date": "August 2019",
         "industry": "Wedding",
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-        "description": "",
+        "description": "One-pager wedding site displaying important information about the special day in an easy to digest and mobile-friendly manner.",
         "visible": true,
         "repo": "https://github.com/Webdacity/PR-Engineering",
         "stack": "Website"
@@ -279,7 +283,7 @@
         "date": "September 2020",
         "industry": "Skills Development",
         "elements": ["Logo", "Business Cards", "Email Signatures", "Company Profile"],
-        "description": "Asante2gether assists local communities to generate income, to find their purpose, and to enable self-sufficiency. \n\n We created a friendly and clean brand identity for Asante2gether that portrays their journey in assisting with skills-development to help people move from poverty to prosperity.",
+        "description": "Asante2gether assists local communities to generate income, to find their purpose, and to enable self-sufficiency. \n\n I created a friendly and clean brand identity for Asante2gether that portrays their journey in assisting with skills-development to help people move from poverty to prosperity.",
         "visible": true,
         "stack": "Brand Identity"
     },
@@ -304,7 +308,7 @@
         "date": "June 2019",
         "industry": "Finance | Business",
         "elements": ["Logo", "Business Cards", "Email Signatures"],
-        "description": "Reset Capital (RC) is an investment firm based in Johannesburg with a unique focus on investment opportunities in BEE companies. \n\nThe design elements include Logos, Business Cards, Email Signatures, Letterheads & Presentation Design.",
+        "description": "Reset Capital (RC) is an investment firm based in Johannesburg with a unique focus on investment opportunities in BEE companies.",
         "development": true,
         "visible": true,
         "stack": "Brand Identity"
