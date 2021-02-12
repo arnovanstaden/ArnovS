@@ -45,7 +45,7 @@ export default function Layout({
                 <meta property="og:description" content={head.description} />
                 <meta property="og:type" content="Website" />
                 {head.canonical ? <meta property="og:url" content={`https://arnovs.dev${head.canonical}`} /> : null}
-                <meta property="og:image" content="https://arnovs.dev/social.png" />
+                <meta property="og:image" name="image" content="https://arnovs.dev/social.png" />
                 <meta property="og:image:type" content="image/png" />
                 <meta property="og:image:width" content="500" />
                 <meta property="og:image:height" content="500" />
