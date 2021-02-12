@@ -17,7 +17,7 @@ export default function Layout({
     head: {
         title: string,
         description: string,
-        canonical: string,
+        canonical?: string,
         robots?: boolean
     }
     noFooter?: boolean
