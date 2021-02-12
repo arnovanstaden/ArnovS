@@ -31,7 +31,7 @@ export default function LandingAnimation() {
             maxParticles={22500}
             particleOptions={particleOptions}
             mouseMoveForce={motionForce}
-            touchMoveForce={motionForce}
+            // touchMoveForce={motionForce}
             backgroundColor="#151618"
         />
     );
