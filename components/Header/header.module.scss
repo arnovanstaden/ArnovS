@@ -151,6 +151,7 @@
         display: flex;
         overflow: hidden;
         transition: 0.4s ease-in-out;
+        box-sizing: border-box;
 
 
         .notNav {
@@ -217,7 +218,9 @@
         }
     }
 
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 576px) {
+        padding: 1.5rem 1rem;
+
         .mobileNav {
             .notNav {
                 width: 30%;
@@ -228,4 +231,9 @@
             }
         }
     }
+}
+
+
+.noscroll {
+    overflow-y: hidden;
 }

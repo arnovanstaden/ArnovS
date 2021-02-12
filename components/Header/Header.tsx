@@ -10,29 +10,32 @@ export default function Header() {
     const handleNavToggle = () => {
         const menu = document.querySelector(`.${styles.mobileNav}`);
         if (menu.classList.contains(styles.open)) {
-            menu.classList.remove(styles.open)
+            menu.classList.remove(styles.open);
+            document.body.classList.remove(styles.noscroll)
         } else {
-            menu.classList.add(styles.open)
+            menu.classList.add(styles.open);
+            document.body.classList.add(styles.noscroll)
         }
     }
 
-
-
+    type TMenu = {
+        mobile?: boolean
+    }
 
     // Subcomponents
-    const Menu = () => (
+    const Menu = ({ mobile }: TMenu) => (
         <>
             <Link href="/projects">
-                <a>Projects</a>
+                <a onClick={() => mobile ? handleNavToggle() : null}>Projects</a>
             </Link>
             <Link href="/#skills">
-                <a>Skills</a>
+                <a onClick={() => mobile ? handleNavToggle() : null}>Skills</a>
             </Link>
             <Link href="/#about">
-                <a>About</a>
+                <a onClick={() => mobile ? handleNavToggle() : null}>About</a>
             </Link>
             <Link href="/#contact">
-                <a>Contact</a>
+                <a onClick={() => mobile ? handleNavToggle() : null}>Contact</a>
             </Link>
         </>
     )
@@ -76,7 +79,7 @@ export default function Header() {
                 <div className={styles.notNav} onClick={() => handleNavToggle()}></div>
                 <nav className={styles.menu}>
                     <i className={`icon-clear ${styles.close}`} onClick={() => handleNavToggle()}></i>
-                    <Menu />
+                    <Menu mobile />
                     <Social />
                 </nav>
             </div>
