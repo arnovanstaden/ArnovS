@@ -53,6 +53,7 @@ export default function ProjectTemplate({ project, imageCount }) {
             head={{
                 title: `${project.name}`,
                 description: project.brief,
+                canonical: `/projects/${project.type.toLowerCase()}/${project.name.replace(/ /g, "").toLowerCase()}`,
                 robots: false
             }}
         >
