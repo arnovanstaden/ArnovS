@@ -17,6 +17,7 @@ export default function Layout({
     head: {
         title: string,
         description: string,
+        canonical: string,
         robots?: boolean
     }
     noFooter?: boolean
@@ -31,7 +32,7 @@ export default function Layout({
                 <link rel="icon" type="image/png" href="/images/logos/favicon-dark.png" />
                 <meta name="description" content={head.description} />
                 <meta name="robots" content={head.robots === false ? "noindex, nofollow" : "index, follow"} />
-                {/* {pageMeta.canonical ? <link rel="canonical" href={`https://webdacity.dev${pageMeta.canonical.toLowerCase()}`} /> : null} */}
+                {head.canonical ? <link rel="canonical" href={`https://arnovs.dev${head.canonical.toLowerCase()}`} /> : null}
 
 
                 <meta name="author" content="Arno van Staden" />
@@ -43,7 +44,7 @@ export default function Layout({
                 <meta property="og:title" content={head.title} />
                 <meta property="og:description" content={head.description} />
                 <meta property="og:type" content="Website" />
-                {/* {pageMeta.canonical ? <meta property="og:url" content={`https://webdacity.dev${pageMeta.canonical.toLowerCase()}`} /> : null} */}
+                {head.canonical ? <meta property="og:url" href={`https://arnovs.dev${head.canonical.toLowerCase()}`} /> : null}
                 <meta property="og:image" content="https://arnovs.dev/social.png" />
                 <meta property="og:image:type" content="image/png" />
                 <meta property="og:image:width" content="500" />

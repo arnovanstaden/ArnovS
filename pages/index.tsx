@@ -20,7 +20,8 @@ export default function Home() {
     <Layout
       head={{
         title: "Arno van Staden",
-        description: "I'm a front-end web developer from South Africa offering web development & design services."
+        description: "I'm a front-end web developer from South Africa offering web development & design services.",
+        canonical: "/"
       }}
       noFooter={true}
     >

@@ -46,6 +46,7 @@ export default function Projects() {
             head={{
                 title: "Projects | Arno van Staden",
                 description: "My work is a testament to my skill. Here are some of my featured web development projects.",
+                canonical: "/projects"
             }}
             noFooter={true}
         >
