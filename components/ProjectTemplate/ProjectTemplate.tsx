@@ -33,9 +33,11 @@ export default function ProjectTemplate({ project, imageCount }) {
 
         return (
             <>
-                <div className={styles.imageContainer}>
-                    <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} landing image`} className={styles.image} />
-                </div>
+                {project.type === "Development"
+                    ? <div className={styles.imageContainer}>
+                        <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} landing image`} className={styles.image} />
+                    </div>
+                    : null}
                 <div className={styles.imageContainer}>
                     <Image priority src={`${getProjectImagePath(project)}/cover.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} landing image`} className={styles.image} />
                 </div>
@@ -65,18 +67,22 @@ export default function ProjectTemplate({ project, imageCount }) {
                         <h1>{project.name}</h1>
                         <p>{project.brief}</p>
                         <div className={styles.buttons}>
-                            <button className="button">
-                                <a href={project.link} target="blank">
-                                    <i className="icon-link"></i>
-                                    Visit Site
-                                </a>
-                            </button>
-                            <button className="button button--border">
-                                <a href={project.repo} target="blank">
-                                    <i className="icon-github"></i>
-                                    Repo
-                                </a>
-                            </button>
+                            {project.link ?
+                                <button className="button">
+                                    <a href={project.link} target="blank">
+                                        <i className="icon-link"></i>
+                                Visit Site
+                            </a>
+                                </button>
+                                : null}
+                            {project.repo ?
+                                <button className="button button--border">
+                                    <a href={project.repo} target="blank">
+                                        <i className="icon-github"></i>
+                                Repo
+                            </a>
+                                </button>
+                                : null}
                         </div>
                     </div>
                 </section>
@@ -98,9 +104,26 @@ export default function ProjectTemplate({ project, imageCount }) {
                                     ))}
                                 </ul>
                             </div>
-                            : null}
+                            : project.elements ?
+                                <div className={styles.features}>
+                                    <p className="info-block">Elements</p>
+                                    <ul>
+                                        {project.elements.map((element, index) => (
+                                            <li key={index}>
+                                                <i></i>
+                                                {element}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div> : null}
                     </div>
                     <div className={styles.info}>
+                        {project.status ?
+                            <div className={styles.row}>
+                                <h5>Status</h5>
+                                <p className={styles.status}>{project.status}</p>
+                            </div>
+                            : null}
                         <div className={styles.row}>
                             <h5>Date</h5>
                             <p>{project.date}</p>
@@ -117,7 +140,7 @@ export default function ProjectTemplate({ project, imageCount }) {
                             : null}
                         {project.tools
                             ? <div className={styles.row}>
-                                <h5>Tools</h5>
+                                <h5>Stack</h5>
                                 <ul className={styles.tools}>
                                     {project.tools.map((tool, index) => (
                                         <li key={index}>

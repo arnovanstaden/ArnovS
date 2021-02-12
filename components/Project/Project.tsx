@@ -23,7 +23,10 @@ export default function Project(project: TProject) {
                 <div className={styles.imageContainer}>
                     <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
                 </div>
-                <p className={styles.name}>{project.name}</p>
+                <p className={styles.name}>
+                    {project.name}
+                    {project.status ? <span>{project.status}</span> : null}
+                </p>
                 <p className={styles.brief}>{project.brief}</p>
             </a>
         </Link>

@@ -129,6 +129,11 @@
                 }
             }
 
+            .status {
+                color: $blue;
+                font-weight: 600;
+            }
+
             &:last-child {
                 border-bottom: none;
             }
