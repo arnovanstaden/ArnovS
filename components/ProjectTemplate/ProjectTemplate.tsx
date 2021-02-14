@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import ReactTooltip from 'react-tooltip';
-import { getProjectImagePath } from "../../utils/helpers";
 
 // Components
 import Layout from '../Layout/Layout';
@@ -19,21 +18,29 @@ export default function ProjectTemplate({ project, imageCount }) {
         setRender(true)
     }, []);
 
+    const getProjectImagePath = (project): string => {
+        const path = `/images/projects/${project.type.toLowerCase()}/${project.name.replace(/ /g, "-")}`
+        return path
+    }
+
     // Dynamic Paths
     const router = useRouter()
     const { name } = router.query;
     // Project Images 
     const ProjectImages = () => {
-        let array = new Array(imageCount - 2).fill(0);
-        const otherImages = array.map((value, index) => (
-            <div className={styles.imageContainer} key={index}>
-                <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} project image`} className={styles.image} />
-            </div>
-        ))
+        let otherImages;
+        if (imageCount >= 2) {
+            let array = new Array(imageCount - 2).fill(0);
+            otherImages = array.map((value, index) => (
+                <div className={styles.imageContainer} key={index}>
+                    <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} project image`} className={styles.image} />
+                </div>
+            ))
+        }
 
         return (
             <>
-                {project.type === "Development"
+                {project.type === "Development" && imageCount >= 2
                     ? <div className={styles.imageContainer}>
                         <Image priority src={`${getProjectImagePath(project)}/landing.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} landing image`} className={styles.image} />
                     </div>

@@ -80,6 +80,24 @@
         "stack": "Full Stack App",
         "status": "In Development"
     }, {
+        "name": "Tickity Tackity",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
+        "link": "https://tickity-tackity.netlify.app/",
+        "date": "January 2020",
+        "industry": "Art | E-Commerce",
+        "tools": ["HTML", "CSS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "description": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
+        "features": [
+            "Progressive Web App",
+            "User High Score Persistance"
+        ],
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/Tickity-Tackity",
+        "stack": "Front End PWA"
+    }, {
         "name": "Webdacity",
         "type": "Development",
         "category": "Websites",
@@ -173,7 +191,6 @@
         "tools": ["HTML", "CSS", "Javascript", "React", "Gatsby"],
         "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
         "design": true,
-        "featured": true,
         "visible": true,
         "repo": "https://github.com/Webdacity/HundredFold",
         "stack": "Website"
