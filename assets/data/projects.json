@@ -15,7 +15,7 @@
         ],
         "visible": true,
         "featured": true,
-        "repo": "https://github.com/Webdacity/TheMishDish",
+        "repo": "https://github.com/arnovanstaden/TheMishDish",
         "stack": "Full Stack App"
     }, {
         "name": "Varkhart",
@@ -36,7 +36,7 @@
             "Review system",
             "Custom dashboard for managing products, orders, affiliates, resellers, coupons & shop settings"
         ],
-        "repo": "https://github.com/Webdacity/Varkhart",
+        "repo": "https://github.com/arnovanstaden/Varkhart",
         "featured": true,
         "visible": true,
         "stack": "Full Stack App"
@@ -57,7 +57,7 @@
         ],
         "featured": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/GEMMA-English",
+        "repo": "https://github.com/arnovanstaden/GEMMA-English",
         "stack": "Full Stack App"
     }, {
         "name": "Art By Jaret",
@@ -76,7 +76,7 @@
         ],
         "design": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/HundredFold",
+        "repo": "https://github.com/arnovanstaden/HundredFold",
         "stack": "Full Stack App",
         "status": "In Development"
     }, {
@@ -110,7 +110,7 @@
         "design": true,
         "visible": true,
         "featured": true,
-        "repo": "https://github.com/Webdacity/Webdacity",
+        "repo": "https://github.com/arnovanstaden/Webdacity",
         "stack": "Website"
     }, {
         "name": "C-DOC",
@@ -130,7 +130,7 @@
         ],
         "design": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/C-DOC",
+        "repo": "https://github.com/arnovanstaden/C-DOC",
         "stack": "Full Stack App",
         "status": "In Development"
     }, {
@@ -146,7 +146,7 @@
         "design": true,
         "featured": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/T-T-S",
+        "repo": "https://github.com/arnovanstaden/T-T-S",
         "stack": "Website"
     }, {
         "name": "NC Chemicals",
@@ -165,7 +165,7 @@
         ],
         "design": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/NC-Chemicals/settings",
+        "repo": "https://github.com/arnovanstaden/NC-Chemicals/settings",
         "stack": "Full Stack App"
     }, {
         "name": "Oosthuizens Attorneys",
@@ -178,7 +178,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
         "description": "Oosthuizens Attorneys requested a minimalist site where potential clients can reach them, learn more about their history and the legal services they offer and also get in touch with them regarding legal advice.",
         "visible": true,
-        "repo": "https://github.com/Webdacity/OosthuizensAttorneys",
+        "repo": "https://github.com/arnovanstaden/OosthuizensAttorneys",
         "stack": "Website"
     }, {
         "name": "HundredFold",
@@ -192,7 +192,7 @@
         "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
         "design": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/HundredFold",
+        "repo": "https://github.com/arnovanstaden/HundredFold",
         "stack": "Website"
     }, {
         "name": "CCPT",
@@ -206,7 +206,7 @@
         "description": "Cape Control Panel Technology (CCPT) is an engineering firm that builds specialised power and control panels. \n\nThey needed a concise website showcasing their capabilities, their team of experts and projects they 've undertaken in the past.",
         "design": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/CCPT",
+        "repo": "https://github.com/arnovanstaden/CCPT",
         "stack": "Website"
     }, {
         "name": "Africaneur IQ",
@@ -219,7 +219,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery"],
         "description": "AfricaneurIQ (AIQ) is a professional service company that delivers rapid, equitable and sustainable economic transformation through Enterprise and Supplier Development. \n\nThey had a well-crafted brand identity and required a website revamp that truly captures their existing brand image and defines what they do in a succinct and easy to digest manner. ",
         "visible": true,
-        "repo": "https://github.com/Webdacity/AfricaneurIQ",
+        "repo": "https://github.com/arnovanstaden/AfricaneurIQ",
         "stack": "Website"
     }, {
         "name": "SmartFunder",
@@ -232,7 +232,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
         "description": "SmartFunder is a mechanism for Employers in South Africa to assist their employees to pay school fees in a smarter, more tax-efficient way. They wanted a website that reflects their friendly, user-centric brand and provides information regarding their services in a simple, easy-to-understand way. Their main goal was to explain how their business model works and answer any lingering questions.",
         "visible": true,
-        "repo": "https://github.com/Webdacity/SmartFunder",
+        "repo": "https://github.com/arnovanstaden/SmartFunder",
         "stack": "Website"
     }, {
         "name": "Reset Capital",
@@ -246,7 +246,7 @@
         "description": "Reset Capital (RC) is an investment firm with a unique focus on investment opportunities in BEE companies. \n\nTheir site features content regarding their funding principles and investment focus, presented in a clean and minimalistic fashion.",
         "design": true,
         "visible": true,
-        "repo": "https://github.com/Webdacity/ResetCapital",
+        "repo": "https://github.com/arnovanstaden/ResetCapital",
         "stack": "Website"
     }, {
         "name": "Craft Consulting",
@@ -259,7 +259,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery"],
         "description": "Craft Consulting is a Cape Town based Civil & Structural Engineering firm. \n\nThey needed a minimalist & clean website to showcase their services & previous projects. They struggled with establishing a good design with the DIY website builder Wix and required professional help with their website's redesign. \n\nThey requested to keep the dark & moody theme, but with a complete design overhaul & updated content to match their current brand image. ",
         "visible": true,
-        "repo": "https://github.com/Webdacity/CraftConsulting",
+        "repo": "https://github.com/arnovanstaden/CraftConsulting",
         "stack": "Website"
     }, {
         "name": "PR Engineering",
@@ -272,7 +272,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
         "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
         "visible": true,
-        "repo": "https://github.com/Webdacity/PR-Engineering",
+        "repo": "https://github.com/arnovanstaden/PR-Engineering",
         "stack": "Website"
     }, {
         "name": "U & Me Wedding",
@@ -285,7 +285,7 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
         "description": "One-pager wedding site displaying important information about the special day in an easy to digest and mobile-friendly manner.",
         "visible": true,
-        "repo": "https://github.com/Webdacity/PR-Engineering",
+        "repo": "https://github.com/arnovanstaden/PR-Engineering",
         "stack": "Website"
     },
 
