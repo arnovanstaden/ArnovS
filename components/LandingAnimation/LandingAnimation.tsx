@@ -4,6 +4,7 @@ import ParticleImage, {
     forces,
     ParticleForce
 } from "react-particle-image";
+import { useMediaQuery } from "react-responsive";
 
 export default function LandingAnimation() {
     const particleOptions: ParticleOptions = {
@@ -23,15 +24,17 @@ export default function LandingAnimation() {
         return forces.disturbance(x, y, 3);
     };
 
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1768px)' })
+
+
     return (
         <ParticleImage
             src={"/images/other/arno-landing.png"}
             scale={0.6}
-            entropy={5}
-            maxParticles={22500}
+            entropy={isTabletOrMobile ? 2 : 5}
+            maxParticles={isTabletOrMobile ? 12500 : 22500}
             particleOptions={particleOptions}
             mouseMoveForce={motionForce}
-            // touchMoveForce={motionForce}
             backgroundColor="#151618"
         />
     );
