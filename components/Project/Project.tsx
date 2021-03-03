@@ -21,12 +21,12 @@ export default function Project(project: TProject) {
         <Link href={projectPath}>
             <a className={styles.project} data-category={project.category}>
                 <div className={styles.imageContainer}>
+                    {project.status ? <span>{project.status}</span> : null}
                     <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
                 </div>
-                <p className={styles.name}>
-                    {project.name}
-                    {project.status ? <span>{project.status}</span> : null}
-                </p>
+                <div className={styles.name}>
+                    <p>{project.name}</p>
+                </div>
                 <p className={styles.brief}>{project.brief}</p>
             </a>
         </Link>
