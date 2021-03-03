@@ -2,128 +2,134 @@
 
 .project {
     width: 30%;
-    background-color: $black;
-    padding: 1rem;
-    box-sizing: border-box;
-    cursor: pointer;
-    border: 2px solid transparent;
-    position: relative;
 
-    .imageContainer {
+    .inner {
         width: 100%;
+        display: block;
+        height: 100%;
+        background-color: $black;
+        padding: 1rem;
+        box-sizing: border-box;
+        cursor: pointer;
+        border: 2px solid transparent;
         position: relative;
 
-        >div {
+        .imageContainer {
+            width: 100%;
+            position: relative;
+
             >div {
-                display: none !important;
+                >div {
+                    display: none !important;
+                }
+            }
+
+            .image {
+                object-fit: contain;
+                width: 100% !important;
+                position: relative !important;
+                height: unset !important;
+                object-position: center center;
+            }
+
+            span {
+                font-size: 0.8rem;
+                background-color: $blue;
+                padding: 0.25rem 0.5rem;
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                z-index: 1000;
             }
         }
-
-        .image {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-            object-position: center center;
-        }
-
-        span {
-            font-size: 0.8rem;
-            background-color: $blue;
-            padding: 0.25rem 0.5rem;
-            position: absolute;
-            top: 0.5rem;
-            right: 0.5rem;
-            z-index: 1000;
-        }
-    }
-
-    .name {
-        font-size: 1.25rem;
-        margin: 1rem 0 0.5rem 0;
-        transition: 0.1s ease-in-out;
-        text-align: center;
-
-        p {
-            margin: 0;
-        }
-
-
-    }
-
-    .brief {
-        font-size: 0.8rem;
-        color: $lightgrey;
-        margin: 0;
-        font-family: $headingfont;
-        text-align: center;
-    }
-
-    .stack {
-        display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        margin-top: 0.75rem;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        li {
-            color: $lightgrey;
-            transition: 0.3s ease-in-out;
-            font-size: 0.95rem;
-
-            &:hover {
-                color: $white;
-            }
-        }
-    }
-
-
-
-    &::before,
-    &::after {
-        box-sizing: inherit;
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    }
-
-    &:hover {
 
         .name {
-            color: $blue;
+            font-size: 1.25rem;
+            margin: 1rem 0 0.5rem 0;
+            transition: 0.1s ease-in-out;
+            text-align: center;
+
+            p {
+                margin: 0;
+            }
+
+
         }
-    }
 
-    &::before,
-    &::after {
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        // transform-origin: center;
-    }
+        .brief {
+            font-size: 0.8rem;
+            color: $lightgrey;
+            margin: 0;
+            font-family: $headingfont;
+            text-align: center;
+        }
 
-    &::before {
-        border-top: 2px solid $blue;
-        border-bottom: 2px solid $blue;
-        transform: scale3d(0, 1, 1);
-    }
+        .stack {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-top: 0.75rem;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
 
-    &::after {
-        border-left: 2px solid $blue;
-        border-right: 2px solid $blue;
-        transform: scale3d(1, 0, 1); // Shrink only height
-    }
+            li {
+                color: $lightgrey;
+                transition: 0.3s ease-in-out;
+                font-size: 0.95rem;
 
-    &:hover::before,
-    &:hover::after {
-        transform: scale3d(1, 1, 1); // Show full-size
-        transition: transform 0.4s ease-in-out;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
 
+
+
+        &::before,
+        &::after {
+            box-sizing: inherit;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        &:hover {
+
+            .name {
+                color: $blue;
+            }
+        }
+
+        &::before,
+        &::after {
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            // transform-origin: center;
+        }
+
+        &::before {
+            border-top: 2px solid $blue;
+            border-bottom: 2px solid $blue;
+            transform: scale3d(0, 1, 1);
+        }
+
+        &::after {
+            border-left: 2px solid $blue;
+            border-right: 2px solid $blue;
+            transform: scale3d(1, 0, 1); // Shrink only height
+        }
+
+        &:hover::before,
+        &:hover::after {
+            transform: scale3d(1, 1, 1); // Show full-size
+            transition: transform 0.4s ease-in-out;
+
+        }
     }
 
     @media screen and (max-width:991px) {

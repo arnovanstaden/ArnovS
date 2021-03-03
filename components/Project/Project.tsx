@@ -40,10 +40,10 @@ export default function Project(project: TProject) {
     }
 
     return (
-        <Fade duration={1500}>
-            <div className={styles.project} data-category={project.category}>
+        <div className={styles.project} data-category={project.category}>
+            <Fade duration={1500}>
                 <Link href={projectPath}>
-                    <a>
+                    <a className={styles.inner}>
                         <div className={styles.imageContainer}>
                             {project.status ? <span>{project.status}</span> : null}
                             <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
@@ -55,7 +55,8 @@ export default function Project(project: TProject) {
                         {project.tools ? <ProjectStack /> : null}
                     </a>
                 </Link>
-            </div>
-        </Fade>
+            </Fade>
+        </div>
+
     )
 }
