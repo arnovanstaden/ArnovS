@@ -18,6 +18,80 @@
         "repo": "https://github.com/arnovanstaden/TheMishDish",
         "stack": "Full Stack App"
     }, {
+        "name": "Tickity Tackity",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
+        "link": "https://tickity-tackity.netlify.app/",
+        "date": "January 2020",
+        "industry": "Art | E-Commerce",
+        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "description": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
+        "features": [
+            "Progressive Web App",
+            "User High Score Persistance"
+        ],
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/Tickity-Tackity",
+        "stack": "Front End PWA"
+    }, {
+        "name": "C-DOC",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A full-stack online shop & catalogue ordering system combined with a brochure site.",
+        "link": "https://artbyjaret.netlify.app",
+        "date": "November 2020",
+        "industry": "Art | E-Commerce",
+        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "features": [
+            "Dynamic product pages",
+            "Local payment portal integration",
+            "Custom catalogue order system",
+            "Custom dashboard (CMS) for managing products, orders, blog posts & shop settings"
+        ],
+        "design": true,
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/C-DOC",
+        "stack": "Full Stack App",
+        "status": "In Development"
+    }, {
+        "name": "Art By Jaret",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
+        "link": "https://artbyjaret.netlify.app",
+        "date": "November 2020",
+        "industry": "Art | E-Commerce",
+        "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby", "NodeJS", "MongoDB"],
+        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "features": [
+            "Dynamic product & artwork pages",
+            "Local payment portal integration",
+            "Custom dashboard (CMS) for managing products, orders, artwork & shop settings"
+        ],
+        "design": true,
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/ArtByJaret",
+        "stack": "Full Stack App",
+        "status": "In Development"
+    }, {
+        "name": "Webdacity",
+        "type": "Development",
+        "category": "Websites",
+        "brief": "My studio's own dark & clean website showcasing services and projects.",
+        "link": "https://webdacity.dev",
+        "date": "October 2020",
+        "industry": "Web Development",
+        "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby"],
+        "description": "Webdacity is my web development & design studio based in CapeTown, South Africa. The website provides more information about Webdacity's history, services & past projects.",
+        "design": true,
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/Webdacity",
+        "stack": "Website"
+    }, {
         "name": "Varkhart",
         "type": "Development",
         "category": "Web Applications",
@@ -40,99 +114,6 @@
         "featured": true,
         "visible": true,
         "stack": "Full Stack App"
-    }, {
-        "name": "Gemma Institute",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "GEMMA's bilingual website offers information about clinic & a detailed application process.",
-        "link": "https://www.gemmainstitute.com",
-        "date": "May 2020",
-        "industry": "Medical",
-        "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS"],
-        "description": "The GEMMA Institute is a Psychotherapy Clinic based in Frankfurt, Germany. They assist individuals, couples and families experiencing personal and social challenges.\n\nI met their needs by creating a clean & modern website where they can effectively communicate their therapeutic concept and how their therapy works. Custom functionality includes the ability for patients to apply for & complete the relevant consent documentation online, as well as provide feedback for their sessions at the clinic. \n\n Their website is available in both English & German.",
-        "features": [
-            "Bilingual content",
-            "Custom & detailed therapy application & feedback forms",
-            "Custom Dashboard for managing applications"
-        ],
-        "featured": true,
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/GEMMA-English",
-        "stack": "Full Stack App"
-    }, {
-        "name": "Art By Jaret",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
-        "link": "https://artbyjaret.netlify.app",
-        "date": "November 2020",
-        "industry": "Art | E-Commerce",
-        "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby", "NodeJS", "MongoDB"],
-        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
-        "features": [
-            "Dynamic product & artwork pages",
-            "Local payment portal integration",
-            "Custom dashboard (CMS) for managing products, orders, artwork & shop settings"
-        ],
-        "design": true,
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/ArtByJaret",
-        "stack": "Full Stack App",
-        "status": "In Development"
-    }, {
-        "name": "Tickity Tackity",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
-        "link": "https://tickity-tackity.netlify.app/",
-        "date": "January 2020",
-        "industry": "Art | E-Commerce",
-        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
-        "description": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
-        "features": [
-            "Progressive Web App",
-            "User High Score Persistance"
-        ],
-        "visible": true,
-        "featured": true,
-        "repo": "https://github.com/arnovanstaden/Tickity-Tackity",
-        "stack": "Front End PWA"
-    }, {
-        "name": "Webdacity",
-        "type": "Development",
-        "category": "Websites",
-        "brief": "My studio's own dark & clean website showcasing services and projects.",
-        "link": "https://webdacity.dev",
-        "date": "October 2020",
-        "industry": "Web Development",
-        "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby"],
-        "description": "Webdacity is my web development & design studio based in CapeTown, South Africa. The website provides more information about Webdacity's history, services & past projects.",
-        "design": true,
-        "visible": true,
-        "featured": true,
-        "repo": "https://github.com/arnovanstaden/Webdacity",
-        "stack": "Website"
-    }, {
-        "name": "C-DOC",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "A full-stack online shop & catalogue ordering system combined with a brochure site.",
-        "link": "https://artbyjaret.netlify.app",
-        "date": "November 2020",
-        "industry": "Art | E-Commerce",
-        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
-        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
-        "features": [
-            "Dynamic product pages",
-            "Local payment portal integration",
-            "Custom catalogue order system",
-            "Custom dashboard (CMS) for managing products, orders, blog posts & shop settings"
-        ],
-        "design": true,
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/C-DOC",
-        "stack": "Full Stack App",
-        "status": "In Development"
     }, {
         "name": "Together Through Skills",
         "type": "Development",
@@ -162,6 +143,25 @@
         "visible": true,
         "repo": "https://github.com/arnovanstaden/Asante2gether",
         "stack": "Website"
+    }, {
+        "name": "Gemma Institute",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "GEMMA's bilingual website offers information about clinic & a detailed application process.",
+        "link": "https://www.gemmainstitute.com",
+        "date": "May 2020",
+        "industry": "Medical",
+        "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS"],
+        "description": "The GEMMA Institute is a Psychotherapy Clinic based in Frankfurt, Germany. They assist individuals, couples and families experiencing personal and social challenges.\n\nI met their needs by creating a clean & modern website where they can effectively communicate their therapeutic concept and how their therapy works. Custom functionality includes the ability for patients to apply for & complete the relevant consent documentation online, as well as provide feedback for their sessions at the clinic. \n\n Their website is available in both English & German.",
+        "features": [
+            "Bilingual content",
+            "Custom & detailed therapy application & feedback forms",
+            "Custom Dashboard for managing applications"
+        ],
+        "featured": true,
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/GEMMA-English",
+        "stack": "Full Stack App"
     }, {
         "name": "NC Chemicals",
         "type": "Development",
