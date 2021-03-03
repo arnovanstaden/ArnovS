@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import ReactTooltip from 'react-tooltip';
 import { useState, useEffect } from "react";
+import { Fade } from "react-reveal"
 
 
 // Style
@@ -40,18 +40,22 @@ export default function Project(project: TProject) {
     }
 
     return (
-        <Link href={projectPath}>
-            <a className={styles.project} data-category={project.category}>
-                <div className={styles.imageContainer}>
-                    {project.status ? <span>{project.status}</span> : null}
-                    <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
-                </div>
-                <div className={styles.name}>
-                    <p>{project.name}</p>
-                </div>
-                <p className={styles.brief}>{project.brief}</p>
-                {project.tools ? <ProjectStack /> : null}
-            </a>
-        </Link>
+        <Fade duration={1500}>
+            <div className={styles.project} data-category={project.category}>
+                <Link href={projectPath}>
+                    <a>
+                        <div className={styles.imageContainer}>
+                            {project.status ? <span>{project.status}</span> : null}
+                            <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
+                        </div>
+                        <div className={styles.name}>
+                            <p>{project.name}</p>
+                        </div>
+                        <p className={styles.brief}>{project.brief}</p>
+                        {project.tools ? <ProjectStack /> : null}
+                    </a>
+                </Link>
+            </div>
+        </Fade>
     )
 }
