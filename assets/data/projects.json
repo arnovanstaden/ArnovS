@@ -2,21 +2,24 @@
         "name": "The Mish Dish",
         "type": "Development",
         "category": "Web Applications",
-        "brief": "An awesome, no life-story included, full-stack recipe-saving application. ",
+        "brief": "A Full-Stack PWA Recipe App with awesome functionality - no life story included!",
         "link": "https://www.themishdish.co.za",
         "date": "February 2020",
         "industry": "Food | Recipe Blog",
-        "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS", "MongoDB"],
-        "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\n Originally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested I help her with setting up a food blog. \n\n She required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
+        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\nOriginally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested I help her with setting up a food blog.\n\n She required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
         "features": [
             "Dynamic Recipe Pages",
-            "Custom Dashboard for Managing Recipes",
-            "Unique UI Design"
+            "Advanced Search, Filter & Sort Features",
+            "Authetication",
+            "Mobile-First Native App Design & Experience",
+            "Persistant Recipe Favouriting Across Devices",
+            "Progressive Web App Functionality"
         ],
         "visible": true,
         "featured": true,
-        "repo": "https://github.com/arnovanstaden/TheMishDish",
-        "stack": "Full Stack App"
+        "repo": "https://github.com/arnovanstaden/The-Mish-Dish",
+        "stack": "Full Stack PWA"
     }, {
         "name": "Tickity Tackity",
         "type": "Development",
@@ -25,11 +28,12 @@
         "link": "https://tickity-tackity.netlify.app/",
         "date": "January 2020",
         "industry": "Art | E-Commerce",
-        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "tools": ["HTML", "SASS", "Javascript", "React", "NextJS", "NodeJS", "MongoDB"],
         "description": "A straightforward Tic-Tac-Toe PWA against the computer with a sleek UI.",
         "features": [
-            "Progressive Web App",
-            "User High Score Persistance"
+            "Progressive Web App Functionality",
+            "User High Score Persistance",
+            "Play against AI"
         ],
         "visible": true,
         "featured": true,
@@ -40,15 +44,15 @@
         "type": "Development",
         "category": "Web Applications",
         "brief": "A full-stack online shop & catalogue ordering system combined with a brochure site.",
-        "link": "https://artbyjaret.netlify.app",
+        "link": "https://c-doc.vercel.app/",
         "date": "November 2020",
         "industry": "Art | E-Commerce",
         "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
-        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "description": "The Commercial Diving and Offshore Consultancy Provides Effective Medical Support to the Diving and Maritime Industry. ",
         "features": [
             "Dynamic product pages",
             "Local payment portal integration",
-            "Custom catalogue order system",
+            "Custom catalogue & course order system",
             "Custom dashboard (CMS) for managing products, orders, blog posts & shop settings"
         ],
         "design": true,
@@ -61,7 +65,7 @@
         "type": "Development",
         "category": "Web Applications",
         "brief": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
-        "link": "https://artbyjaret.netlify.app",
+        "link": "https://artbyjaret.co.za",
         "date": "November 2020",
         "industry": "Art | E-Commerce",
         "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby", "NodeJS", "MongoDB"],
@@ -74,8 +78,7 @@
         "design": true,
         "visible": true,
         "repo": "https://github.com/arnovanstaden/ArtByJaret",
-        "stack": "Full Stack App",
-        "status": "In Development"
+        "stack": "Full Stack App"
     }, {
         "name": "Webdacity",
         "type": "Development",
