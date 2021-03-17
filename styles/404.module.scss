@@ -38,8 +38,11 @@
 
     .buttons {
         display: flex;
-        column-gap: 1.5rem;
         margin-top: 2rem;
         justify-content: center;
+
+        button {
+            margin-right: 1.5rem;
+        }
     }
 }

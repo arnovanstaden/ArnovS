@@ -30,21 +30,23 @@
 
     .buttons {
         display: flex;
-        column-gap: 1.5rem;
         margin-top: 2rem;
         justify-content: center;
+
+        button:first-child {
+            margin-right: 1.5rem;
+        }
     }
 }
 
 .details {
     display: flex;
-    column-gap: 3rem;
     align-items: flex-start;
-
 
     .text {
         width: 50%;
         box-sizing: border-box;
+        margin-right: 3rem;
 
         .overview {
             margin-bottom: 1.5rem;
@@ -114,7 +116,6 @@
                 list-style: none;
                 padding: 0;
                 margin: 0;
-                gap: 0.5rem;
                 flex-wrap: wrap;
                 padding-left: 3rem;
                 justify-content: flex-end;
@@ -123,9 +124,14 @@
                     color: $lightgrey;
                     transition: 0.3s ease-in-out;
                     font-size: 1.1rem;
+                    margin-right: 0.5rem;
 
                     &:hover {
                         color: $white;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
                     }
                 }
             }
@@ -145,10 +151,10 @@
 .gallery {
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
 
     .imageContainer {
         width: 100%;
+        margin-bottom: 2rem;
 
         >div {
             width: 100%;
@@ -173,7 +179,7 @@
 
     .details {
         flex-direction: column;
-        row-gap: 3rem;
+        margin-bottom: 3rem;
 
         .info {
             width: 100%;
@@ -183,6 +189,7 @@
         .text {
             width: 100%;
             text-align: center;
+            margin-bottom: 3rem;
 
             .features {
 

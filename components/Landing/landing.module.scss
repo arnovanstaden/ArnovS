@@ -10,7 +10,6 @@
 
     .grid {
         display: flex;
-        column-gap: 2rem;
         height: 100vh;
         // align-items: center;
 
@@ -19,6 +18,7 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            margin-right: 2rem;
 
             canvas {
                 height: 90%;
@@ -72,8 +72,11 @@
             .buttons {
                 margin-top: 2rem;
                 display: flex;
-                column-gap: 1.5rem;
                 align-items: center;
+
+                button:first-child {
+                    margin-right: 1.5rem;
+                }
             }
         }
     }
@@ -99,14 +102,13 @@
             height: unset;
             flex-direction: column-reverse;
             padding-top: 8rem;
-            column-gap: 0;
-            row-gap: 3rem;
 
             .content {
                 width: 100%;
                 align-items: center;
                 text-align: center;
                 padding-top: 0;
+                margin-bottom: 3rem;
 
                 .status {
                     flex-direction: column;

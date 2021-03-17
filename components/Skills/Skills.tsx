@@ -72,10 +72,7 @@ export default function Skills() {
                         Languages
                     </li>
                     <li>
-                        Frameworks
-                    </li>
-                    <li>
-                        Libraries
+                        Frameworks & Libraries
                     </li>
                     <li>
                         Tools
