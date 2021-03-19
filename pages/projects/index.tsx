@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import * as FilterFunctions from "../../utils/filterProjects";
+import * as FilterFunctions from "../../utils/projects";
 
 // Components
 import Layout from './../../components/Layout/Layout';
