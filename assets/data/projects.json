@@ -11,10 +11,10 @@
         "features": [
             "Dynamic Recipe Pages",
             "Advanced Search, Filter & Sort Features",
-            "Authetication",
+            "Authentication",
             "Mobile-First Native App Design & Experience",
-            "Persistant Recipe Favouriting Across Devices",
-            "Progressive Web App Functionality"
+            "Persisting Recipe Favourites Across Devices",
+            "Progressive Web App Functionality: Offline Cache & Push Notifications"
         ],
         "visible": true,
         "featured": true,
