@@ -4,7 +4,7 @@
         "category": "Web Applications",
         "brief": "A Full-Stack PWA Recipe App with awesome functionality - no life story included!",
         "link": "https://www.themishdish.co.za",
-        "date": "February 2020",
+        "date": "February 2021",
         "industry": "Food | Recipe Blog",
         "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
         "description": "The Mish Dish as a unique & personalised food-blog with a twist. \n\nOriginally starting off with a Weebly site, Mish realised the inherent shortcomings of a WYSIWYG website builder and requested I help her with setting up a food blog.\n\n She required the ability to administer the recipes themselves and needed the blog to have a unique UX & UI that enticed readers to return.",
