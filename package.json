@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch --coverage"
+    "test": "jest",
+    "test-dev": "jest --watch --coverage"
   },
   "dependencies": {
     "@fontsource/source-code-pro": "^4.1.0",
