@@ -4,21 +4,21 @@ My personal developer's portfolio showcasing information about me, my skills and
 ## Link
 You can visit the site [here](https://arnovs.dev/).
 
-### Additional Information
+## Additional Information
 
-#### Type
+### Type
 Website
 
-#### Tech Stack
+### Tech Stack
 * React
 * NextJS
 * SASS
 * TypeScript
 
-#### Industry
+### Industry
 Web Development
 
-#### Date
+### Date
 January 2021
 
 
