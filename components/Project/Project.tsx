@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Fade } from "react-reveal"
+import { Fade } from "react-reveal";
+import { getProjectImagePath } from "../../utils/projects";
 
 
 // Style
@@ -22,7 +23,6 @@ export default function Project(project: TProject) {
     }, []);
 
     const projectPath = `/projects/${project.type.toLowerCase()}/${project.name.replace(/ /g, "").toLowerCase()}`
-    const projectImagePath = `${project.type.toLowerCase()}/${project.name.replace(/ /g, "-")}/cover.jpg`;
 
     const ProjectStack = () => {
         return (
@@ -46,7 +46,7 @@ export default function Project(project: TProject) {
                     <a className={styles.inner}>
                         <div className={styles.imageContainer}>
                             {project.status ? <span>{project.status}</span> : null}
-                            <Image priority src={`/images/projects/${projectImagePath}`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
+                            <Image priority src={`${getProjectImagePath(project)}/cover.jpg`} className={styles.image} alt={`${project.name} Cover`} width={500} height="auto" />
                         </div>
                         <div className={styles.name}>
                             <p>{project.name}</p>

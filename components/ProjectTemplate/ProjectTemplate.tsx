@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import ReactTooltip from 'react-tooltip';
+import { getProjectImagePath } from "../../utils/projects"
 
 // Components
 import Layout from '../Layout/Layout';
@@ -18,14 +19,10 @@ export default function ProjectTemplate({ project, imageCount }) {
         setRender(true)
     }, []);
 
-    const getProjectImagePath = (project): string => {
-        const path = `/images/projects/${project.type.toLowerCase()}/${project.name.replace(/ /g, "-")}`
-        return path
-    }
-
     // Dynamic Paths
     const router = useRouter()
     const { name } = router.query;
+
     // Project Images 
     const ProjectImages = () => {
         let otherImages;

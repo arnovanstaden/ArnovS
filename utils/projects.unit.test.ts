@@ -1,8 +1,8 @@
-import * as FilterFunctions from "./projects";
+import * as ProjectFunctions from "./projects";
 
 
 test('returns correct filter functions', () => {
-    const project = [
+    const projects = [
         {
             category: "Web Applications",
         }
@@ -11,6 +11,20 @@ test('returns correct filter functions', () => {
     const result = ["All", "Web Applications"]
 
     expect(
-        FilterFunctions.getProjectFilters(project)
+        ProjectFunctions.getProjectFilters(projects)
     ).toEqual(result)
 })
+
+test("returns correct project images path", () => {
+    const project =
+    {
+        name: "The Mish Dish",
+        type: "Development"
+
+    }
+
+    expect(ProjectFunctions.getProjectImagePath(project))
+        .toBe("/images/projects/development/The-Mish-Dish")
+})
+
+
