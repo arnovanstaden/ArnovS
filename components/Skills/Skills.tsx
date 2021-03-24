@@ -24,6 +24,8 @@ export default function Skills() {
         "GitHub",
         "NPM",
         "MongoDB",
+        "Heroku",
+        "Firebase",
         "Adobe Illustrator",
         "Adobe Photoshop",
         "Adobe After Effects",]

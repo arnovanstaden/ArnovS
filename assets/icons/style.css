@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?qu7axh');
-  src:  url('fonts/icomoon.eot?qu7axh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?qu7axh') format('truetype'),
-    url('fonts/icomoon.woff?qu7axh') format('woff'),
-    url('fonts/icomoon.svg?qu7axh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?kkznpq');
+  src:  url('fonts/icomoon.eot?kkznpq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kkznpq') format('truetype'),
+    url('fonts/icomoon.woff?kkznpq') format('woff'),
+    url('fonts/icomoon.svg?kkznpq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,53 +35,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-weights:before {
-  content: "\e924";
+.icon-firebase:before {
+  content: "\e92d";
 }
-.icon-paper-plane:before {
-  content: "\e91f";
-}
-.icon-clear:before {
-  content: "\e92b";
-}
-.icon-link:before {
-  content: "\e92a";
-}
-.icon-phone:before {
-  content: "\e929";
-}
-.icon-email:before {
-  content: "\e928";
-}
-.icon-cooking:before {
-  content: "\e914";
-}
-.icon-photography:before {
-  content: "\e925";
-}
-.icon-travel:before {
-  content: "\e91e";
-}
-.icon-gaming:before {
-  content: "\e920";
-}
-.icon-coding:before {
-  content: "\e921";
-}
-.icon-reading:before {
-  content: "\e922";
-}
-.icon-mail:before {
-  content: "\e91d";
-}
-.icon-menu:before {
-  content: "\e916";
-}
-.icon-cheveron-left:before {
-  content: "\e915";
-}
-.icon-cheveron-right:before {
-  content: "\e917";
+.icon-heroku:before {
+  content: "\e92c";
 }
 .icon-reddit:before {
   content: "\e927";
@@ -166,6 +124,54 @@
 }
 .icon-react:before {
   content: "\e900";
+}
+.icon-weights:before {
+  content: "\e924";
+}
+.icon-paper-plane:before {
+  content: "\e91f";
+}
+.icon-clear:before {
+  content: "\e92b";
+}
+.icon-link:before {
+  content: "\e92a";
+}
+.icon-phone:before {
+  content: "\e929";
+}
+.icon-email:before {
+  content: "\e928";
+}
+.icon-cooking:before {
+  content: "\e914";
+}
+.icon-photography:before {
+  content: "\e925";
+}
+.icon-travel:before {
+  content: "\e91e";
+}
+.icon-gaming:before {
+  content: "\e920";
+}
+.icon-coding:before {
+  content: "\e921";
+}
+.icon-reading:before {
+  content: "\e922";
+}
+.icon-mail:before {
+  content: "\e91d";
+}
+.icon-menu:before {
+  content: "\e916";
+}
+.icon-cheveron-left:before {
+  content: "\e915";
+}
+.icon-cheveron-right:before {
+  content: "\e917";
 }
 .icon-npm:before {
   content: "\eab1";
