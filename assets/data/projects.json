@@ -79,6 +79,7 @@
         ],
         "design": true,
         "visible": true,
+        "featured": true,
         "repo": "https://github.com/arnovanstaden/C-DOC",
         "stack": "Full Stack App",
         "status": "In Development"
@@ -150,7 +151,7 @@
         "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby"],
         "description": "Together Through Skills (TTS), a recruitment, training and placement company, focusing on youth employment, entrepreneurship development, rural communities and people living with disabilities ",
         "design": true,
-        "featured": true,
+        "featured": false,
         "visible": true,
         "repo": "https://github.com/arnovanstaden/T-T-S",
         "stack": "Website"
@@ -183,7 +184,7 @@
             "Custom & detailed therapy application & feedback forms",
             "Custom Dashboard for managing applications"
         ],
-        "featured": true,
+        "featured": false,
         "visible": true,
         "repo": "https://github.com/arnovanstaden/GEMMA-English",
         "stack": "Full Stack App"
