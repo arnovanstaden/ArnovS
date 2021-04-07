@@ -27,7 +27,12 @@ export default function ProjectTemplate({ project, imageCount }) {
     const ProjectImages = () => {
         let otherImages;
         if (imageCount >= 2) {
-            let array = new Array(imageCount - 2).fill(0);
+            let array = []
+            if (project.type === "Development") {
+                array = new Array(imageCount - 2).fill(0);
+            } else {
+                array = new Array(imageCount - 1).fill(0);
+            }
             otherImages = array.map((value, index) => (
                 <div className={styles.imageContainer} key={index}>
                     <Image src={`${getProjectImagePath(project)}/${index + 1}.jpg`} width={1500} quality={85} height="auto" alt={`${project.name} project image`} className={styles.image} />
@@ -143,7 +148,7 @@ export default function ProjectTemplate({ project, imageCount }) {
                                 <p>{project.stack}</p>
                             </div>
                             : null}
-                        {project.tools
+                        {project.tools && project.category !== "Design"
                             ? <div className={styles.row}>
                                 <h5>Stack</h5>
                                 <ul className={styles.tools}>
@@ -154,7 +159,16 @@ export default function ProjectTemplate({ project, imageCount }) {
                                     ))}
                                 </ul>
                             </div>
-                            : null}
+                            : <div className={styles.row}>
+                                <h5>Tools</h5>
+                                <ul className={styles.tools}>
+                                    {project.tools.map((tool, index) => (
+                                        <li key={index}>
+                                            <i className={`icon-${tool.toLowerCase().replace(/ /g, "")}`} data-tip={tool}></i>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>}
                     </div>
                 </div>
                 {render ? <ReactTooltip

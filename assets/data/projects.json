@@ -2,7 +2,7 @@
         "name": "The Mish Dish",
         "type": "Development",
         "category": "Web Applications",
-        "brief": "A Full-Stack PWA Recipe App with awesome functionality - no life story included!",
+        "brief": "A Full-Stack Recipe PWA with awesome functionality - no life story included!",
         "link": "https://www.themishdish.co.za",
         "date": "February 2021",
         "industry": "Food | Recipe Blog",
@@ -20,6 +20,28 @@
         "featured": true,
         "repo": "https://github.com/arnovanstaden/The-Mish-Dish",
         "stack": "Full Stack PWA"
+    }, {
+        "name": "The Book Nook",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A Full-Stack PWA for sharing book recommendations.",
+        "date": "March 2021",
+        "industry": "Books | Social Networking",
+        "tools": ["HTML", "SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "description": "Social netowrking via books - think Goodreads meets a virtual book club. Members can manage book clubs and share their favourite books with like-minded readers. Built as a full-stack single-codebase NextJS application.",
+        "features": [
+            "Dynamic Book & Club Pages",
+            "Utilises Google Books' API for fetching book data (via ISBN number seach or barcode scanning)",
+            "Full CRUD functionality for managing books & clubs",
+            "Mobile-First Native App Design & Experience",
+            "Authentication",
+            "Progressive Web App Functionality: Offline Mode & Push Notifications"
+        ],
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/The-Book-Nook",
+        "stack": "Full Stack PWA",
+        "status": "In Development"
     }, {
         "name": "Tickity Tackity",
         "type": "Development",
@@ -371,6 +393,19 @@
         "elements": ["Logo", "Business Cards", "Email Signatures"],
         "description": "NC Chemicals is a manufacturer and distributor of cleaning chemicals for the car wash and industrial industry.",
         "visible": true,
-        "stack": "Full Stack App"
+        "stack": "Brand Identity"
+    },
+    {
+        "name": "PR Engineering",
+        "type": "Design",
+        "category": "Design",
+        "brief": "PR Engineering are Mechanical, Fire And Electrical Engineers situated in Cape Town.",
+        "date": "March 2019",
+        "industry": "Engineering",
+        "tools": ["Adobe Illustrator", "Adobe Photoshop"],
+        "elements": ["Logo", "Business Cards", "Email Signatures", "Company Profile"],
+        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
+        "visible": true,
+        "stack": "Brand Identity"
     }
 ]
