@@ -66,15 +66,16 @@
 
                 li {
                     display: flex;
-                    align-items: center;
                     margin: 0.2rem 0;
                     margin-bottom: 0.3rem;
+                    align-items: flex-start;
 
                     i {
                         padding: 0.2rem;
                         background-color: #0061f0;
                         display: block;
                         margin-right: 0.5rem;
+                        margin-top: 0.5rem;
                     }
                 }
             }
@@ -196,11 +197,6 @@
                 ul {
                     li {
                         justify-content: center;
-
-                        i {
-                            padding: 0.3rem;
-
-                        }
                     }
 
                 }

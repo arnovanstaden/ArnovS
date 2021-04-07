@@ -170,6 +170,20 @@
         "repo": "https://github.com/arnovanstaden/Asante2gether",
         "stack": "Website"
     }, {
+        "name": "HundredFold",
+        "type": "Development",
+        "category": "Websites",
+        "brief": "A dark & moody website for an African business strategy firm in Johannesburg.",
+        "link": "https://www.hundredfold.co.za",
+        "date": "October 2020",
+        "industry": "Finance | Business",
+        "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby"],
+        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
+        "design": true,
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/HundredFold",
+        "stack": "Website"
+    }, {
         "name": "Gemma Institute",
         "type": "Development",
         "category": "Web Applications",
@@ -219,20 +233,6 @@
         "description": "Oosthuizens Attorneys requested a minimalist site where potential clients can reach them, learn more about their history and the legal services they offer and also get in touch with them regarding legal advice.",
         "visible": true,
         "repo": "https://github.com/arnovanstaden/OosthuizensAttorneys",
-        "stack": "Website"
-    }, {
-        "name": "HundredFold",
-        "type": "Development",
-        "category": "Websites",
-        "brief": "A dark & moody website for an African business strategy firm in Johannesburg.",
-        "link": "https://www.hundredfold.co.za",
-        "date": "October 2020",
-        "industry": "Finance | Business",
-        "tools": ["HTML", "SASS", "Javascript", "React", "Gatsby"],
-        "description": "Hundredfold is an Africa focused strategy company that prides itself in international networks and global collaborations. \n\nThey were in need of a sleek & modern brand identity and accompanying website to show off their capabilities & the industries they operate in.",
-        "design": true,
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/HundredFold",
         "stack": "Website"
     }, {
         "name": "CCPT",
