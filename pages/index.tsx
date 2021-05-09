@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Layout
       head={{
-        title: "Arno van Staden",
+        title: "Arno van Staden | Web Developer",
         description: "South African Front End Web Developer & Designer. I design and build bespoke web applications and websites to help clients grow their business.",
         canonical: "/"
       }}
