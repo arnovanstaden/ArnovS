@@ -23,10 +23,6 @@ export default function Contact({ footer }: TContact) {
                     <i className="icon-email"></i>
                     arno@webdacity.dev
                 </a>
-                <a href="tel:+27784225564">
-                    <i className="icon-phone"></i>
-                    +27 78 422 5564
-                </a>
             </div>
             <div className={styles.social}>
                 <a href="https://github.com/arnovanstaden" target="blank">

@@ -74,8 +74,12 @@
                         padding: 0.2rem;
                         background-color: #0061f0;
                         display: block;
-                        margin-right: 0.5rem;
                         margin-top: 0.5rem;
+                    }
+
+                    p {
+                        margin: 0;
+                        margin-left: 0.5rem;
                     }
                 }
             }
@@ -195,8 +199,11 @@
             .features {
 
                 ul {
+                    display: flex;
+                    flex-direction: column;
+
                     li {
-                        justify-content: center;
+                        text-align: left;
                     }
 
                 }
