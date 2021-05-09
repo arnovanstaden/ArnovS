@@ -78,20 +78,20 @@ export default function ProjectTemplate({ project, imageCount }) {
                         <p>{project.brief}</p>
                         <div className={styles.buttons}>
                             {project.link ?
-                                <button className="button">
-                                    <a href={project.link} target="blank">
+                                <a href={project.link} target="blank" className="button-link">
+                                    <button >
                                         <i className="icon-link"></i>
                                 Visit Site
-                            </a>
                                 </button>
+                                </a>
                                 : null}
                             {project.repo ?
-                                <button className="button button--border">
-                                    <a href={project.repo} target="blank">
+                                <a href={project.repo} target="blank" className="button-link">
+                                    <button className="button button--border">
                                         <i className="icon-github"></i>
-                                Repo
-                            </a>
-                                </button>
+                                        Repo
+                                    </button>
+                                </a>
                                 : null}
                         </div>
                     </div>

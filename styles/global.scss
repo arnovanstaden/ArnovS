@@ -154,6 +154,29 @@ a {
   }
 }
 
+.button-link {
+  background-color: $blue;
+  padding: 0.5rem 1.25rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    color: $white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: $headingfont;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 0;
+
+    i {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
 // Info Block
 
 .info-block {
