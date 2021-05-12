@@ -27,7 +27,7 @@
         "brief": "A Full-Stack PWA for sharing book recommendations.",
         "date": "March 2021",
         "industry": "Books | Social Networking",
-        "tools": ["SASS", "TypeScript", "React", "NextJS", "NodeJS", "MongoDB"],
+        "tools": ["SASS", "TypeScript", "React", "NextJS", "Firebase", "Material-UI"],
         "description": "Social netowrking via books - think Goodreads meets a virtual book club. Members can manage book clubs and share their favourite books with like-minded readers. Built as a full-stack single-codebase NextJS application.",
         "features": [
             "Dynamic Book & Club Pages",
@@ -42,6 +42,31 @@
         "repo": "https://github.com/arnovanstaden/The-Book-Nook",
         "stack": "Full Stack PWA",
         "status": "In Development"
+    }, {
+        "name": "Blink - Flashcards",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A PWA for learning using the spaced repetition principle with flashcards.",
+        "link": "https://blink-flash.vercel.app/",
+        "date": "January 2020",
+        "industry": "Education | Games",
+        "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
+        "description": "A PWA for learning using the spaced repetition principle with flashcards. \n\nI love learning with flashcards and I couldn't find an app that looks good and does what I need - so I decided to create my own.",
+        "features": [
+            "Authentication",
+            "Mobile - First Native App Design & Experience",
+            "Persistent User Data Across Devices",
+            "Progressive Web App Functionality",
+            "Track Learning Progress Across Decks",
+            "Revise Unknown Cards after Learning",
+            "Easy UI Form Managing CRUD operations on Decks & Cards",
+            "Blazing - Fast Data Storage & Retrieval using Firebase",
+            "[Coming Soon] Cards with Rich Text & Images"
+        ],
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/Blink",
+        "stack": "Front End PWA"
     }, {
         "name": "Tickity Tackity",
         "type": "Development",
@@ -60,31 +85,6 @@
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/Tickity-Tackity",
-        "stack": "Front End PWA"
-    }, {
-        "name": "Blink - Flashcards",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "A PWA for learning using the spaced repetition principle with flashcards.",
-        "link": "https://blink-flash.vercel.app/",
-        "date": "January 2020",
-        "industry": "Education | Games",
-        "tools": ["React", "Javascript", "Firebase", "SASS"],
-        "description": "A PWA for learning using the spaced repetition principle with flashcards. \n\nI love learning with flashcards and I couldn't find an app that looks good and does what I need - so I decided to create my own.",
-        "features": [
-            "Authentication",
-            "Mobile - First Native App Design & Experience",
-            "Persistent User Data Across Devices",
-            "Progressive Web App Functionality",
-            "Track Learning Progress Across Decks",
-            "Revise Unknown Cards after Learning",
-            "Easy UI Form Managing CRUD operations on Decks & Cards",
-            "Blazing - Fast Data Storage & Retrieval using Firebase",
-            "[Coming Soon] Cards with Rich Text & Images"
-        ],
-        "visible": true,
-        "featured": true,
-        "repo": "https://github.com/arnovanstaden/Blink",
         "stack": "Front End PWA"
     }, {
         "name": "C-DOC",
@@ -150,7 +150,7 @@
         "link": "https://bhr-solutions.vercel.app/",
         "date": "Apr 2020",
         "industry": "Engineering",
-        "tools": ["TypeScript", "React", "NextJS", "SASS"],
+        "tools": ["TypeScript", "React", "NextJS", "SASS", "Material-UI"],
         "description": "BHR Solutions is located in Cape Town, South Africa and is a provider of high quality mechanical services and installations to the residential, commercial and industrial markets of Africa.",
         "design": false,
         "visible": true,

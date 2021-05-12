@@ -18,6 +18,7 @@ export default function Skills() {
         "Firebase",
         "JQuery",
         "Bootstrap",
+        "Material-UI",
         "JSON",
         "GraphQL",
         "Jest",
