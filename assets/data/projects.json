@@ -76,7 +76,7 @@
         "date": "May 2021",
         "industry": "Productivity | Social",
         "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
-        "description": "A lightweight PWA for easy birthday reminders & congratulatory message sending \n\nThe only thing stopping me from deleting my facebook profile are the birthday reminders. I decided to create my own app, with notifications, so I can finally leave FB and never forget my friend's birthday again!",
+        "description": "A lightweight PWA for easy birthday reminders & congratulatory message sending \n\nThe only thing stopping me from deleting my FaceBook account for good is the birthday reminders. I decided to create my own app, with notifications, so I can finally leave FaceBook and never forget a friend's birthday again!",
         "features": [
             "Save Birthdays, Keep Track of Upcoming Birthdays & Receive / Set Reminders",
             "Pre - fill & Share Personalised Messages via Your Preferred App.",

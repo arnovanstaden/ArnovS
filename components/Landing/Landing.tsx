@@ -38,11 +38,14 @@ export default function Landing() {
                             <p > Seeking Employment in Berlin, Germany.</p>
                         </div>
                         <div className={styles.buttons}>
-                            <button className="button">
-                                <Link href="/projects">
-                                    <a>View My Work</a>
-                                </Link>
-                            </button>
+                            <Link href="/projects">
+                                <a>
+                                    <button className="button">
+                                        <a>View My Work</a>
+                                    </button>
+                                </a>
+                            </Link>
+
                             <button className="button button--hollow">
                                 <a href="#contact">Let's Talk</a>
                             </button>
