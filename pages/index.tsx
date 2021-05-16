@@ -39,11 +39,13 @@ export default function Home() {
             ))}
           </div>
           <div className={styles.projectButtons}>
-            <button className="button">
-              <Link href="/projects">
-                <a>View All My Work</a>
-              </Link>
-            </button>
+            <Link href="/projects" passHref>
+              <a >
+                <button className="button">
+                  <a>View All My Work</a>
+                </button>
+              </a>
+            </Link>
           </div>
         </Section>
 
