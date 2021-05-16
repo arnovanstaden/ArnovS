@@ -48,7 +48,7 @@
         "category": "Web Applications",
         "brief": "A PWA for learning using the spaced repetition principle with flashcards.",
         "link": "https://blink-flash.vercel.app/",
-        "date": "January 2020",
+        "date": "April 2021",
         "industry": "Education | Games",
         "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
         "description": "A PWA for learning using the spaced repetition principle with flashcards. \n\nI love learning with flashcards and I couldn't find an app that looks good and does what I need - so I decided to create my own.",
@@ -67,6 +67,28 @@
         "featured": true,
         "repo": "https://github.com/arnovanstaden/Blink",
         "stack": "Front End PWA"
+    }, {
+        "name": "Birthday Buddy",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A lightweight PWA for easy birthday reminders & congratulatory message sending.",
+        "link": "https://birthday-buddy.vercel.app/",
+        "date": "May 2021",
+        "industry": "Productivity | Social",
+        "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
+        "description": "A lightweight PWA for easy birthday reminders & congratulatory message sending \n\nThe only thing stopping me from deleting my facebook profile are the birthday reminders. I decided to create my own app, with notifications, so I can finally leave FB and never forget my friend's birthday again!",
+        "features": [
+            "Save Birthdays, Keep Track of Upcoming Birthdays & Receive / Set Reminders",
+            "Pre - fill & Share Personalised Messages via Your Preferred App.",
+            "Authentication to Persist Birthdays Across Devices",
+            "Mobile - First Native App Design & Experience",
+            "Progressive Web App Functionality: Native Install & Push Notifications"
+        ],
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/Birthday-Buddy",
+        "stack": "Front End PWA",
+        "status": "In Development"
     }, {
         "name": "Tickity Tackity",
         "type": "Development",
@@ -106,8 +128,7 @@
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/C-DOC",
-        "stack": "Full Stack App",
-        "status": "In Development"
+        "stack": "Full Stack App"
     }, {
         "name": "Art By Jaret",
         "type": "Development",
@@ -139,7 +160,7 @@
         "description": "Webdacity is my web development & design studio based in CapeTown, South Africa. The website provides more information about Webdacity's history, services & past projects.",
         "design": true,
         "visible": true,
-        "featured": true,
+        "featured": false,
         "repo": "https://github.com/arnovanstaden/Webdacity",
         "stack": "Website"
     }, {
