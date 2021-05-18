@@ -22,7 +22,6 @@ export default function Skills() {
         "JSON",
         "GraphQL",
         "Jest",
-        "Webpack",
         "GIT",
         "GitHub",
         "NPM",
