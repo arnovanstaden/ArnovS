@@ -47,7 +47,7 @@ export default function Landing() {
                             </Link>
 
                             <button className="button button--hollow">
-                                <a href="#contact">Let's Talk</a>
+                                <a href="/#contact">Let's Talk</a>
                             </button>
                         </div>
 
