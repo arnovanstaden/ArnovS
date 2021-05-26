@@ -27,6 +27,7 @@ export default function Skills() {
         "NPM",
         "MongoDB",
         "Heroku",
+        "Vercel",
         "Netlify",
         "Adobe Illustrator",
         "Adobe Photoshop",

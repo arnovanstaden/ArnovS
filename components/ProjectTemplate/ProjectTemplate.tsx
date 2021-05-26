@@ -121,7 +121,7 @@ export default function ProjectTemplate({ project, imageCount }) {
                                         {project.elements.map((element, index) => (
                                             <li key={index}>
                                                 <i></i>
-                                                {element}
+                                                <p>{element}</p>
                                             </li>
                                         ))}
                                     </ul>

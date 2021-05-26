@@ -21,28 +21,6 @@
         "repo": "https://github.com/arnovanstaden/The-Mish-Dish",
         "stack": "Full Stack PWA"
     }, {
-        "name": "The Book Nook",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "A Full-Stack PWA for sharing book recommendations.",
-        "date": "March 2021",
-        "industry": "Books | Social Networking",
-        "tools": ["SASS", "TypeScript", "React", "NextJS", "Firebase", "Material-UI"],
-        "description": "Social netowrking via books - think Goodreads meets a virtual book club. Members can manage book clubs and share their favourite books with like-minded readers. Built as a full-stack single-codebase NextJS application.",
-        "features": [
-            "Dynamic Book & Club Pages",
-            "Utilises Google Books' API for fetching book data (via ISBN number seach or barcode scanning)",
-            "Full CRUD functionality for managing books & clubs",
-            "Mobile-First Native App Design & Experience",
-            "Authentication",
-            "Progressive Web App Functionality: Offline Mode & Push Notifications"
-        ],
-        "visible": true,
-        "featured": true,
-        "repo": "https://github.com/arnovanstaden/The-Book-Nook",
-        "stack": "Full Stack PWA",
-        "status": "In Development"
-    }, {
         "name": "Blink - Flashcards",
         "type": "Development",
         "category": "Web Applications",
@@ -71,24 +49,45 @@
         "name": "Birthday Buddy",
         "type": "Development",
         "category": "Web Applications",
-        "brief": "A lightweight PWA for easy birthday reminders & congratulatory message sending.",
+        "brief": "A lightweight PWA for easy birthday reminders, sharing & congratulatory message sending.",
         "link": "https://birthday-buddy.vercel.app/",
         "date": "May 2021",
         "industry": "Productivity | Social",
         "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
-        "description": "A lightweight PWA for easy birthday reminders & congratulatory message sending \n\nThe only thing stopping me from deleting my FaceBook account for good is the birthday reminders. I decided to create my own app, with notifications, so I can finally leave FaceBook and never forget a friend's birthday again!",
+        "description": "A lightweight PWA for easy birthday reminders, sharing & congratulatory message sending. \n\nLet's be honest, the only thing stopping you from permanently deleting your Facebook account are the birthday reminders. I decided to create my own app, with a nicer UI than any app I could find on the App Store, so I can get daily reminders and never forget a friend's birthday again! You can now even share your birthdays with friends to make importing birthdays even easier.",
         "features": [
             "Save Birthdays & Keep Track of Upcoming Birthdays",
-            "Receive & Set Delayed Notifications",
+            "Receive & Set Birthday Reminders",
+            "Share Birthdays with Friends to Save on Their Account",
             "Authentication to Persist Birthdays Across Devices",
             "Mobile - First Native App Design & Experience",
-            "Progressive Web App Functionality: Native Install & Push Notifications",
-            "Upcoming Pre - fill & Share Personalised Messages via Your Preferred App"
+            "Progressive Web App Functionality: Native Install & Push Notifications"
         ],
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/Birthday-Buddy",
-        "stack": "Front End PWA",
+        "stack": "Front End PWA"
+    }, {
+        "name": "The Book Nook",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A Full-Stack PWA for joining online book clubs & sharing book recommendations.",
+        "date": "March 2021",
+        "industry": "Books | Social Networking",
+        "tools": ["SASS", "TypeScript", "React", "NextJS", "Firebase", "Material-UI"],
+        "description": "Social networking via books - think Goodreads meets a virtual book club. Members can join & manage book clubs and share their favourite books with like-minded readers. Stop making lists in random places and sending them via multiple apps to your fellow readers. Just import your book data (via search or ISBN) and share it to your clubs for all your friends to get a glimpse and read your recommendation.",
+        "features": [
+            "Dynamic Book & Club Pages",
+            "Utilises Google Books' API for fetching book data (via ISBN number seach or barcode scanning)",
+            "Full CRUD functionality for managing books & clubs",
+            "Mobile-First Native App Design & Experience",
+            "Authentication",
+            "Progressive Web App Functionality: Offline Mode & Push Notifications"
+        ],
+        "visible": true,
+        "featured": true,
+        "repo": "https://github.com/arnovanstaden/The-Book-Nook",
+        "stack": "Full Stack PWA",
         "status": "In Development"
     }, {
         "name": "Tickity Tackity",
@@ -110,6 +109,28 @@
         "repo": "https://github.com/arnovanstaden/Tickity-Tackity",
         "stack": "Front End PWA"
     }, {
+        "name": "D-MER Worldwide",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A brochure site with course booking functionality & and online shop.",
+        "link": "https://d-mer.vercel.app/",
+        "date": "May 2020",
+        "industry": "Education | E-Commerce",
+        "tools": ["TypeScript", "React", "NextJS", "NodeJS", "MongoDB", "SASS"],
+        "description": "D-MER is an Online Learning Platform And Competence Management System.",
+        "features": [
+            "Dynamic Product Pages",
+            "Local Payment Portal Integration",
+            "Custom Course Booking System",
+            "Custom Dashboard (CMS) For Managing Products, Orders, Courses & Shop Settings"
+        ],
+        "design": true,
+        "visible": true,
+        "featured": false,
+        "repo": "https://github.com/arnovanstaden/D-MER",
+        "stack": "Full Stack App",
+        "status": "In Development"
+    }, {
         "name": "C-DOC",
         "type": "Development",
         "category": "Web Applications",
@@ -120,16 +141,17 @@
         "tools": ["TypeScript", "React", "NextJS", "NodeJS", "MongoDB", "SASS"],
         "description": "The Commercial Diving and Offshore Consultancy Provides Effective Medical Support to the Diving and Maritime Industry. ",
         "features": [
-            "Dynamic product pages",
-            "Local payment portal integration",
-            "Custom catalogue & course order system",
-            "Custom dashboard (CMS) for managing products, orders, blog posts & shop settings"
+            "Dynamic Product Pages",
+            "Local Payment Portal Integration",
+            "Custom Catalogue & Course Order System",
+            "Custom Dashboard (CMS) For Managing Products, Orders, Blog Posts & Shop Settings"
         ],
         "design": true,
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/C-DOC",
-        "stack": "Full Stack App"
+        "stack": "Full Stack App",
+        "status": "In Development"
     }, {
         "name": "Art By Jaret",
         "type": "Development",
@@ -190,13 +212,13 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS", "MongoDB"],
         "description": "Varkhart started as a small e-commerce store but has since grown to a vast online retail endeavour with a substantial online presence. Originally built upon my custom e-commerce platform, it has since grown to encompass fully-fledged reseller, affiliate & coupon programs. \n\nI was involved for every step of the project, from branding to product development.",
         "features": [
-            "Dynamic product pages",
-            "Local payment portal integration",
-            "Affiliate code system (with automatic payment splitting, code tracking & invoice management)",
-            "Coupon code system (newsletter subscriptions + upsell coupons with sms integration)",
-            "Reseller system with cost-price purchasing",
-            "Review system",
-            "Custom dashboard for managing products, orders, affiliates, resellers, coupons & shop settings"
+            "Dynamic Product Pages",
+            "Local Payment Portal Integration",
+            "Affiliate Code System (With Automatic Payment Splitting, Code Tracking & Invoice Management)",
+            "Coupon Code System (Newsletter Subscriptions + Upsell Coupons With Sms Integration)",
+            "Reseller System With Cost-Price Purchasing",
+            "Review System",
+            "Custom Dashboard For Managing Products, Orders, Affiliates, Resellers, Coupons & Shop Settings"
         ],
         "repo": "https://github.com/arnovanstaden/Varkhart",
         "visible": true,
@@ -255,9 +277,9 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "NodeJS"],
         "description": "The GEMMA Institute is a Psychotherapy Clinic based in Frankfurt, Germany. They assist individuals, couples and families experiencing personal and social challenges.\n\nI met their needs by creating a clean & modern website where they can effectively communicate their therapeutic concept and how their therapy works. Custom functionality includes the ability for patients to apply for & complete the relevant consent documentation online, as well as provide feedback for their sessions at the clinic. \n\n Their website is available in both English & German.",
         "features": [
-            "Bilingual content",
-            "Custom & detailed therapy application & feedback forms",
-            "Custom Dashboard for managing applications"
+            "Bilingual Content",
+            "Custom & Detailed Therapy Application & Feedback Forms",
+            "Custom Dashboard For Managing Applications"
         ],
         "featured": false,
         "visible": true,
@@ -274,9 +296,9 @@
         "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
         "description": "NC Chemicals is a manufacturer and distributor of cleaning chemicals for the car wash and industrial industry. \n\nThey originally needed a simple online presence featuring who they are and what they do, as well as accompanying print documents to be designed showcasing their product catalogue. \n\nI recommended integrating my e-commerce platform into their website to function as a one-stop-shop to showcase & sell their products online, from anywhere.",
         "features": [
-            "Dynamic product pages",
-            "Local payment portal integration",
-            "Custom dashboard (CMS) for managing products, orders, & shop settings"
+            "Dynamic Product Pages",
+            "Local Payment Portal Integration",
+            "Custom Dashboard (Cms) For Managing Products, Orders, & Shop Settings"
         ],
         "design": true,
         "visible": true,
@@ -480,6 +502,19 @@
         "tools": ["Adobe Illustrator", "Adobe Photoshop"],
         "elements": ["Logo", "Business Cards", "Email Signatures", "Company Profile"],
         "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
+        "visible": true,
+        "stack": "Brand Identity"
+    },
+    {
+        "name": "Promech",
+        "type": "Design",
+        "category": "Design",
+        "brief": "Promech is a Mechanical Engineering firm situated in Cape Town.",
+        "date": "April 2020",
+        "industry": "Engineering",
+        "tools": ["Adobe Illustrator", "Adobe Photoshop"],
+        "elements": ["Logo", "Business Cards", "Email Signatures", "Company Profile"],
+        "description": "Promech is a Mechanical Engineering firm situated in Cape Town.",
         "visible": true,
         "stack": "Brand Identity"
     }
