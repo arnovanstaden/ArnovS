@@ -30,6 +30,14 @@
         }
     }
 
+    button {
+        background-color: $blue;
+        padding: 0.5rem 1.25rem;
+        color: $white;
+        font-family: $mainfont;
+        font-size: 0.9rem;
+    }
+
 
     .social {
         display: flex;

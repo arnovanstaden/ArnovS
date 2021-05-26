@@ -14,9 +14,11 @@ export default function Contact({ footer }: TContact) {
     return (
         <div className={contactClasses}>
             {footer ? null :
-                <button className="button">
-                    <a href="/other/CV-Arno van Staden-2021.pdf" target="_blank">Download My CV</a>
-                </button>
+                <a href="/other/CV-Arno van Staden-2021.pdf" target="_blank">
+                    <button className="button">
+                        Download My CV
+                    </button>
+                </a>
             }
             <div className={styles.contact}>
                 <a href="mailto:arno@webdacity.dev">
