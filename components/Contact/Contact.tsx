@@ -15,7 +15,7 @@ export default function Contact({ footer }: TContact) {
         <div className={contactClasses}>
             {footer ? null :
                 <button className="button">
-                    <a href="/other/CV-Arno_van_Staden.pdf" target="_blank">Download My CV</a>
+                    <a href="/other/CV-Arno van Staden-2021.pdf" target="_blank">Download My CV</a>
                 </button>
             }
             <div className={styles.contact}>
