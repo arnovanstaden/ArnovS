@@ -25,7 +25,6 @@
         "type": "Development",
         "category": "Web Applications",
         "brief": "A PWA for learning using the spaced repetition principle with flashcards.",
-        "link": "https://blink-flash.vercel.app/",
         "date": "April 2021",
         "industry": "Education | Games",
         "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
@@ -44,13 +43,13 @@
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/Blink",
-        "stack": "Front End PWA"
+        "stack": "Front End PWA",
+        "test_link": "https://blink-flash.vercel.app/signin?test"
     }, {
         "name": "Birthday Buddy",
         "type": "Development",
         "category": "Web Applications",
         "brief": "A lightweight PWA for easy birthday reminders, sharing & congratulatory message sending.",
-        "link": "https://birthday-buddy.vercel.app/",
         "date": "May 2021",
         "industry": "Productivity | Social",
         "tools": ["React", "Javascript", "Firebase", "SASS", "Material-UI"],
@@ -66,7 +65,8 @@
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/Birthday-Buddy",
-        "stack": "Front End PWA"
+        "stack": "Front End PWA",
+        "test_link": "https://birthday-buddy.vercel.app/signin?test"
     }, {
         "name": "The Book Nook",
         "type": "Development",

@@ -1,5 +1,10 @@
-import styles from "./contact.module.scss";
 import ClassNames from 'classnames';
+
+// Components
+import Button from "../Library/Button/Button"
+
+// Styles
+import styles from "./contact.module.scss";
 
 type TContact = {
     footer?: boolean
@@ -14,11 +19,9 @@ export default function Contact({ footer }: TContact) {
     return (
         <div className={contactClasses}>
             {footer ? null :
-                <a href="/other/CV-Arno van Staden-2021.pdf" target="_blank">
-                    <button className="button">
-                        Download My CV
-                    </button>
-                </a>
+                <Button href="/other/CV - Arno van Staden - 2021.pdf">
+                    Download My CV
+                </Button>
             }
             <div className={styles.contact}>
                 <a href="mailto:arno@webdacity.dev">

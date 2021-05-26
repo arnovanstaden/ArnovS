@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 // Components
 import Layout from "../components/Layout/Layout";
 import Landing from "../components/Landing/Landing";
@@ -8,6 +6,7 @@ import Skills from "../components/Skills/Skills";
 import About from "../components/About/About";
 import Contact from '../components/Contact/Contact';
 import Project from "../components/Project/Project";
+import Button from "../components/Library/Button/Button"
 
 // Styles, Icons, Fonts
 import styles from '../styles/index.module.scss';
@@ -31,7 +30,7 @@ export default function Home() {
         <Section light
           idProp="projects"
           heading="Featured Projects"
-          subheading="I don't like talking about what I can do, I prefer showing. Here are some of my featured projects."
+          subheading='Talk is cheap and I prefer putting my code where my keyboard is. Here are some of my featured projects.'
         >
           <div className="project-grid">
             {projects.map((project, index) => (
@@ -39,20 +38,16 @@ export default function Home() {
             ))}
           </div>
           <div className={styles.projectButtons}>
-            <Link href="/projects" passHref>
-              <a >
-                <button className="button">
-                  <a>View All My Work</a>
-                </button>
-              </a>
-            </Link>
+            <Button link="/projects">
+              View All My Work
+            </Button>
           </div>
         </Section>
 
         <Section
           idProp="skills"
           heading="My Skills"
-          subheading="Every project is a new story, yet some things stay the same. This is some of the tech I love using."
+          subheading="Every project is a new story, yet some things stay the same. This is just some of the ever-growing list of tech I love using."
         >
           <Skills />
         </Section>
@@ -60,7 +55,7 @@ export default function Home() {
         <Section light
           idProp="about"
           heading="About Me"
-          subheading="I'm more than just a techy, although I love everything techy."
+          subheading="I'm more than just a techie, although I love everything techie."
         >
           <About />
         </Section>

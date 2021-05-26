@@ -2,12 +2,13 @@ import { useRouter } from "next/router";
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import ReactTooltip from 'react-tooltip';
-import { getProjectImagePath } from "../../utils/projects"
+import { getProjectImagePath } from "../../utils/projects";
+
 
 // Components
 import Layout from '../Layout/Layout';
 import Section from '../Section/Section';
-
+import Button from "../Library/Button/Button"
 
 // Styles
 import styles from "./project-template.module.scss";
@@ -78,21 +79,31 @@ export default function ProjectTemplate({ project, imageCount }) {
                         <p>{project.brief}</p>
                         <div className={styles.buttons}>
                             {project.link ?
-                                <a href={project.link} target="blank" className="button-link">
-                                    <button >
-                                        <i className="icon-link"></i>
-                                Visit Site
-                                </button>
-                                </a>
+                                <Button
+                                    href={project.link}
+                                    icon={<i className="icon-link"></i>}
+                                >
+                                    Visit Site
+                                </Button>
+                                : null}
+                            {project.test_link ?
+                                <Button
+                                    href={project.test_link}
+                                    icon={<i className="icon-coding"></i>}
+                                    dataTip="Explore This App With A Dummy Account"
+                                >
+                                    Test Run
+                                </Button>
                                 : null}
                             {project.repo ?
-                                <a href={project.repo} target="blank" className="button-link">
-                                    <button className="button button--border">
-                                        <i className="icon-github"></i>
-                                        Repo
-                                    </button>
-                                </a>
+                                <Button
+                                    href={project.repo}
+                                    icon={<i className="icon-github"></i>}
+                                >
+                                    Repo
+                                </Button>
                                 : null}
+
                         </div>
                     </div>
                 </section>
@@ -183,6 +194,6 @@ export default function ProjectTemplate({ project, imageCount }) {
                     <ProjectImages />
                 </div>
             </Section>
-        </Layout>
+        </Layout >
     )
 }

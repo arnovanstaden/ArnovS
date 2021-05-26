@@ -32,9 +32,14 @@
         display: flex;
         margin-top: 2rem;
         justify-content: center;
+        margin-right: 1.5rem;
 
-        >a:first-child {
+        a {
             margin-right: 1.5rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 }

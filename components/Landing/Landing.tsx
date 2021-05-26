@@ -1,9 +1,9 @@
-import Link from "next/link";
-import LandingAnimation from '../LandingAnimation/LandingAnimation';
 import { useEffect } from "react";
 import { useMediaQuery } from 'react-responsive'
 
-
+// Components
+import LandingAnimation from '../LandingAnimation/LandingAnimation';
+import Button from "../Library/Button/Button"
 
 // Styles
 import styles from "./landing.module.scss";
@@ -35,20 +35,16 @@ export default function Landing() {
                         </p>
                         <div className={styles.status}>
                             <p className="info-block">Status</p>
-                            <p > Seeking Employment in Berlin, Germany.</p>
+                            <p>Seeking Employment in Berlin, Germany.</p>
                         </div>
                         <div className={styles.buttons}>
-                            <Link href="/projects">
-                                <a>
-                                    <button className="button">
-                                        <a>View My Work</a>
-                                    </button>
-                                </a>
-                            </Link>
+                            <Button link="/projects">
+                                View My Work
+                            </Button>
 
-                            <button className="button button--hollow">
-                                <a href="/#contact">Let's Talk</a>
-                            </button>
+                            <Button link="/#contact" hollow>
+                                Let's Talk
+                            </Button>
                         </div>
 
 

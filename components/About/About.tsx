@@ -14,6 +14,7 @@ export default function About() {
     return (
         <div className={styles.grid}>
             <div className={styles.text}>
+                <p className="info-block">Overview</p>
                 <p>The best things in life are JavaScript, travelling and coffee; with a strong cup of coffee having an index of 0.</p>
 
                 <p>Growing up exposed to the golden era of Windows 98 Home Edition, I fell in love with computers, the internet and everything in its orbit. The dial-up sound was my life's theme-song during my childhood years.</p>

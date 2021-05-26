@@ -1,6 +1,8 @@
-import Link from 'next/link';
+// Components
 import Layout from './../components/Layout/Layout';
+import Button from "../components/Library/Button/Button"
 
+// Styles
 import styles from "../styles/404.module.scss";
 
 export default function PageNotFound() {
@@ -17,11 +19,9 @@ export default function PageNotFound() {
                     <h1>404 | Page Not Found</h1>
                     <p>The page you are looking for does not exist.</p>
                     <div className={styles.buttons}>
-                        <button className="button">
-                            <Link href="/">
-                                Go Back
-                        </Link>
-                        </button>
+                        <Button link="/">
+                            Go Back
+                        </Button>
                     </div>
                 </div>
 

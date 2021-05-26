@@ -16,12 +16,20 @@
             padding: 1.25rem 3rem;
             align-items: center;
             transition: 0.3s ease-in-out;
-            // color: $white;
 
             i {
                 font-size: 1.25rem;
                 color: $blue;
                 margin-right: 0.5rem;
+                transition: 0.3s ease-in-out;
+            }
+
+            &:hover {
+                background-color: $blue;
+
+                i {
+                    color: $white;
+                }
             }
         }
 
