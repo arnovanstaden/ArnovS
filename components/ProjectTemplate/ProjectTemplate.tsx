@@ -92,7 +92,7 @@ export default function ProjectTemplate({ project, imageCount }) {
                                     icon={<i className="icon-coding"></i>}
                                     dataTip="Explore This App With A Demo Account"
                                 >
-                                    Try Demo
+                                    Visit Demo
                                 </Button>
                                 : null}
                             {project.repo ?
