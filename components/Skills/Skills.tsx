@@ -27,7 +27,7 @@ export default function Skills() {
         "GitHub",
         "NPM",
         "MongoDB",
-        "Express"
+        "ExpressJS",
         "Heroku",
         "Vercel",
         "Netlify",
