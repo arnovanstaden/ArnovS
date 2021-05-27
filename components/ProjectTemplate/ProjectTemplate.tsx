@@ -90,9 +90,9 @@ export default function ProjectTemplate({ project, imageCount }) {
                                 <Button
                                     href={project.test_link}
                                     icon={<i className="icon-coding"></i>}
-                                    dataTip="Explore This App With A Dummy Account"
+                                    dataTip="Explore This App With A Demo Account"
                                 >
-                                    Test Run
+                                    Try Demo
                                 </Button>
                                 : null}
                             {project.repo ?
