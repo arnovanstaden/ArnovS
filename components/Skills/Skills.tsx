@@ -15,6 +15,7 @@ export default function Skills() {
         "React",
         "NextJS",
         "Gatsby",
+        "Sanity",
         "Firebase",
         "JQuery",
         "Bootstrap",
@@ -26,6 +27,7 @@ export default function Skills() {
         "GitHub",
         "NPM",
         "MongoDB",
+        "Express"
         "Heroku",
         "Vercel",
         "Netlify",
