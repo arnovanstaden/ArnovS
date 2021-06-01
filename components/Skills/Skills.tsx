@@ -31,6 +31,7 @@ export default function Skills() {
         "Heroku",
         "Vercel",
         "Netlify",
+        "Jira",
         "Adobe Illustrator",
         "Adobe Photoshop",
         "Adobe After Effects",]

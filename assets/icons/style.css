@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?bdqllr');
-  src:  url('fonts/icomoon.eot?bdqllr#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?bdqllr') format('truetype'),
-    url('fonts/icomoon.woff?bdqllr') format('woff'),
-    url('fonts/icomoon.svg?bdqllr#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?veboza');
+  src:  url('fonts/icomoon.eot?veboza#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?veboza') format('truetype'),
+    url('fonts/icomoon.woff?veboza') format('woff'),
+    url('fonts/icomoon.svg?veboza#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -40,6 +40,9 @@
 }
 .icon-material-ui:before {
   content: "\e92f";
+}
+.icon-jira:before {
+  content: "\e932";
 }
 .icon-graphql:before {
   content: "\e92e";
