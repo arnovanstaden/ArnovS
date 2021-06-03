@@ -74,7 +74,7 @@
         "brief": "A Full-Stack PWA for joining online book clubs & sharing book recommendations.",
         "date": "March 2021",
         "industry": "Books | Social Networking",
-        "tools": ["SASS", "TypeScript", "React", "NextJS", "Firebase", "Material-UI"],
+        "tools": ["TypeScript", "React", "NextJS", "Firebase", "Material-UI", "SASS"],
         "description": "Social networking via books - think Goodreads meets a virtual book club. Members can join & manage book clubs and share their favourite books with like-minded readers. Stop making lists in random places and sending them via multiple apps to your fellow readers. Just import your book data (via search or ISBN) and share it to your clubs for all your friends to get a glimpse and read your recommendation.",
         "features": [
             "Dynamic Book & Club Pages",
@@ -87,6 +87,27 @@
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/The-Book-Nook",
+        "stack": "Full Stack PWA",
+        "status": "In Development"
+    }, {
+        "name": "Triple D",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "A PWA for learning German Nouns, and those pesky Articles.",
+        "date": "May 2021",
+        "industry": "Language | Education",
+        "tools": ["TypeScript", "React", "NextJS", "Sanity", "GraphQL", "Material-UI", "SASS"],
+        "description": "[In Development] A PWA for learning German Nouns, and those pesky Articles, by language level and category through flashcards with images and content sourced from a headless CMS.",
+        "features": [
+            "Learn German Nouns + Articles through Flashcard Images",
+            "Choose Between Noun/Article Learning Modes or a Combination",
+            "Learn by Language Level or Category",
+            "Mobile - First Native App Design & Experience",
+            "Progressive Web App Functionality",
+            "Statically Generated Content = Blazing Fast"
+        ],
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/Triple-D",
         "stack": "Full Stack PWA",
         "status": "In Development"
     }, {
@@ -150,27 +171,25 @@
         "visible": true,
         "featured": true,
         "repo": "https://github.com/arnovanstaden/C-DOC",
-        "stack": "Full Stack App",
-        "status": "In Development"
-    }, {
-        "name": "Art By Jaret",
-        "type": "Development",
-        "category": "Web Applications",
-        "brief": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
-        "link": "https://artbyjaret.co.za",
-        "date": "November 2020",
-        "industry": "Art | E-Commerce",
-        "tools": ["Javascript", "React", "SASS", "Gatsby", "NodeJS", "MongoDB"],
-        "description": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
-        "features": [
-            "Dynamic product & artwork pages",
-            "Local payment portal integration",
-            "Custom dashboard (CMS) for managing products, orders, artwork & shop settings"
-        ],
-        "design": true,
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/ArtByJaret",
         "stack": "Full Stack App"
+    }, {
+        "name": "PR Engineering",
+        "type": "Development",
+        "category": "Websites",
+        "brief": "A rebuilt & redesigned website for an engineering firm, showcasing their services & past projects.",
+        "link": "https://engpr.vercel.app/",
+        "date": "May 2020",
+        "industry": "Engineering",
+        "tools": ["TypeScript", "React", "NextJS", "Sanity", "SASS"],
+        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
+        "features": [
+            "Dynamic Project Pages",
+            "Headless CMS (Sanity.io) for Project Content Management"
+        ],
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/PR-Engineering",
+        "stack": "Website",
+        "status": "In Development"
     }, {
         "name": "Webdacity",
         "type": "Development",
@@ -222,6 +241,25 @@
         ],
         "repo": "https://github.com/arnovanstaden/Varkhart",
         "visible": true,
+        "stack": "Full Stack App"
+    }, {
+        "name": "Art By Jaret",
+        "type": "Development",
+        "category": "Web Applications",
+        "brief": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
+        "link": "https://artbyjaret.co.za",
+        "date": "November 2020",
+        "industry": "Art | E-Commerce",
+        "tools": ["Javascript", "React", "SASS", "Gatsby", "NodeJS", "MongoDB"],
+        "description": "An online art exhibition with a fully-fledged custom online store selling artworks & gifts.",
+        "features": [
+            "Dynamic product & artwork pages",
+            "Local payment portal integration",
+            "Custom dashboard (CMS) for managing products, orders, artwork & shop settings"
+        ],
+        "design": true,
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/ArtByJaret",
         "stack": "Full Stack App"
     }, {
         "name": "Together Through Skills",
@@ -383,19 +421,6 @@
         "description": "Craft Consulting is a Cape Town based Civil & Structural Engineering firm. \n\nThey needed a minimalist & clean website to showcase their services & previous projects. They struggled with establishing a good design with the DIY website builder Wix and required professional help with their website's redesign. \n\nThey requested to keep the dark & moody theme, but with a complete design overhaul & updated content to match their current brand image. ",
         "visible": true,
         "repo": "https://github.com/arnovanstaden/CraftConsulting",
-        "stack": "Website"
-    }, {
-        "name": "PR Engineering",
-        "type": "Development",
-        "category": "Websites",
-        "brief": "A website for an engineering firm, showcasing their services & past projects.",
-        "link": "https://www.engpr.com",
-        "date": "June 2019",
-        "industry": "Engineering",
-        "tools": ["HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/PR-Engineering",
         "stack": "Website"
     }, {
         "name": "U & Me Wedding",
