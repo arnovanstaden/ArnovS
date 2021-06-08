@@ -152,6 +152,25 @@
         "stack": "Full Stack App",
         "status": "In Development"
     }, {
+        "name": "PR Engineering",
+        "type": "Development",
+        "category": "Websites",
+        "brief": "A rebuilt & redesigned website for an engineering firm, showcasing their services & past projects.",
+        "link": "https://engpr.vercel.app/",
+        "date": "May 2020",
+        "industry": "Engineering",
+        "tools": ["TypeScript", "React", "NextJS", "Sanity", "SASS"],
+        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
+        "features": [
+            "Dynamic Project Pages",
+            "Headless CMS (Sanity.io) for Project Content Management"
+        ],
+        "visible": true,
+        "repo": "https://github.com/arnovanstaden/PR-Engineering",
+        "stack": "Website",
+        "status": "In Development",
+        "featured": true
+    }, {
         "name": "C-DOC",
         "type": "Development",
         "category": "Web Applications",
@@ -173,24 +192,6 @@
         "repo": "https://github.com/arnovanstaden/C-DOC",
         "stack": "Full Stack App"
     }, {
-        "name": "PR Engineering",
-        "type": "Development",
-        "category": "Websites",
-        "brief": "A rebuilt & redesigned website for an engineering firm, showcasing their services & past projects.",
-        "link": "https://engpr.vercel.app/",
-        "date": "May 2020",
-        "industry": "Engineering",
-        "tools": ["TypeScript", "React", "NextJS", "Sanity", "SASS"],
-        "description": "PR Engineering is a consulting engineering firm providing comprehensive and value-driven design and project management services. \n\nThey were in the market for a website with the primary focus being to exhibit their past & current engineering products to prospective new clients. The website also needed to properly showcase the array of professional services they offer & other important information relating to the company.",
-        "features": [
-            "Dynamic Project Pages",
-            "Headless CMS (Sanity.io) for Project Content Management"
-        ],
-        "visible": true,
-        "repo": "https://github.com/arnovanstaden/PR-Engineering",
-        "stack": "Website",
-        "status": "In Development"
-    }, {
         "name": "Webdacity",
         "type": "Development",
         "category": "Websites",
@@ -202,7 +203,7 @@
         "description": "Webdacity is my web development & design studio based in CapeTown, South Africa. The website provides more information about Webdacity's history, services & past projects.",
         "design": true,
         "visible": true,
-        "featured": false,
+        "featured": true,
         "repo": "https://github.com/arnovanstaden/Webdacity",
         "stack": "Website"
     }, {
@@ -219,7 +220,8 @@
         "visible": true,
         "repo": "https://github.com/arnovanstaden/B-H-R",
         "stack": "Website",
-        "status": "In Development"
+        "status": "In Development",
+        "featured": false
     }, {
         "name": "Varkhart",
         "type": "Development",
@@ -272,7 +274,7 @@
         "tools": ["Javascript", "React", "Gatsby", "SASS"],
         "description": "Together Through Skills (TTS), a recruitment, training and placement company, focusing on youth employment, entrepreneurship development, rural communities and people living with disabilities ",
         "design": true,
-        "featured": false,
+        "featured": true,
         "visible": true,
         "repo": "https://github.com/arnovanstaden/T-T-S",
         "stack": "Website"
