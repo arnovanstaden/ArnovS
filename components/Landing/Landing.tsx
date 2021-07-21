@@ -31,11 +31,11 @@ export default function Landing() {
                         <p className="info-block">Front End Developer</p>
                         <h1 className={styles.name}>Hello, I'm Arno van Staden.</h1>
                         <p className={styles.description}>
-                            South African Front End Web Developer &amp; Designer currently offering web development and design services over at <a href="https://webdacity.dev" target="blank">Webdacity</a>. I design and build bespoke web applications and websites to help  clients grow their business.
+                            South African Frontend Engineer over at <a href="https://www.tandem.net" target="blank">Tandem</a>. I help build a product that connects language learners all over the world.
                         </p>
                         <div className={styles.status}>
                             <p className="info-block">Status</p>
-                            <p>Seeking Employment in Berlin, Germany.</p>
+                            <p>Relocating Berlin, Germany.</p>
                         </div>
                         <div className={styles.buttons}>
                             <Button link="/projects">
