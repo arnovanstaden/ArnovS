@@ -33,14 +33,6 @@ export default function Contact({ footer }: TContact) {
                     <i className="icon-linkedin"></i>
                     LinkedIn
                 </a>
-                <a href="https://dribbble.com/Webdacity" target="blank">
-                    <i className="icon-dribbble"></i>
-                    Dribbble
-                </a>
-                <a href="https://www.behance.net/Webdacity" target="blank">
-                    <i className="icon-behance"></i>
-                    Behance
-                </a>
             </div>
         </div>
     )
