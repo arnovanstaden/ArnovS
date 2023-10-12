@@ -6,19 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "tsc-lint": "tsc --noEmit"
   },
   "dependencies": {
+    "next": "13.5.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^13.5.4",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "sass": "^1.69.3",
+    "typescript": "^5"
   }
 }
