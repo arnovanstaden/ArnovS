@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-display: swap;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $colour-black;
+  font-family: $font-body;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  color: $colour-white;
+  transition: 0.3s ease-out;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+
+  &-track {
+    background: $colour-black;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  &-thumb {
+    background: $colour-blue;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out;
+
+    &:hover {
+      background: $colour-white;
+    }
+  }
+}
