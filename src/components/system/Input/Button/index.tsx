@@ -1,7 +1,6 @@
-import Link from "next/link";
-import ClassNames from "classnames";
+import ClassNames from 'classnames';
 
-import styles from "./styles.module.scss";
+import styles from './styles.module.scss';
 
 interface IProps {
   children: string,
@@ -9,18 +8,18 @@ interface IProps {
   hollow?: boolean;
 }
 
-const Button = ({ children, icon, hollow }: IProps) => {
+const Button = ({ children, icon, hollow }: IProps): JSX.Element => {
   const classes = ClassNames(
     styles.Button,
-    hollow ? styles.hollow : null
-  )
+    hollow ? styles.hollow : null,
+  );
 
   return (
-    <button className={classes} >
-      {icon ? icon : null}
+    <button className={classes}>
+      {icon || null}
       {children}
     </button>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

@@ -1,9 +1,5 @@
-import Image from 'next/image'
+const HomePage = (): JSX.Element => (
+  <main />
+);
 
-export default function Home() {
-  return (
-    <main>
-
-    </main>
-  )
-}
+export default HomePage;
