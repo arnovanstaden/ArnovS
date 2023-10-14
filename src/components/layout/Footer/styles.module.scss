@@ -6,13 +6,13 @@
 
   .mail {
     display: flex;
-    background-color: $colour-grey;
+    background-color: $colour-black;
     padding: 1.25rem 3rem;
     align-items: center;
     transition: 0.3s ease-in-out;
     gap: 1rem;
 
-    .icon {
+    svg {
       font-size: 1.25rem;
       color: $colour-blue;
       transition: 0.3s ease-in-out;
@@ -21,7 +21,7 @@
     &:hover {
       background-color: $colour-blue;
 
-      .icon {
+      svg {
         color: $colour-white;
       }
     }
@@ -39,7 +39,7 @@
       transition: 0.3s ease-in-out;
       font-size: 0.9rem;
 
-      .icon {
+      svg {
         font-size: 1.5rem;
         color: $colour-blue;
         margin-right: 0.5rem;

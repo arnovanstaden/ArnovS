@@ -11,18 +11,19 @@ const Footer = (): JSX.Element => (
     subheading="If you're interested and would like to hear more about what makes me tick as a developer, please don't hesitate to get in touch."
     contentClassName={styles.Footer}
     component="footer"
+    light
   >
     <a href="mailto:arno@arnovs.dev" className={styles.mail}>
-      <EmailIcon className={styles.icon} />
+      <EmailIcon />
       arno@arnovs.dev
     </a>
     <div className={styles.social}>
       <a href="https://github.com/arnovanstaden" target="blank">
-        <GitHubIcon className={styles.icon} />
+        <GitHubIcon />
         GitHub
       </a>
       <a href="https://www.linkedin.com/in/arnovanstaden/" target="blank">
-        <LinkedInIcon className={styles.icon} />
+        <LinkedInIcon />
         LinkedIn
       </a>
     </div>

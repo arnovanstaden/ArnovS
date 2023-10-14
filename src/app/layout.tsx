@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 import { Source_Code_Pro, Source_Sans_3 } from 'next/font/google';
 import Footer from '@components/layout/Footer/Footer';
 import Header from '@components/layout/Header/Header';
+import ToolTip from '@components/system/display/ToolTip';
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element =>
       <Header />
       {children}
       <Footer />
+      <ToolTip />
     </body>
   </html>
 );

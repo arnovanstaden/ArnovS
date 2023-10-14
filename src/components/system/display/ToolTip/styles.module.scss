@@ -1,0 +1,8 @@
+.Tooltip {
+  border: 1px solid $colour-blue;
+
+  .arrow {
+    border-right: 1px solid $colour-blue;
+    border-bottom: 1px solid $colour-blue;
+  }
+}

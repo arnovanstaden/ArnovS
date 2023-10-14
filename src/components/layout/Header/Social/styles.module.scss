@@ -6,13 +6,13 @@
   gap: 1rem;
 
   a {
-    .icon {
+    svg {
       color: $colour-white;
       transition: 0.2s ease-in-out;
       font-size: 1.1rem;
     }
 
-    &:hover .icon {
+    &:hover svg {
       color: $colour-blue;
     }
 
@@ -21,14 +21,14 @@
       border: 1px solid transparent;
       padding: 0.5rem 0.75rem;
 
-      .icon {
+      svg {
         transform: rotate(-45deg);
       }
 
       &:hover {
         border-color: $colour-blue;
 
-        .icon {
+        svg {
           color: $colour-white;
         }
       }

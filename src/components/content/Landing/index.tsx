@@ -15,7 +15,7 @@ const Landing = (): JSX.Element | null => (
           <Chip>Front End Developer</Chip>
           <h1 className={styles.name}>Hello, I'm Arno van Staden.</h1>
           <p className={styles.description}>
-            Frontend Engineer
+            Turning Coffee into Code and Code into Smiles
           </p>
           <div className={styles.info}>
             <Chip outlined>Status</Chip>
