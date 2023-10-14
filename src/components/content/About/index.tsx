@@ -30,11 +30,11 @@ const About = (): JSX.Element | null => (
             <p>Years <br /> Experience</p>
           </div>
           <div className={styles.stat}>
-            <span>55+</span>
+            <span>60+</span>
             <p>Projects <br /> Completed</p>
           </div>
           <div className={styles.stat}>
-            <span>2k+</span>
+            <span>5k+</span>
             <p>Commits <br />on GitHub</p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const About = (): JSX.Element | null => (
           </li>
           <li>
             <span />
-            German <span>- A1</span>
+            German <span>- B1(ish)</span>
           </li>
         </ul>
       </div>

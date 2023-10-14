@@ -9,7 +9,7 @@ const HomePage = (): JSX.Element => (
     <Section
       light
       id="about"
-      heading="About Me"
+      heading="About"
       subheading="I'm more than just a techie, although I love everything techie."
     >
       <About />
@@ -17,7 +17,7 @@ const HomePage = (): JSX.Element => (
 
     <Section
       id="skills"
-      heading="My Skills"
+      heading="Skills"
       subheading="Every project is a new story, yet some things stay the same. This is just some of the ever-growing list of tech I love using."
     >
       <Skills />
@@ -26,7 +26,7 @@ const HomePage = (): JSX.Element => (
     <Section
       light
       id="experience"
-      heading="Commit History"
+      heading="Experience"
       subheading="Every project is a new story, yet some things stay the same. This is just some of the ever-growing list of tech I love using."
     >
       <br />
@@ -37,7 +37,7 @@ const HomePage = (): JSX.Element => (
       heading="Projects"
       subheading="Talk is cheap and I prefer putting my code where my keyboard is. Here are some of my featured projects."
     >
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe eveniet similique quos a illum assumenda, maiores ducimus ab adipisci distinctio tenetur nam ipsam porro, quisquam consequatur explicabo, quo veritatis impedit repudiandae quod architecto expedita mollitia. Qui asperiores saepe dicta ex quos illo? Magnam accusamus id inventore at hic magni eum.</p>
+      <br />
     </Section>
   </main>
 );

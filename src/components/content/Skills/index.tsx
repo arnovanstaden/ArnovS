@@ -9,6 +9,7 @@ const Skills = (): JSX.Element | null => {
     'TypeScript',
     'SQL',
     'GraphQL',
+    'JQuery',
   ];
 
   const frameworksAndLibraries = [
@@ -16,15 +17,16 @@ const Skills = (): JSX.Element | null => {
     'React',
     'NextJS',
     'ExpressJS',
-    'Material-UI',
+    'Material UI',
     'Jest',
     'GIT',
     'MongoDB',
-    'MySQL',
+    'JAMstack',
   ];
 
   const platforms = [
     'Firebase',
+    'Google Cloud',
     'AWS',
     'Vercel',
     'Jira',

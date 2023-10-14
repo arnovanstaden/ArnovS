@@ -8,8 +8,8 @@ const NavList = ({ onClick }: { onClick?: () => void }): JSX.Element => {
     slug: string,
     label: string,
   }[] = [{
-    slug: '/projects',
-    label: 'Projects',
+    slug: '#about',
+    label: 'About',
   },
   {
     slug: '#skills',
@@ -17,7 +17,11 @@ const NavList = ({ onClick }: { onClick?: () => void }): JSX.Element => {
   },
   {
     slug: '#about',
-    label: 'About',
+    label: 'Experience',
+  },
+  {
+    slug: '/projects',
+    label: 'Projects',
   },
   {
     slug: '#contact',

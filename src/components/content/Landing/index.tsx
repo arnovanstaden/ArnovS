@@ -3,6 +3,7 @@ import styles from './styles.module.scss';
 import Button from '@components/system/Input/Button';
 import Link from 'next/link';
 import Chip from '@components/system/display/Chip';
+import TypingAnimation from './TypingAnimation';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
@@ -14,9 +15,7 @@ const Landing = (): JSX.Element | null => (
         <div className={styles.content}>
           <Chip>Front End Developer</Chip>
           <h1 className={styles.name}>Hello, I'm Arno van Staden.</h1>
-          <p className={styles.description}>
-            Turning Coffee into Code and Code into Smiles
-          </p>
+          <TypingAnimation />
           <div className={styles.info}>
             <Chip outlined>Status</Chip>
             <p>Open to Work.</p>
