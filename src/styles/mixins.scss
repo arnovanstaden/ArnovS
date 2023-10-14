@@ -3,3 +3,9 @@
   -webkit-box-shadow: inset 0 0 1.5rem $colour-black;
   box-shadow: inset 0 0 1.5rem $colour-black;
 }
+
+@mixin resetList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
