@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import SendIcon from '@mui/icons-material/Send';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Social = (): JSX.Element => (
   <nav className={styles.Social}>
@@ -12,7 +12,7 @@ const Social = (): JSX.Element => (
       <LinkedInIcon />
     </a>
     <a href="mailto:arno@arnovs.dev" aria-label="Email" className={styles.mail}>
-      <SendIcon />
+      <EmailIcon />
     </a>
   </nav>
 );

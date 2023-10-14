@@ -13,7 +13,7 @@ const Landing = (): JSX.Element | null => (
           ok
         </div>
         <div className={styles.content}>
-          <Chip>Front End Developer</Chip>
+          <Chip>Front End Engineer</Chip>
           <h1 className={styles.name}>Hello, I'm Arno van Staden.</h1>
           <TypingAnimation />
           <div className={styles.info}>

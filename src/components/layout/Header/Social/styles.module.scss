@@ -1,11 +1,11 @@
 .Social {
   display: flex;
-  padding: 0;
-  margin: 0;
   align-items: center;
   gap: 1rem;
 
   a {
+    display: flex;
+
     svg {
       color: $colour-white;
       transition: 0.2s ease-in-out;
@@ -19,11 +19,11 @@
     &.mail {
       background-color: $colour-grey;
       border: 1px solid transparent;
-      padding: 0.5rem 0.75rem;
-
-      svg {
-        transform: rotate(-45deg);
-      }
+      width: 2.25rem;
+      height: 2.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         border-color: $colour-blue;

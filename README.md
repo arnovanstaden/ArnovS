@@ -1,5 +1,5 @@
 # ArnoVS
-My personal developer's portfolio showcasing information about me, my skills and my featured projects.
+My personal engineering portfolio showcasing information about me, my skills and my featured projects.
 
 ## Link
 You can visit the site [here](https://arnovs.dev/).

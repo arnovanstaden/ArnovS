@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => (
   <Section
     id="contact"
     heading="Get in Touch"
-    subheading="If you're interested and would like to hear more about what makes me tick as a developer, please don't hesitate to get in touch."
+    subheading="If you're interested and would like to hear more about what makes me tick as an engineer, please don't hesitate to get in touch."
     contentClassName={styles.Footer}
     component="footer"
     light
