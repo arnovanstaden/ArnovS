@@ -1,0 +1,79 @@
+.MobileNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 0;
+  z-index: 1000;
+  display: flex;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  box-sizing: border-box;
+
+  .notNav {
+    width: 60%;
+  }
+
+  .mobileButton {
+    background-color: transparent;
+    border: 1.5px solid transparent;
+    outline: none;
+    padding: 0.25rem 0.5rem;
+    transition: 0.3s ease;
+    display: none;
+    cursor: pointer;
+
+    i {
+      font-size: 1.1rem;
+      color: $colour-blue;
+      transition: 0.3s ease;
+    }
+
+    &:hover {
+      border-color: $colour-blue;
+
+      i {
+        color: $colour-white;
+      }
+    }
+  }
+
+  .menu {
+    width: 40%;
+    background-color: $colour-black;
+    border-left: 2px solid $colour-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    a {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+
+    .social {
+      position: absolute;
+      bottom: 2rem;
+
+      a {
+        font-size: 0.9rem;
+      }
+    }
+
+    .close {
+      font-size: 1.5rem;
+      color: $colour-white;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  &.open {
+    width: 100vw;
+  }
+}

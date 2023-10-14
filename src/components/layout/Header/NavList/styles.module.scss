@@ -1,0 +1,26 @@
+.NavList {
+  display: flex;
+
+  &:hover a {
+    opacity: 0.6;
+  }
+
+  a {
+    color: $colour-white;
+    font-weight: 500;
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease-in-out;
+    padding: 0.25rem 0.5rem;
+    margin-right: 2rem;
+
+    &:hover {
+      background-color: $colour-blue;
+      opacity: 1;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

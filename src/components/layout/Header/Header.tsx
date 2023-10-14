@@ -1,4 +1,3 @@
-import MobileNav from './MobileNav';
 import NavList from './NavList';
 import Social from './Social';
 import styles from './styles.module.scss';
@@ -8,15 +7,14 @@ const Header = (): JSX.Element => (
   <header className={styles.header}>
     <Link href="/" className={styles.name}>
       <img className={styles.logo} src="/images/logos/logo-light.svg" alt="arnovs logo" width="24px" height="100%" />
-      <span>Arno</span>
-      {' '}
-      van Staden
+      <p>
+        <span>Arno </span>
+        van Staden
+      </p>
     </Link>
-    <nav className={styles.nav}>
-      <NavList />
-    </nav>
+    <NavList />
     <Social />
-    <MobileNav />
+    {/* <MobileNav /> */}
   </header>
 );
 

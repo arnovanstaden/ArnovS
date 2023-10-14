@@ -3,7 +3,7 @@ import '@styles/global.scss';
 import type { Metadata } from 'next';
 // eslint-disable-next-line camelcase
 import { Source_Code_Pro, Source_Sans_3 } from 'next/font/google';
-import Footer from '@components/layout/Footer/Footer';
+// import Footer from '@components/layout/Footer/Footer';
 import Header from '@components/layout/Header/Header';
 
 const sourceCodePro = Source_Code_Pro({
@@ -30,10 +30,11 @@ const fontClasses = classNames(
 
 const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element => (
   <html lang="en">
-    <body className={fontClasses}>{children}</body>
-    <Header />
-    {children}
-    <Footer />
+    <body className={fontClasses}>
+      <Header />
+      {children}
+      {/* <Footer /> */}
+    </body>
   </html>
 );
 
