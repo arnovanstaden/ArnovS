@@ -1,0 +1,12 @@
+.Chip {
+  font-size: 0.8rem;
+  background-color: $colour-blue;
+  padding: 0.3rem 1rem;
+  display: inline-block;
+  margin: 0;
+
+  &.outlined {
+    background-color: transparent;
+    border: 1px solid $colour-blue;
+  }
+}

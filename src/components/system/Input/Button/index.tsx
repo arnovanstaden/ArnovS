@@ -5,13 +5,13 @@ import styles from './styles.module.scss';
 interface IProps {
   children: string,
   icon?: React.ReactNode,
-  hollow?: boolean;
+  outlined?: boolean;
 }
 
-const Button = ({ children, icon, hollow }: IProps): JSX.Element => {
+const Button = ({ children, icon, outlined }: IProps): JSX.Element => {
   const classes = ClassNames(
     styles.Button,
-    hollow ? styles.hollow : null,
+    outlined ? styles.outlined : null,
   );
 
   return (

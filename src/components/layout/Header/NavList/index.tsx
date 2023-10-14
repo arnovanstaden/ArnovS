@@ -12,15 +12,15 @@ const NavList = ({ onClick }: { onClick?: () => void }): JSX.Element => {
     label: 'Projects',
   },
   {
-    slug: '/skills',
+    slug: '#skills',
     label: 'Skills',
   },
   {
-    slug: '/about',
+    slug: '#about',
     label: 'About',
   },
   {
-    slug: '/contact',
+    slug: '#contact',
     label: 'Contact',
   }];
 
