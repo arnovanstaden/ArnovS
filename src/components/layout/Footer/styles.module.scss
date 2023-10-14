@@ -1,4 +1,50 @@
 .Footer {
-  padding: 4rem 0;
-  background-color: $colour-grey;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .mail {
+    display: flex;
+    background-color: $colour-grey;
+    padding: 1.25rem 3rem;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    gap: 1rem;
+
+    .icon {
+      font-size: 1.25rem;
+      color: $colour-blue;
+      transition: 0.3s ease-in-out;
+    }
+
+    &:hover {
+      background-color: $colour-blue;
+
+      .icon {
+        color: $colour-white;
+      }
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      transition: 0.3s ease-in-out;
+      font-size: 0.9rem;
+
+      .icon {
+        font-size: 1.5rem;
+        color: $colour-blue;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
 }

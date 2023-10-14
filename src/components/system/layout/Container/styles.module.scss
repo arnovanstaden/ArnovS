@@ -1,0 +1,23 @@
+.Container {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 2rem;
+
+  @media (min-width: $breakpoint-xs) {
+    padding: 0 1rem;
+    max-width: unset;
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    max-width: 720px;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    max-width: 1140px;
+  }
+}

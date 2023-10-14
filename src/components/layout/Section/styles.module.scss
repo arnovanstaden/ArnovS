@@ -1,0 +1,36 @@
+.Section {
+  padding: 8rem;
+  box-sizing: border-box;
+  width: 100%;
+
+  .heading {
+    text-align: center;
+    padding-bottom: 5rem;
+    text-align: center;
+
+    img {
+      width: 2rem;
+    }
+
+    h1 {
+      color: $colour-blue;
+      letter-spacing: 1px;
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 0.75rem;
+      color: $colour-white;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+
+  &.light {
+    background-color: $colour-grey;
+  }
+}

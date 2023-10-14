@@ -1,11 +1,32 @@
+import Section from '../Section';
 import styles from './styles.module.scss';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = (): JSX.Element => (
-  <footer className={styles.Footer}>
-    <div className="container">
-      {/* <Contact footer /> */}
+  <Section
+    id="contact"
+    heading="Get in Touch"
+    subheading="If you're interested and would like to hear more about what makes me tick as a developer, please don't hesitate to get in touch."
+    contentClassName={styles.Footer}
+    component="footer"
+  >
+    <a href="mailto:arno@arnovs.dev" className={styles.mail}>
+      <EmailIcon className={styles.icon} />
+      arno@arnovs.dev
+    </a>
+    <div className={styles.social}>
+      <a href="https://github.com/arnovanstaden" target="blank">
+        <GitHubIcon className={styles.icon} />
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/arnovanstaden/" target="blank">
+        <LinkedInIcon className={styles.icon} />
+        LinkedIn
+      </a>
     </div>
-  </footer>
+  </Section>
 );
 
 export default Footer;
