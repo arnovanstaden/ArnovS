@@ -21,7 +21,6 @@ const Skills = (): JSX.Element | null => {
     'Jest',
     'GIT',
     'MongoDB',
-    'JAMstack',
   ];
 
   const platforms = [
@@ -33,11 +32,14 @@ const Skills = (): JSX.Element | null => {
     'Figma',
   ];
 
+  const getIconPath = (skill: string) => `/images/icons/${skill.toLowerCase().replace(' ', '-')}.svg`;
+
   return (
     <div className={styles.Skills}>
       <ul className={styles.list}>
         {langs.map((skill) => (
           <li className={styles.skill} key={skill}>
+            <img src={getIconPath(skill)} alt={`${skill} icon`} />
             {skill}
           </li>
         ))}
@@ -45,6 +47,7 @@ const Skills = (): JSX.Element | null => {
       <ul className={styles.list}>
         {frameworksAndLibraries.map((skill) => (
           <li className={styles.skill} key={skill}>
+            <img src={getIconPath(skill)} alt={`${skill} icon`} />
             {skill}
           </li>
         ))}
@@ -52,6 +55,7 @@ const Skills = (): JSX.Element | null => {
       <ul className={styles.list}>
         {platforms.map((skill) => (
           <li className={styles.skill} key={skill}>
+            <img src={getIconPath(skill)} alt={`${skill} icon`} />
             {skill}
           </li>
         ))}

@@ -4,13 +4,19 @@ import Button from '@components/system/Input/Button';
 import Link from 'next/link';
 import Chip from '@components/system/display/Chip';
 import TypingAnimation from './TypingAnimation';
+import Image from 'next/image';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
     <Container>
       <div className={styles.grid}>
         <div className={styles.image}>
-          ok
+          <Image
+            src="/images/landing.png"
+            alt="My profile"
+            width={600}
+            height={600}
+          />
         </div>
         <div className={styles.content}>
           <Chip>Front End Engineer</Chip>
