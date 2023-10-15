@@ -30,7 +30,7 @@ const Landing = (): JSX.Element | null => (
           </div>
           <div className={styles.info}>
             <Chip outlined>Location</Chip>
-            <p>Berlin | München | Remote</p>
+            <p>Berlin | München | Remote (Germany)</p>
           </div>
           <div className={styles.buttons}>
             <Link href="/projects">

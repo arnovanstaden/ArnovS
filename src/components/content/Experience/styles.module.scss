@@ -58,6 +58,25 @@
         font-weight: 600;
         margin: 0 0 0.75rem;
       }
+
+      ul {
+        @include reset-list;
+        margin-top: 1rem;
+
+        li {
+          margin-bottom: 0.25rem;
+          font-weight: 300;
+
+          span {
+            font-weight: 500;
+            margin-right: 0.25rem;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
     }
 
     &:last-child {
