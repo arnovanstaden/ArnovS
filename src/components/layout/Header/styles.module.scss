@@ -28,4 +28,17 @@
       margin-left: 1rem;
     }
   }
+
+  .desktopNav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    .desktopNav {
+      display: none;
+    }
+  }
 }

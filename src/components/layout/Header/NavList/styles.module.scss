@@ -1,5 +1,6 @@
 .NavList {
   display: flex;
+  gap: 1rem;
 
   &:hover a {
     opacity: 0.6;
@@ -12,15 +13,15 @@
     letter-spacing: 0.5px;
     transition: 0.3s ease-in-out;
     padding: 0.25rem 0.5rem;
-    margin-right: 2rem;
 
     &:hover {
       background-color: $colour-blue;
       opacity: 1;
     }
+  }
 
-    &:last-child {
-      margin-right: 0;
-    }
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+    align-items: center;
   }
 }

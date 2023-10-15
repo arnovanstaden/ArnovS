@@ -1,32 +1,37 @@
 'use client';
 
+import { useState } from 'react';
 import NavList from '../NavList';
 import Social from '../Social';
 import styles from './styles.module.scss';
+import MenuIcon from '@mui/icons-material/Menu';
+import classNames from 'classnames';
+import CloseIcon from '@mui/icons-material/Close';
 
 const MobileNav = (): JSX.Element | null => {
-  const handleNavToggle = () => {
-    const menu = document.querySelector(`.${styles.mobileNav}`)!;
-    if (menu.classList.contains(styles.open)) {
-      menu.classList.remove(styles.open);
-      document.body.classList.remove(styles.noscroll);
-    } else {
-      menu.classList.add(styles.open);
-      document.body.classList.add(styles.noscroll);
-    }
-  };
+  const [open, setOpen] = useState(false);
+
+  const handleNavToggle = () => setOpen((prev) => !prev);
+
+  const classes = classNames(
+    styles.MobileNav,
+    open && styles.open,
+  );
 
   return (
-    <div className={styles.MobileNav}>
+    <div className={classes}>
       <button className={styles.mobileButton} onClick={() => handleNavToggle()}>
-        <i className="icon-menu" />
+        <MenuIcon />
       </button>
-      <div className={styles.mobileNav}>
-        <div className={styles.notNav} onClick={() => handleNavToggle()} />
+      <div className={styles.overlay} onClick={() => handleNavToggle()} />
+      <div className={styles.drawer}>
         <div className={styles.menu}>
+          <button className={styles.closeButton} onClick={() => handleNavToggle()}>
+            <CloseIcon />
+          </button>
           <i className={`icon-clear ${styles.close}`} onClick={() => handleNavToggle()} />
           <NavList onClick={handleNavToggle} />
-          <Social />
+          <Social className={styles.social} />
         </div>
       </div>
     </div>

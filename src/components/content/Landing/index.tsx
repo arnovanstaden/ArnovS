@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Chip from '@components/system/display/Chip';
 import TypingAnimation from './TypingAnimation';
 import Image from 'next/image';
+import Social from '@components/layout/Header/Social';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
@@ -42,6 +43,7 @@ const Landing = (): JSX.Element | null => (
               </Button>
             </Link>
           </div>
+          <Social className={styles.social} />
         </div>
       </div>
     </Container>

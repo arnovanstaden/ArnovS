@@ -1,30 +1,17 @@
 .MobileNav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 0;
-  z-index: 1000;
-  display: flex;
-  overflow: hidden;
-  transition: 0.4s ease-in-out;
-  box-sizing: border-box;
-
-  .notNav {
-    width: 60%;
-  }
-
   .mobileButton {
-    background-color: transparent;
+    @include reset-button;
     border: 1.5px solid transparent;
-    outline: none;
-    padding: 0.25rem 0.5rem;
     transition: 0.3s ease;
     display: none;
-    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: $colour-grey;
 
-    i {
-      font-size: 1.1rem;
+    svg {
+      font-size: 1.5rem;
       color: $colour-blue;
       transition: 0.3s ease;
     }
@@ -32,48 +19,89 @@
     &:hover {
       border-color: $colour-blue;
 
-      i {
+      svg {
         color: $colour-white;
       }
     }
   }
 
-  .menu {
-    width: 40%;
-    background-color: $colour-black;
-    border-left: 2px solid $colour-blue;
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($colour-grey, 0.5);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+  }
+
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 0;
+    z-index: 1000;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    max-width: 300px;
 
-    a {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-    }
-
-
-    .social {
-      position: absolute;
-      bottom: 2rem;
+    .menu {
+      width: 100%;
+      background-color: $colour-black;
+      border-left: 2px solid $colour-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
 
       a {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
       }
-    }
 
-    .close {
-      font-size: 1.5rem;
-      color: $colour-white;
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      padding: 1rem;
+
+      .social {
+        position: absolute;
+        bottom: 2rem;
+
+        a {
+          font-size: 0.9rem;
+        }
+      }
+
+      .closeButton {
+        @include reset-button;
+        font-size: 1.5rem;
+        color: $colour-white;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 1rem;
+      }
     }
   }
 
   &.open {
-    width: 100vw;
+    .drawer {
+      width: 400px;
+    }
+
+    .overlay {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    .mobileButton {
+      display: flex;
+    }
   }
 }

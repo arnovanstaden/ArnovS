@@ -1,5 +1,5 @@
+import MobileNav from './MobileNav';
 import NavList from './NavList';
-import Social from './Social';
 import styles from './styles.module.scss';
 import Link from 'next/link';
 
@@ -12,9 +12,10 @@ const Header = (): JSX.Element => (
         van Staden
       </p>
     </Link>
-    <NavList />
-    <Social />
-    {/* <MobileNav /> */}
+    <div className={styles.desktopNav}>
+      <NavList />
+    </div>
+    <MobileNav />
   </header>
 );
 

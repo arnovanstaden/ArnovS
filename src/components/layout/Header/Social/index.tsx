@@ -2,9 +2,10 @@ import styles from './styles.module.scss';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import classNames from 'classnames';
 
-const Social = (): JSX.Element => (
-  <nav className={styles.Social}>
+const Social = ({ className }: { className?: string }): JSX.Element => (
+  <nav className={classNames(styles.Social, className)}>
     <a href="https://github.com/arnovanstaden" target="blank" aria-label="GitHub">
       <GitHubIcon />
     </a>
