@@ -20,17 +20,59 @@ export const data: IExperienceItem[] = [
     year: 'Jul 2023',
     title: 'Senior Frontend Engineer',
     location: 'Berlin, Germany',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit soluta veniam corrupti perferendis, dolorum cum natus rerum amet consequuntur voluptas! Itaque vel repudiandae sapiente, ex saepe optio ab recusandae inventore, ducimus doloremque officia, tenetur voluptatem. Numquam eum libero corrupti vel, laborum deleniti, dolor exercitationem, et iste eius quaerat animi optio?',
     icon: <CodeIcon />,
     company: 'Tandem Language Exchange',
+    description: <p>Upon my promotion to Senior Frontend Engineer  I embraced an expanded set of responsibilities. My influence grew substantially in the realm of technology selection, work prioritization, and backlog management. Not only did I oversee the regular maintenance and improvements of our web projects, but I also adopted a pivotal role often mirroring that of a product owner or manager for all web-based initiatives. This evolution allowed me to play a more strategic part in shaping Tandem's web presence and ensuring the seamless functionality and user experience of our platform.</p>,
   },
   {
     year: 'Jul 2021',
     title: 'Frontend Engineer',
     location: 'Berlin, Germany',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit soluta veniam corrupti perferendis, dolorum cum natus rerum amet consequuntur voluptas! Itaque vel repudiandae sapiente, ex saepe optio ab recusandae inventore, ducimus doloremque officia, tenetur voluptatem. Numquam eum libero corrupti vel, laborum deleniti, dolor exercitationem, et iste eius quaerat animi optio?',
     icon: <CodeIcon />,
     company: 'Tandem Language Exchange',
+    description: (
+      <>
+        <h4>Achievements:</h4>
+        <ul>
+          <li>
+            <span>Website Refactor:</span>
+            Successfully refactored the entire company website, comprising thousands of pages, utilizing the latest in web technologies.
+          </li>
+          <li>
+            <span>Web App Rebirth:</span>
+            Spearheaded the complete overhaul of the web application, supporting thousands of daily active users.
+          </li>
+          <li>
+            <span>Rapid Prototyping:</span>
+            Championed the quick-turnaround experimentation of MVPs on the web platform.
+          </li>
+          <li>
+            <span>Admin Mastery:</span>
+            Crafted an intuitive and comprehensive admin dashboard for member management, effectively enhancing administrative operations.
+          </li>
+        </ul>
+
+        <h4>Responsibilities:</h4>
+        <ul>
+          <li>
+            <span>Cross-team Collaboration:</span>
+            Collaborated closely with product, design, and marketing teams, translating ideas and designs into technical realities.
+          </li>
+          <li>
+            <span>Technical Proficiency:</span>
+            Employed a diverse tech stack, incorporating tools like TypeScript, React, Next.js, Material UI and more, to deliver optimal solutions.
+          </li>
+          <li>
+            <span>Stakeholder Consultation:</span>
+            Engaged in active consultations with internal stakeholders, ensuring web initiatives align with overall company goals.
+          </li>
+          <li>
+            <span>Web Optimization & Analytics:</span>
+            Implemented advanced web analytics for precise tracking and insights, optimized page performance for enhanced user experience and retention, and integrated SEO best practices to elevate organic search visibility and rankings.
+          </li>
+        </ul>
+      </>
+    ),
   },
   {
     year: 'Apr 2018',
@@ -59,28 +101,16 @@ export const data: IExperienceItem[] = [
         <h4>Responsibilities:</h4>
         <ul>
           <li>
-            <span>Project Management:</span>
-            Oversaw the entire development lifecycle, from conception to deployment, for responsive and cross-browser projects.
+            <span>End-to-End Development:</span>
+            Managed the full development cycle, ensuring responsive, cross-browser compatibility and pairing frontend designs with robust backends using Node.js, Express, and a variety of databases.
           </li>
           <li>
-            <span>Client Collaboration:</span>
-            Collaborated to align projects with client branding and functional needs.
+            <span>Client-Centric Design:</span>
+            Liaised with clients to tailor projects to their branding and functional needs, transforming designs into fully operational apps and websites.
           </li>
           <li>
-            <span>Design Mastery:</span>
-            Designed and transformed mockups into functional apps & websites.
-          </li>
-          <li>
-            <span>Backend Expertise:</span>
-            Built robust backends using Node.js, Express, and various databases, complementing app features.
-          </li>
-          <li>
-            <span>Continuous Development:</span>
-            Regularly enhanced, debugged, and improved applications to meet evolving requirements.
-          </li>
-          <li>
-            <span>Technical Consultation:</span>
-            Advised on and evaluated business logic features for tech feasibility.
+            <span>Continuous Enhancement:</span>
+            Regularly optimized, debugged, and expanded applications, while also offering technical consultation on business logic and feasibility.
           </li>
         </ul>
       </>
