@@ -7,19 +7,28 @@ const About = (): JSX.Element | null => (
   <div className={styles.About}>
     <div className={styles.text}>
       <Chip>Overview</Chip>
-      <p>The best things in life are JavaScript, travelling and coffee; with a strong cup of coffee having an index of 0.</p>
-
-      <p>Growing up exposed to the golden era of Windows 98 Home Edition, I fell in love with computers, the internet and everything in its orbit. The dial-up sound was my life's theme-song during my childhood years.</p>
-
-      <p>After university, I indulged my ever-present wanderlust and embarked on an expedition across South East Asia "living my best life" and "finding myself".
-        <span>/* Insert the usual hipster saying like learning adaptability, open-mindedness and communication skills here. Remember to delete later! */</span>
+      <p>
+        So, my top three things in life? Easy:
+        <br /> 1. Fiddling around with JavaScript,
+        <br />  2. Hitting the road and exploring new spots, and
+        <br /> 3. That first cup of coffee in the morning
       </p>
 
-      <p>In 2018 I founded <a href="https://webdacity.dev" target="blank">Webdacity</a>, a web design &amp; development studio. Since then I've had roaring success creating awesome websites, web applications and crafting brand identities for a lengthy array of clients. I have also been voted as the funniest guy in my workplace of one every year since. Because I can apparently do everything in the IT sphere [according to everyone that's not in the industry], I'm also an expert at resetting modems and getting printers to work.</p>
+      <p>
+        I got hooked on computers with the good ol' Windows 98. Remember the sound of dial-up internet? That was basically my childhood's theme song. Good times.
+      </p>
 
-      <p>In my fleeting spare time, I enjoy playing console games, diving into the rabbit hole of cats on the internet and helping my mom adjust the settings on her phone. Oh, and building awesome digital products that deliver real intrinsic value to its users.</p>
+      <p>
+        When I’m not glued to the screen, I’m either leveling up in some console game, falling into endless cat video loops online, or being the 24/7 tech support for my mom’s phone. But even during my downtime, part of my brain is always dreaming up cool digital stuff that people would love to use.
+      </p>
 
-      <p><span>Disclaimer: I believe tabs are superior to spaces [especially when used on a mechanical keyboard in the presence of others]. I'm fiercely loyal and will never leave a friend behind, hence my preference for  <span>"</span>  over  <span>'</span>.</span></p>
+      <p>
+        Another thing about me? I'm that guy who turns to code for even the smallest hitches in life. Forgot someone's birthday one too many times? Yeah, I built a web app for that. It's the joy of tinkering and coming up with nifty digital solutions to those everyday “oops” moments that keeps the dev fire alive in me.
+      </p>
+
+      <p>
+        But hey, it’s not all about coding. It’s the laughs, the challenges, and those endless debates about the tiniest details. You in?
+      </p>
     </div>
     <div className={styles.extra}>
       <div className={styles.block}>
