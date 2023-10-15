@@ -3,19 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.scss';
 
-const TypingAnimation = (): JSX.Element => {
-  const strings = [
-    'Making Websites Load Faster Than a \'for\' Loop on Coffee',
-    'Turning \'TypeError\' into \'TypeWonderful\'',
-    'Crafting Web Magic, One \'let\' at a Time',
-    'Making the Web Safer, One Line of Code (or Two) at a Time',
-    'Optimizing Websites to Run as Smoothly as a Well-Refactored Function',
-    'Turning Coffee into Code and Code into Smiles',
-    'No Bugs Allowed – Only the Friendly \'console.log\' Kind',
-    'Where \'const\' Commitment Meets Creative Code',
-    'Serving Freshly Baked Websites with a Side of TypeScript',
-    'Web Development: Because \'null\' and \'undefined\' Are Not an Option',
-  ];
+const TypingAnimation = ({ strings }: { strings: string[] }): JSX.Element => {
   const typingSpeed = 70;
   const deleteSpeed = 35;
   const displayDuration = 2000;

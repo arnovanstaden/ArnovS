@@ -3,6 +3,7 @@ import Experience from '@components/content/Experience';
 import Landing from '@components/content/Landing';
 import Skills from '@components/content/Skills';
 import Section from '@components/layout/Section';
+import typingData from '@data/typings.json';
 
 const HomePage = (): JSX.Element => (
   <main>
@@ -11,7 +12,7 @@ const HomePage = (): JSX.Element => (
       light
       id="about"
       heading="About"
-      subheading="I'm more than just a techie, although I love everything techie."
+      typingAnimationStrings={typingData.about}
     >
       <About />
     </Section>
@@ -19,7 +20,7 @@ const HomePage = (): JSX.Element => (
     <Section
       id="skills"
       heading="Skills"
-      subheading="Every project is a new story, yet some things stay the same. This is just some of the ever-growing list of tech I love using."
+      typingAnimationStrings={typingData.skills}
     >
       <Skills />
     </Section>
@@ -28,7 +29,7 @@ const HomePage = (): JSX.Element => (
       light
       id="experience"
       heading="Experience"
-      subheading="Every project is a new story, yet some things stay the same. This is just some of the ever-growing list of tech I love using."
+      typingAnimationStrings={typingData.experience}
     >
       <Experience />
     </Section>
@@ -36,7 +37,7 @@ const HomePage = (): JSX.Element => (
     <Section
       id="projects"
       heading="Projects"
-      subheading="Talk is cheap and I prefer putting my code where my keyboard is. Here are some of my featured projects."
+      typingAnimationStrings={typingData.projects}
     >
       <br />
     </Section>

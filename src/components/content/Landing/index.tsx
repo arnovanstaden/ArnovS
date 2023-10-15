@@ -6,6 +6,7 @@ import Chip from '@components/system/display/Chip';
 import TypingAnimation from './TypingAnimation';
 import Image from 'next/image';
 import Social from '@components/layout/Header/Social';
+import typingData from '@data/typings.json';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
@@ -22,7 +23,7 @@ const Landing = (): JSX.Element | null => (
         <div className={styles.content}>
           <Chip>Front End Engineer</Chip>
           <h1 className={styles.name}>Hello, I'm Arno van Staden.</h1>
-          <TypingAnimation />
+          <TypingAnimation strings={typingData.landing} />
           <div className={styles.info}>
             <Chip outlined>Status</Chip>
             <p>Open to Work.</p>

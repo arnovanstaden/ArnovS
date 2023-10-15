@@ -1,0 +1,74 @@
+{
+  "landing": [
+    "Making Websites Load Faster Than a 'for' Loop on Coffee",
+    "Turning 'TypeError' into 'TypeWonderful'",
+    "Crafting Web Magic, One 'let' at a Time",
+    "Making the Web Safer, One Line of Code (or Two) at a Time",
+    "Optimizing Websites to Run as Smoothly as a Well-Refactored Function",
+    "Turning Coffee into Code and Code into Smiles",
+    "No Bugs Allowed – Only the Friendly 'console.log' Kind",
+    "Where 'const' Commitment Meets Creative Code",
+    "Serving Freshly Baked Websites with a Side of TypeScript",
+    "Web Development: Because 'null' and 'undefined' Are Not an Option"
+  ],
+  "about": [
+    "Self-Taught, StackOverflow-Tested.",
+    "More Layers Than an Onion. Or a Stack.",
+    "From Logic Gates to Latest Trends.",
+    "Where Recursion Meets Reflection.",
+    "Semi-colons & Life Stories.",
+    "Behind the Screen & Beyond the Code.",
+    "Decoding the Developer.",
+    "If Life's a Loop, Here's My Iteration.",
+    "Infinite While Loop of Experiences.",
+    "Console.log('myLife') Revealed."
+  ],
+  "skills": [
+    "Fluency in Code & Coffee Consumption.",
+    "Compiling Success One Skill at a Time.",
+    "Not All My Languages Are Spoken.",
+    "Where Talent Meets Tenacity.",
+    "From Pixels to Production Prowess.",
+    "Instruments in My Digital Orchestra.",
+    "Tech Tapestry Tailored Over Time.",
+    "Binaries, Bytes, and Bold Moves.",
+    "Crafted Skills, Not Just Copied Code.",
+    "From Framework Fanatic to Language Lover."
+  ],
+  "experience": [
+    "Where I've Left My Code Footprints.",
+    "Coffee-Fueled Coding Capers.",
+    "Years of <code>, Tears, & Triumphs.",
+    "From Debugging Dilemmas to Deployment Delights.",
+    "Chronicles of Commit Logs.",
+    "Repositories of Resilience & Results.",
+    "Every Error Was a Lesson in Disguise.",
+    "From Intern to <Insert Cool Title Here>.",
+    "Milestones, Mistakes & Masterstrokes.",
+    "Stories Told in Sprints & Stand-ups."
+  ],
+  "projects": [
+    "My Digital Diary of Doing.",
+    "Pet Projects & Prodigious Programs.",
+    "Where My Heart <code>s Most.",
+    "Fruits of Function & Flair.",
+    "A Parade of Pixels & Performance.",
+    "Coding Canvases of Creativity.",
+    "From Brainstorms to Bug-Free Deployments.",
+    "Passions Packaged as Projects.",
+    "Weekends, Work, & Wondrous Outputs.",
+    "When Dreams Became Domains."
+  ],
+  "contact": [
+    "Dial into My Digital Domain.",
+    "Ready for a Syntax-Free Chat?",
+    "Coffee & Code Collaboration Calls?",
+    "Ping Me, Maybe?",
+    "Lost in Cyberspace? Find Me Here.",
+    "Slide into My DMs (Debug Messages).",
+    "Let’s Sync Up, Minus the Merge Conflicts.",
+    "Raise a PR (Personal Request) Here.",
+    "Open to Pings, Pongs, & Partnerships.",
+    "Awaiting Your Friendly Fetch Request."
+  ]
+}

@@ -3,12 +3,13 @@ import styles from './styles.module.scss';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import typingData from '@data/typings.json';
 
 const Footer = (): JSX.Element => (
   <Section
     id="contact"
     heading="Get in Touch"
-    subheading="If you're interested and would like to hear more about what makes me tick as an engineer, please don't hesitate to get in touch."
+    typingAnimationStrings={typingData.contact}
     contentClassName={styles.Footer}
     component="footer"
     light

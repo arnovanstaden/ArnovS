@@ -1,11 +1,13 @@
 import ClassNames from 'classnames';
 import styles from './styles.module.scss';
 import Container from '@components/system/layout/Container';
+import TypingAnimation from '@components/content/Landing/TypingAnimation';
 
 interface SectionProps {
   children: React.ReactNode;
   heading?: string;
   subheading?: string;
+  typingAnimationStrings?: string[],
   className?: string;
   contentClassName?: string;
   /**
@@ -37,8 +39,9 @@ const Section = (props: SectionProps): JSX.Element => {
           ? (
             <div className={styles.heading}>
               <img src="/images/logos/logo-light.svg" alt="arnovs logo" width="32px" height="100%" />
-              <h1>{props.heading}</h1>
-              <p>{props.subheading}</p>
+              {props.heading && <h1>{props.heading}</h1>}
+              {props.subheading && <p>{props.subheading}</p>}
+              {props.typingAnimationStrings && <TypingAnimation strings={props.typingAnimationStrings} />}
             </div>
           )
           : null}
