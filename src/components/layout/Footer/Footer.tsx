@@ -13,16 +13,16 @@ const Footer = (): JSX.Element => (
     component="footer"
     light
   >
-    <a href="mailto:arno@arnovs.dev" className={styles.mail}>
+    <a href="mailto:arno@arnovs.dev" className={styles.mail} target="_blank">
       <EmailIcon />
       arno@arnovs.dev
     </a>
     <div className={styles.social}>
-      <a href="https://github.com/arnovanstaden" target="blank">
+      <a href="https://github.com/arnovanstaden" target="_blank">
         <GitHubIcon />
         GitHub
       </a>
-      <a href="https://www.linkedin.com/in/arnovanstaden/" target="blank">
+      <a href="https://www.linkedin.com/in/arnovanstaden/" target="_blank">
         <LinkedInIcon />
         LinkedIn
       </a>

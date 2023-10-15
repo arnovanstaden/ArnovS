@@ -11,7 +11,7 @@ const Social = (): JSX.Element => (
     <a href="https://www.linkedin.com/in/arnovanstaden/" target="blank" aria-label="LinkedIn">
       <LinkedInIcon />
     </a>
-    <a href="mailto:arno@arnovs.dev" aria-label="Email" className={styles.mail}>
+    <a href="mailto:arno@arnovs.dev" aria-label="Email" className={styles.mail} target="_blank">
       <EmailIcon />
     </a>
   </nav>

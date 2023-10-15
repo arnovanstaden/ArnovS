@@ -1,4 +1,5 @@
 import About from '@components/content/About';
+import Experience from '@components/content/Experience';
 import Landing from '@components/content/Landing';
 import Skills from '@components/content/Skills';
 import Section from '@components/layout/Section';
@@ -29,7 +30,7 @@ const HomePage = (): JSX.Element => (
       heading="Experience"
       subheading="Every project is a new story, yet some things stay the same. This is just some of the ever-growing list of tech I love using."
     >
-      <br />
+      <Experience />
     </Section>
 
     <Section

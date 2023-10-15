@@ -1,0 +1,66 @@
+.Experience {
+  padding-left: 0.5rem;
+
+  .item {
+    position: relative;
+    border-left: 2px solid $colour-lightgrey;
+    padding-left: 3rem;
+    padding-bottom: 2.5rem;
+
+    .icon {
+      width: 2rem;
+      height: 2rem;
+      background-color: $colour-blue;
+      display: block;
+      position: absolute;
+      left: -1rem;
+      top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        font-size: 1.25rem;
+      }
+    }
+
+    .content {
+      padding: 1rem;
+
+      .meta {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        .company {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 0.9rem;
+        }
+
+        .location {
+          color: $colour-lightgrey;
+          display: flex;
+          align-items: center;
+          gap: 0.25rem;
+          font-size: 0.9rem;
+        }
+      }
+
+      p {
+        margin: 0;
+      }
+
+      h3 {
+        font-weight: 600;
+        margin: 0 0 0.75rem;
+      }
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
