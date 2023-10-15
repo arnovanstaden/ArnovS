@@ -9,9 +9,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    gap: 2rem;
 
     .image {
-      // border: 1px solid $colour-grey;
+      width: 100%;
+      display: flex;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
     }
 
     .content {
@@ -53,6 +60,28 @@
         button:first-child {
           margin-right: 1.5rem;
         }
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    height: unset;
+
+    .grid {
+      grid-template-columns: 1fr;
+      padding-top: 6rem;
+
+      .image {
+        grid-row: 2/3;
+
+        img {
+          height: unset;
+        }
+      }
+
+      .content {
+        align-items: center;
+        text-align: center;
       }
     }
   }
