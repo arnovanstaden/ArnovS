@@ -34,13 +34,6 @@ const HomePage = (): JSX.Element => (
       <Experience />
     </Section>
 
-    <Section
-      id="projects"
-      heading="Projects"
-      typingAnimationStrings={typingData.projects}
-    >
-      <br />
-    </Section>
   </main>
 );
 

@@ -11,6 +11,10 @@
     align-items: center;
     gap: 2rem;
 
+    .cookieBanner {
+      display: block !important;
+    }
+
     .image {
       width: 100%;
       display: flex;

@@ -20,10 +20,6 @@ const NavList = ({ onClick }: { onClick?: () => void }): JSX.Element => {
     label: 'Experience',
   },
   {
-    slug: '/projects',
-    label: 'Projects',
-  },
-  {
     slug: '#contact',
     label: 'Contact',
   }];

@@ -18,6 +18,7 @@ const Landing = (): JSX.Element | null => (
             alt="My profile"
             width={600}
             height={600}
+            priority
           />
         </div>
         <div className={styles.content}>
@@ -33,11 +34,11 @@ const Landing = (): JSX.Element | null => (
             <p>Berlin | München | Remote (Germany)</p>
           </div>
           <div className={styles.buttons}>
-            <Link href="/projects">
+            {/* <Link href="/projects">
               <Button>
                 View My Work
               </Button>
-            </Link>
+            </Link> */}
             <Link href="/#contact">
               <Button outlined>
                 Let's Talk
