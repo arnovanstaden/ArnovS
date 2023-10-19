@@ -12,7 +12,7 @@ const Footer = (): JSX.Element => (
     typingAnimationStrings={typingData.contact}
     contentClassName={styles.Footer}
     component="footer"
-    light
+  // light
   >
     <a href="mailto:arno@arnovs.dev" className={styles.mail} target="_blank">
       <EmailIcon />

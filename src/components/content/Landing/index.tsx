@@ -14,7 +14,7 @@ const Landing = (): JSX.Element | null => (
       <div className={styles.grid}>
         <div className={styles.image}>
           <Image
-            src="/images/landing.png"
+            src="/images/profile.png"
             alt="My profile"
             width={600}
             height={600}
@@ -34,11 +34,6 @@ const Landing = (): JSX.Element | null => (
             <p>Berlin | München | Remote (Germany)</p>
           </div>
           <div className={styles.buttons}>
-            {/* <Link href="/projects">
-              <Button>
-                View My Work
-              </Button>
-            </Link> */}
             <Link href="/#contact">
               <Button outlined>
                 Let's Talk
