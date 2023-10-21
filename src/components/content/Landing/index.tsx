@@ -1,12 +1,12 @@
 import Container from '@components/system/layout/Container';
 import styles from './styles.module.scss';
 import Button from '@components/system/Input/Button';
-import Link from 'next/link';
 import Chip from '@components/system/display/Chip';
 import TypingAnimation from './TypingAnimation';
 import Image from 'next/image';
 import Social from '@components/layout/Header/Social';
 import typingData from '@data/typings.json';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
@@ -14,7 +14,7 @@ const Landing = (): JSX.Element | null => (
       <div className={styles.grid}>
         <div className={styles.image}>
           <Image
-            src="/images/profile.png"
+            src="/images/landing.png"
             alt="My profile"
             width={600}
             height={600}
@@ -34,11 +34,12 @@ const Landing = (): JSX.Element | null => (
             <p>Berlin | München | Remote (Germany)</p>
           </div>
           <div className={styles.buttons}>
-            <Link href="/#contact">
-              <Button outlined>
+            <a href="mailto:arno@arnovs.dev" aria-label="Email" className={styles.mail} target="_blank">
+              <Button>
+                <EmailIcon className={styles.icon} />
                 Let's Talk
               </Button>
-            </Link>
+            </a>
           </div>
           <Social className={styles.social} />
         </div>

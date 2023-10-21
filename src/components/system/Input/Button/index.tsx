@@ -3,7 +3,7 @@ import ClassNames from 'classnames';
 import styles from './styles.module.scss';
 
 interface IProps {
-  children: string,
+  children: React.ReactNode,
   icon?: React.ReactNode,
   outlined?: boolean;
 }

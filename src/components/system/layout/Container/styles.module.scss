@@ -6,20 +6,31 @@
   height: 100%;
   width: 100%;
 
-  @media (min-width: $breakpoint-xs) {
-    padding: 0 1rem;
-    max-width: unset;
+  @media (max-width: $breakpoint-xl) {
+    max-width: 1350px;
   }
 
-  @media (min-width: $breakpoint-sm) {
-    max-width: 720px;
+  @media (max-width: $breakpoint-lg) {
+    max-width: 1140px;
   }
 
-  @media (min-width: $breakpoint-md) {
+  @media (max-width: $breakpoint-lg) {
+    max-width: 1140px;
+  }
+
+
+  @media (max-width: $breakpoint-md) {
     max-width: 960px;
   }
 
-  @media (min-width: $breakpoint-lg) {
-    max-width: 1140px;
+
+  @media (max-width: $breakpoint-sm) {
+    max-width: 720px;
+  }
+
+
+  @media (max-width: $breakpoint-xs) {
+    padding: 0 1rem;
+    max-width: unset;
   }
 }
