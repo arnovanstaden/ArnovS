@@ -19,7 +19,7 @@ const MobileNav = (): JSX.Element | null => {
   );
 
   return (
-    <div className={classes}>
+    <nav className={classes}>
       <button className={styles.mobileButton} onClick={() => handleNavToggle()}>
         <MenuIcon />
       </button>
@@ -34,7 +34,7 @@ const MobileNav = (): JSX.Element | null => {
           <Social className={styles.social} />
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

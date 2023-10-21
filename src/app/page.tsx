@@ -33,14 +33,6 @@ const HomePage = (): JSX.Element => (
     >
       <Experience />
     </Section>
-
-    {/* <Section
-      id="articles"
-      heading="Articles"
-      typingAnimationStrings={typingData.experience}
-    >
-      <br />
-    </Section> */}
   </main>
 );
 

@@ -12,9 +12,9 @@ const Header = (): JSX.Element => (
         van Staden
       </p>
     </Link>
-    <div className={styles.desktopNav}>
+    <nav className={styles.desktopNav}>
       <NavList />
-    </div>
+    </nav>
     <MobileNav />
   </header>
 );
