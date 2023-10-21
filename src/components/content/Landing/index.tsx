@@ -19,6 +19,7 @@ const Landing = (): JSX.Element | null => (
             width={600}
             height={600}
             priority
+            quality={100}
           />
         </div>
         <div className={styles.content}>
