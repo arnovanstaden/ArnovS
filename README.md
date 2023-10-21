@@ -15,11 +15,6 @@ Website
 * SASS
 * TypeScript
 
-### Industry
-Web Development
-
-### Date
-January 2021
 
 
 
