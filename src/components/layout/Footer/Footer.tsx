@@ -27,6 +27,10 @@ const Footer = (): JSX.Element => (
         <LinkedInIcon />
         LinkedIn
       </a>
+      <a href="https://arnovs.medium.com" target="_blank">
+        <img src="/images/icons/medium.svg" alt="Medium" />
+        Medium
+      </a>
     </div>
   </Section>
 );
