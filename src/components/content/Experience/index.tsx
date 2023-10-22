@@ -22,7 +22,18 @@ export const data: IExperienceItem[] = [
     location: 'Berlin, Germany',
     icon: <CodeIcon />,
     company: 'Tandem Language Exchange',
-    description: <p>Upon my promotion to Senior Frontend Engineer  I embraced an expanded set of responsibilities. My influence grew substantially in the realm of technology selection, work prioritization, and backlog management. Not only did I oversee the regular maintenance and improvements of our web projects, but I also adopted a pivotal role often mirroring that of a product owner or manager for all web-based initiatives. This evolution allowed me to play a more strategic part in shaping Tandem's web presence and ensuring the seamless functionality and user experience of our platform.</p>,
+    description: (
+      <ul>
+        <li>
+          <span>Elevated Leadership</span>
+          <p>Stepped into a prominent role in technology selection, work prioritization, and backlog management, often resembling the responsibilities of a product owner or manager for web-based projects.</p>
+        </li>
+        <li>
+          <span>Strategic Impact</span>
+          <p>Played a crucial role in shaping Tandem's web presence, ensuring not only maintenance but also the enhancement of the platform's functionality and user experience.</p>
+        </li>
+      </ul>
+    ),
   },
   {
     year: 'Jul 2021 - Jul 2023',
@@ -31,48 +42,27 @@ export const data: IExperienceItem[] = [
     icon: <CodeIcon />,
     company: 'Tandem Language Exchange',
     description: (
-      <>
+      <ul>
+        <li>
+          <span>Website & Web App Overhaul</span>
+          <p>Led the refactoring of the company website and spearheaded the complete redesign of the web application, supporting thousands of daily users with the latest web technologies.</p>
+        </li>
 
-        <Chip outlined className={styles.subheadingChip}>Achievements</Chip>
-        <ul>
-          <li>
-            <span>Website Refactor</span>
-            <p>Successfully refactored the entire company website, comprising thousands of pages, utilizing the latest in web technologies.</p>
-          </li>
-          <li>
-            <span>Web App Rebirth</span>
-            <p>Spearheaded the complete overhaul of the web application, supporting thousands of daily active users.</p>
-          </li>
-          <li>
-            <span>Rapid Prototyping</span>
-            <p>Championed the quick-turnaround experimentation of MVPs on the web platform.</p>
-          </li>
-          <li>
-            <span>Admin Mastery</span>
-            <p>Crafted an intuitive and comprehensive admin dashboard for member management, effectively enhancing administrative operations.</p>
-          </li>
-        </ul>
+        <li>
+          <span>Admin Dashboard Refactoring</span>
+          <p>Rebuilt a rudimentary admin interface into a user-centric full-stack application from the ground up, delivering a more intuitive, modern, and user-friendly experience.</p>
+        </li>
 
-        <Chip outlined className={styles.subheadingChip}>Responsibilities</Chip>
-        <ul>
-          <li>
-            <span>Cross-team Collaboration</span>
-            <p>Collaborated closely with product, design, and marketing teams, translating ideas and designs into technical realities.</p>
-          </li>
-          <li>
-            <span>Technical Proficiency</span>
-            <p>Employed a diverse tech stack, incorporating tools like TypeScript, React, Next.js, Material UI and more, to deliver optimal solutions.</p>
-          </li>
-          <li>
-            <span>Stakeholder Consultation</span>
-            <p>Engaged in active consultations with internal stakeholders, ensuring web initiatives align with overall company goals.</p>
-          </li>
-          <li>
-            <span>Web Optimization & Analytics</span>
-            <p>Implemented advanced web analytics for precise tracking and insights, optimized page performance for enhanced user experience and retention, and integrated SEO best practices to elevate organic search visibility and rankings.</p>
-          </li>
-        </ul>
-      </>
+        <li>
+          <span>Cross-Functional Collaboration</span>
+          <p>Worked hand-in-hand with product, design, and marketing teams, transforming creative concepts into technical solutions using a diverse tech stack like TypeScript, React, and Next.js.</p>
+        </li>
+
+        <li>
+          <span>Rapid Prototyping</span>
+          <p>Led the swift development of MVPs for experimentation and feasibility testing. In addition, implemented web-based solutions for special, niche projects and use cases, thereby maximising the potential of the web platform.</p>
+        </li>
+      </ul>
     ),
   },
   {
@@ -80,42 +70,32 @@ export const data: IExperienceItem[] = [
     title: 'Fullstack Engineer',
     location: 'Cape Town, South Africa',
     description: (
-      <>
-        <p>
-          As a dedicated Full-Stack Engineer, I've spent years honing a multifaceted skill set, specialising in creating tailored web solutions as a freelancer. My journey has been characterized by deep involvement in every phase of project development, from design conceptualization to deployment.
-        </p>
-        <Chip outlined className={styles.subheadingChip}>Achievements</Chip>
-        <ul>
-          <li>
-            <span>Extensive Portfolio</span>
-            <p>Crafted 45+ websites & applications using Next.js, React, TypeScript, and CSS modules across varied sectors.</p>
-          </li>
-          <li>
-            <span>Client Trust</span>
-            <p>Nurtured relationships with 40+ repeat clients through referrals, highlighting consistent quality and trust.</p>
-          </li>
-          <li>
-            <span>Performance Excellence</span>
-            <p>Achieved a Lighthouse score of {'>'} 90 for the majority of projects, ensuring premium web performance.</p>
-          </li>
-        </ul>
+      <ul>
+        <li>
+          <span>Comprehensive Development</span>
+          <p>Managed the complete development lifecycle, ensuring websites and applications were responsive, cross-browser compatible, and seamlessly integrated with robust backend systems.</p>
+        </li>
 
-        <Chip outlined className={styles.subheadingChip}>Responsibilities</Chip>
-        <ul>
-          <li>
-            <span>End-to-End Development</span>
-            <p>Managed the full development cycle, ensuring responsive, cross-browser compatibility and pairing frontend designs with robust backends using Node.js, Express, and a variety of databases.</p>
-          </li>
-          <li>
-            <span>Client-Centric Design</span>
-            <p>Liaised with clients to tailor projects to their branding and functional needs, transforming designs into fully operational apps and websites.</p>
-          </li>
-          <li>
-            <span>Continuous Enhancement</span>
-            <p>Regularly optimized, debugged, and expanded applications, while also offering technical consultation on business logic and feasibility.</p>
-          </li>
-        </ul>
-      </>
+        <li>
+          <span>Extensive Portfolio Development</span>
+          <p>Delivered 45+ diverse websites and applications leveraging Next.js, React, TypeScript, and CSS modules.</p>
+        </li>
+
+        <li>
+          <span>Building Client Trust</span>
+          <p>Fostered enduring partnerships with 40+ clients, with repeat engagements underscoring consistent quality and trustworthiness.</p>
+        </li>
+
+        <li>
+          <span>Client-Centric Solutions</span>
+          <p>Worked closely with clients to align projects with their brand and objectives, translating designs into fully functional digital platforms.</p>
+        </li>
+
+        <li>
+          <span>Ongoing Improvements</span>
+          <p>Consistently optimized and expanded applications, and provided expert technical consultation on application design and feasibility.</p>
+        </li>
+      </ul>
     ),
     icon: <CodeIcon />,
     company: 'Freelance',
