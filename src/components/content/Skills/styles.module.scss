@@ -1,13 +1,12 @@
 .Skills {
   .search {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     display: block;
     border: 1px solid $colour-blue;
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 24px;
+    padding-right: 1rem;
 
     input {
       @include resetInput;
