@@ -13,9 +13,10 @@ const Skills = (): JSX.Element | null => {
   ];
 
   const frameworksAndLibraries = [
-    'NodeJS',
     'React',
     'NextJS',
+    'NodeJS',
+    'React Query',
     'ExpressJS',
     'Material UI',
     'Jest',
