@@ -60,7 +60,7 @@
       }
 
       ul {
-        @include reset-list;
+        @include resetList;
         margin-top: 1rem;
 
         li {

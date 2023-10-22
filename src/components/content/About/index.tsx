@@ -19,7 +19,7 @@ const About = (): JSX.Element | null => (
       </p>
 
       <p>
-        When I’m not glued to the screen, I’m either leveling up in some console game, falling into endless cat video loops online, or being the 24/7 tech support for my mom’s phone. But even during my downtime, part of my brain is always dreaming up cool digital stuff that people would love to use.
+        When I’m not glued to the screen, I’m either leveling up in some console game, pumping iron in the gym, getting lost in a good sci-fi book or offering tech support for my mom’s phone. But even during my downtime, part of my brain is always dreaming up cool digital stuff that people would love to use.
       </p>
 
       <p>

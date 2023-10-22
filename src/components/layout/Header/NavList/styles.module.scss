@@ -1,7 +1,7 @@
 .NavList {
   display: flex;
   gap: 1rem;
-  @include reset-list;
+  @include resetList;
 
   &:hover li {
     opacity: 0.6;
