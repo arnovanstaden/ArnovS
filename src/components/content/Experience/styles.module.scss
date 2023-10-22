@@ -59,17 +59,38 @@
         margin: 0 0 0.75rem;
       }
 
+      .subheadingChip {
+        margin-top: 1.5rem
+      }
+
       ul {
         @include resetList;
         margin-top: 1rem;
 
+
         li {
-          margin-bottom: 0.25rem;
+          margin-bottom: 0.5rem;
           font-weight: 300;
+          display: grid;
 
           span {
             font-weight: 500;
-            margin-right: 0.5rem;
+            margin-bottom: 0.25rem;
+
+            &::before {
+              content: '';
+              display: inline-block;
+              width: 0.5rem;
+              height: 0.5rem;
+              background-color: $colour-blue;
+              margin-right: 0.5rem;
+              vertical-align: baseline;
+            }
+          }
+
+          p {
+            color: $colour-lightgrey;
+            margin-left: 1rem;
           }
 
           &:last-child {

@@ -32,43 +32,44 @@ export const data: IExperienceItem[] = [
     company: 'Tandem Language Exchange',
     description: (
       <>
-        <h4>Achievements:</h4>
+
+        <Chip outlined className={styles.subheadingChip}>Achievements</Chip>
         <ul>
           <li>
-            <span>Website Refactor:</span>
-            Successfully refactored the entire company website, comprising thousands of pages, utilizing the latest in web technologies.
+            <span>Website Refactor</span>
+            <p>Successfully refactored the entire company website, comprising thousands of pages, utilizing the latest in web technologies.</p>
           </li>
           <li>
-            <span>Web App Rebirth:</span>
-            Spearheaded the complete overhaul of the web application, supporting thousands of daily active users.
+            <span>Web App Rebirth</span>
+            <p>Spearheaded the complete overhaul of the web application, supporting thousands of daily active users.</p>
           </li>
           <li>
-            <span>Rapid Prototyping:</span>
-            Championed the quick-turnaround experimentation of MVPs on the web platform.
+            <span>Rapid Prototyping</span>
+            <p>Championed the quick-turnaround experimentation of MVPs on the web platform.</p>
           </li>
           <li>
-            <span>Admin Mastery:</span>
-            Crafted an intuitive and comprehensive admin dashboard for member management, effectively enhancing administrative operations.
+            <span>Admin Mastery</span>
+            <p>Crafted an intuitive and comprehensive admin dashboard for member management, effectively enhancing administrative operations.</p>
           </li>
         </ul>
 
-        <h4>Responsibilities:</h4>
+        <Chip outlined className={styles.subheadingChip}>Responsibilities</Chip>
         <ul>
           <li>
-            <span>Cross-team Collaboration:</span>
-            Collaborated closely with product, design, and marketing teams, translating ideas and designs into technical realities.
+            <span>Cross-team Collaboration</span>
+            <p>Collaborated closely with product, design, and marketing teams, translating ideas and designs into technical realities.</p>
           </li>
           <li>
-            <span>Technical Proficiency:</span>
-            Employed a diverse tech stack, incorporating tools like TypeScript, React, Next.js, Material UI and more, to deliver optimal solutions.
+            <span>Technical Proficiency</span>
+            <p>Employed a diverse tech stack, incorporating tools like TypeScript, React, Next.js, Material UI and more, to deliver optimal solutions.</p>
           </li>
           <li>
-            <span>Stakeholder Consultation:</span>
-            Engaged in active consultations with internal stakeholders, ensuring web initiatives align with overall company goals.
+            <span>Stakeholder Consultation</span>
+            <p>Engaged in active consultations with internal stakeholders, ensuring web initiatives align with overall company goals.</p>
           </li>
           <li>
-            <span>Web Optimization & Analytics:</span>
-            Implemented advanced web analytics for precise tracking and insights, optimized page performance for enhanced user experience and retention, and integrated SEO best practices to elevate organic search visibility and rankings.
+            <span>Web Optimization & Analytics</span>
+            <p>Implemented advanced web analytics for precise tracking and insights, optimized page performance for enhanced user experience and retention, and integrated SEO best practices to elevate organic search visibility and rankings.</p>
           </li>
         </ul>
       </>
@@ -83,34 +84,35 @@ export const data: IExperienceItem[] = [
         <p>
           As a dedicated Full-Stack Engineer, I've spent years honing a multifaceted skill set, specialising in creating tailored web solutions as a freelancer. My journey has been characterized by deep involvement in every phase of project development, from design conceptualization to deployment.
         </p>
-        <h4>Achievements:</h4>
+        <Chip outlined className={styles.subheadingChip}>Achievements</Chip>
         <ul>
           <li>
-            <span>Extensive Portfolio:</span>
-            Crafted 45+ websites & applications using Next.js, React, TypeScript, and CSS modules across varied sectors.
+            <span>Extensive Portfolio</span>
+            <p>Crafted 45+ websites & applications using Next.js, React, TypeScript, and CSS modules across varied sectors.</p>
           </li>
           <li>
-            <span>Client Trust:</span>
-            Nurtured relationships with 40+ repeat clients through referrals, highlighting consistent quality and trust.
+            <span>Client Trust</span>
+            <p>Nurtured relationships with 40+ repeat clients through referrals, highlighting consistent quality and trust.</p>
           </li>
           <li>
-            <span>Performance Excellence:</span>
-            Achieved a Lighthouse score of {'>'} 90 for the majority of projects, ensuring premium web performance.
+            <span>Performance Excellence</span>
+            <p>Achieved a Lighthouse score of {'>'} 90 for the majority of projects, ensuring premium web performance.</p>
           </li>
         </ul>
-        <h4>Responsibilities:</h4>
+
+        <Chip outlined className={styles.subheadingChip}>Responsibilities</Chip>
         <ul>
           <li>
-            <span>End-to-End Development:</span>
-            Managed the full development cycle, ensuring responsive, cross-browser compatibility and pairing frontend designs with robust backends using Node.js, Express, and a variety of databases.
+            <span>End-to-End Development</span>
+            <p>Managed the full development cycle, ensuring responsive, cross-browser compatibility and pairing frontend designs with robust backends using Node.js, Express, and a variety of databases.</p>
           </li>
           <li>
-            <span>Client-Centric Design:</span>
-            Liaised with clients to tailor projects to their branding and functional needs, transforming designs into fully operational apps and websites.
+            <span>Client-Centric Design</span>
+            <p>Liaised with clients to tailor projects to their branding and functional needs, transforming designs into fully operational apps and websites.</p>
           </li>
           <li>
-            <span>Continuous Enhancement:</span>
-            Regularly optimized, debugged, and expanded applications, while also offering technical consultation on business logic and feasibility.
+            <span>Continuous Enhancement</span>
+            <p>Regularly optimized, debugged, and expanded applications, while also offering technical consultation on business logic and feasibility.</p>
           </li>
         </ul>
       </>
