@@ -11,12 +11,16 @@ const sourceCodePro = Source_Code_Pro({
   subsets: ['latin'],
   preload: true,
   variable: '--font-family-sourceCodePro',
+  weight: 'variable',
+  display: 'swap',
 });
 
 const sourceSansPro = Source_Sans_3({
   subsets: ['latin'],
   preload: true,
   variable: '--font-family-sourceSansPro',
+  weight: 'variable',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -25,13 +29,13 @@ export const metadata: Metadata = {
 };
 
 const fontClasses = classNames(
-  sourceCodePro.className,
-  sourceSansPro.className,
+  sourceCodePro.variable,
+  sourceSansPro.variable,
 );
 
 const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element => (
-  <html lang="en">
-    <body className={fontClasses}>
+  <html lang="en" className={fontClasses}>
+    <body>
       <Header />
       {children}
       <Footer />
