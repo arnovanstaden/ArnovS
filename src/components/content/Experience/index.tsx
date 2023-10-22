@@ -45,7 +45,7 @@ export const data: IExperienceItem[] = [
       <ul>
         <li>
           <span>Website & Web App Overhaul</span>
-          <p>Led the refactoring of the company website and spearheaded the complete redesign of the web application, supporting thousands of daily users with the latest web technologies.</p>
+          <p>Led the refactoring of the company website and oversaw the complete redevelopment & redesign of the web application, supporting thousands of daily users with the latest web technologies.</p>
         </li>
 
         <li>
