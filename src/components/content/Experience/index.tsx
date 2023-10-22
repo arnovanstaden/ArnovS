@@ -17,7 +17,7 @@ interface IExperienceItem {
 
 export const data: IExperienceItem[] = [
   {
-    year: 'Jul 2023',
+    year: 'Jul 2023 - Present',
     title: 'Senior Frontend Engineer',
     location: 'Berlin, Germany',
     icon: <CodeIcon />,
@@ -25,7 +25,7 @@ export const data: IExperienceItem[] = [
     description: <p>Upon my promotion to Senior Frontend Engineer  I embraced an expanded set of responsibilities. My influence grew substantially in the realm of technology selection, work prioritization, and backlog management. Not only did I oversee the regular maintenance and improvements of our web projects, but I also adopted a pivotal role often mirroring that of a product owner or manager for all web-based initiatives. This evolution allowed me to play a more strategic part in shaping Tandem's web presence and ensuring the seamless functionality and user experience of our platform.</p>,
   },
   {
-    year: 'Jul 2021',
+    year: 'Jul 2021 - Jul 2023',
     title: 'Frontend Engineer',
     location: 'Berlin, Germany',
     icon: <CodeIcon />,
@@ -75,7 +75,7 @@ export const data: IExperienceItem[] = [
     ),
   },
   {
-    year: 'Apr 2018',
+    year: 'Apr 2018 - Jul 2021',
     title: 'Fullstack Engineer',
     location: 'Cape Town, South Africa',
     description: (
@@ -119,7 +119,7 @@ export const data: IExperienceItem[] = [
     company: 'Freelance',
   },
   {
-    year: 'Jul 2017',
+    year: 'Jul 2017 - Apr 2018',
     title: 'English Teacher',
     location: 'Hanoi, Vietnam',
     icon: <TranslateIcon />,
