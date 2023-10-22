@@ -1,14 +1,31 @@
 .Skills {
   .search {
-    @include resetInput;
-    border-bottom: 1px solid $colour-blue;
-    color: $colour-white;
-    padding: 1rem;
-    text-align: center;
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
-    display: block
+    display: block;
+    border: 1px solid $colour-blue;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 24px;
+
+    input {
+      @include resetInput;
+      color: $colour-white;
+      text-align: center;
+      width: 100%;
+      display: block;
+      padding: 1rem;
+    }
+
+    .clear {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0.5rem;
+      cursor: pointer;
+      font-size: 1.25rem
+    }
   }
 
   .list {

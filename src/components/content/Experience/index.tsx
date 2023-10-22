@@ -81,7 +81,7 @@ export const data: IExperienceItem[] = [
     description: (
       <>
         <p>
-          As a dedicated Full-Stack Engineer, I've spent years honing a multifaceted skill set, specializing in creating tailored web solutions as a freelancer. My journey has been characterized by deep involvement in every phase of project development, from design conceptualization to deployment.
+          As a dedicated Full-Stack Engineer, I've spent years honing a multifaceted skill set, specialising in creating tailored web solutions as a freelancer. My journey has been characterized by deep involvement in every phase of project development, from design conceptualization to deployment.
         </p>
         <h4>Achievements:</h4>
         <ul>

@@ -2,6 +2,7 @@
 
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
 import styles from './styles.module.scss';
+import CancelIcon from '@mui/icons-material/Cancel';
 
 const skills = [
   'HTML',
@@ -14,12 +15,12 @@ const skills = [
   'REST',
   'JQuery',
   'React',
-  'NextJS',
-  'NodeJS',
+  'Next.js',
+  'Node.js',
   'Redux',
   'React Query',
   'StoryBook',
-  'ExpressJS',
+  'Express.js',
   'Material UI',
   'Jest',
   'GIT',
@@ -47,13 +48,15 @@ const Skills = (): JSX.Element | null => {
 
   return (
     <div className={styles.Skills} ref={skillsRef}>
-      <input
-        className={styles.search}
-        type="text"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder="Looking for something specific?"
-      />
+      <div className={styles.search}>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Looking for something specific?"
+        />
+        {searchTerm && <CancelIcon className={styles.clear} onClick={() => setSearchTerm('')} />}
+      </div>
       <ul className={styles.list}>
         {filteredSkills.map((skill) => (
           <li className={styles.skill} key={skill}>

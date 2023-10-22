@@ -21,7 +21,7 @@ const sourceSansPro = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: 'Arno van Staden | Frontend Engineer',
-  description: 'Senior Frontend Engineer specializing in React with Typescript',
+  description: 'Senior Frontend Engineer specialising in React with Typescript',
 };
 
 const fontClasses = classNames(
