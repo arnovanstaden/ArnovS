@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Social from '@components/layout/Header/Social';
 import typingData from '@data/typings.json';
 import EmailIcon from '@mui/icons-material/Email';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
@@ -39,6 +40,12 @@ const Landing = (): JSX.Element | null => (
               <Button>
                 <EmailIcon className={styles.icon} />
                 Let's Talk
+              </Button>
+            </a>
+            <a href="/CV - Arno van Staden - 2023.pdf" target="_blank">
+              <Button outlined>
+                <DescriptionIcon className={styles.icon} />
+                View my CV
               </Button>
             </a>
           </div>
