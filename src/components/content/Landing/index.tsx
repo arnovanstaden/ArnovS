@@ -20,7 +20,7 @@ const Landing = (): JSX.Element | null => (
             width={600}
             height={600}
             priority
-            quality={100}
+            placeholder="blur"
           />
         </div>
         <div className={styles.content}>
