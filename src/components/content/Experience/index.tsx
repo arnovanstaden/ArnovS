@@ -143,7 +143,7 @@ const Experience = (): JSX.Element => (
               {item.location}
             </small>
           </div>
-          <h3 className={styles.title}>{item.title}</h3>
+          <h2 className={styles.title}>{item.title}</h2>
           {item.description}
         </div>
       </div>
