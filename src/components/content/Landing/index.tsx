@@ -36,8 +36,8 @@ const Landing = (): JSX.Element | null => (
             <p>Berlin | München | Remote (Germany)</p>
           </div>
           <div className={styles.buttons}>
-            <a href="mailto:arno@arnovs.dev" aria-label="Email" className={styles.mail} target="_blank">
-              <Button>
+            <a href="mailto:arno@arnovs.dev" className={styles.mail} target="_blank">
+              <Button aria-label="Let's Talk">
                 <EmailIcon className={styles.icon} />
                 Let's Talk
               </Button>

@@ -20,13 +20,24 @@ const MobileNav = (): JSX.Element | null => {
 
   return (
     <nav className={classes}>
-      <button className={styles.mobileButton} onClick={() => handleNavToggle()}>
+      <button
+        className={styles.mobileButton}
+        onClick={() => handleNavToggle()}
+        aria-label="Open Menu"
+      >
         <MenuIcon />
       </button>
-      <div className={styles.overlay} onClick={() => handleNavToggle()} />
+      <div
+        className={styles.overlay}
+        onClick={() => handleNavToggle()}
+      />
       <div className={styles.drawer}>
         <div className={styles.menu}>
-          <button className={styles.closeButton} onClick={() => handleNavToggle()}>
+          <button
+            className={styles.closeButton}
+            onClick={() => handleNavToggle()}
+            aria-label="Close Menu"
+          >
             <CloseIcon />
           </button>
           <i className={`icon-clear ${styles.close}`} onClick={() => handleNavToggle()} />
