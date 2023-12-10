@@ -1,3 +1,4 @@
+import Logo from '@components/system/display/Logo';
 import MobileNav from './MobileNav';
 import NavList from './NavList';
 import ThemeToggle from './ThemeToggle';
@@ -7,7 +8,7 @@ import Link from 'next/link';
 const Header = (): JSX.Element => (
   <header className={styles.header}>
     <Link href="/" className={styles.name}>
-      <img className={styles.logo} src="/images/logos/logo-light.svg" alt="arnovs logo" width="24px" height="100%" />
+      <Logo size={24} />
       <p>
         <span>Arno </span>
         van Staden

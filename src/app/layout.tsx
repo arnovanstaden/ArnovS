@@ -39,10 +39,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element =>
     <body>
       <ThemeProvider>
         <Header />
+        {children}
+        <Footer />
+        <ToolTip />
       </ThemeProvider>
-      {children}
-      <Footer />
-      <ToolTip />
     </body>
   </html>
 );

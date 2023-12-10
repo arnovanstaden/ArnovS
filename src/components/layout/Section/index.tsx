@@ -2,6 +2,7 @@ import ClassNames from 'classnames';
 import styles from './styles.module.scss';
 import Container from '@components/system/layout/Container';
 import TypingAnimation from '@components/content/Landing/TypingAnimation';
+import Logo from '@components/system/display/Logo';
 
 interface SectionProps {
   children: React.ReactNode;
@@ -38,7 +39,7 @@ const Section = (props: SectionProps): JSX.Element => {
         {props.heading
           ? (
             <div className={styles.heading}>
-              <img src="/images/logos/logo-light.svg" alt="arnovs logo" width="32px" height="100%" />
+              <Logo />
               {props.heading && <h1>{props.heading}</h1>}
               {props.subheading && <p>{props.subheading}</p>}
               {props.typingAnimationStrings && <TypingAnimation strings={props.typingAnimationStrings} />}
