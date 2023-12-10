@@ -19,7 +19,6 @@
 html {
   font-display: swap;
   scroll-behavior: smooth;
-
 }
 
 body {
@@ -34,6 +33,8 @@ body {
   overflow-x: hidden;
   height: 100vh;
   width: 100vw;
+  transition: background-color 0.8s ease-in-out;
+  transition: color 0.8s ease-in-out;
 
   &.noScroll {
     overflow-y: hidden;

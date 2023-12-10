@@ -1,0 +1,10 @@
+.ThemeToggle {
+  @include reset-button;
+  // margin-left: 2rem;
+  color: $colour-font-primary;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: $colour-accent-blue;
+  }
+}

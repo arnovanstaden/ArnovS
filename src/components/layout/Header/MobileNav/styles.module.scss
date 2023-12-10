@@ -76,14 +76,20 @@
         }
       }
 
-      .closeButton {
-        @include reset-button;
-        font-size: 1.5rem;
-        color: $colour-font-primary;
+      .top {
         position: absolute;
         top: 1rem;
-        right: 1rem;
-        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        width: 100%;
+
+        .closeButton {
+          @include reset-button;
+          font-size: 1.5rem;
+          color: $colour-font-primary;
+        }
       }
     }
   }
