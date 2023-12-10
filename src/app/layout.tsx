@@ -6,6 +6,7 @@ import { Source_Code_Pro, Source_Sans_3 } from 'next/font/google';
 import Footer from '@components/layout/Footer/Footer';
 import Header from '@components/layout/Header/Header';
 import ToolTip from '@components/system/display/ToolTip';
+import { ThemeProvider } from '@context/theme';
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['latin'],
@@ -36,10 +37,12 @@ const fontClasses = classNames(
 const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element => (
   <html lang="en" className={fontClasses}>
     <body>
-      <Header />
-      {children}
-      <Footer />
-      <ToolTip />
+      <ThemeProvider>
+        <Header />
+        {children}
+        <Footer />
+        <ToolTip />
+      </ThemeProvider>
     </body>
   </html>
 );

@@ -1,6 +1,6 @@
 'use client';
 
-import useScrollToElement from 'src/hooks/ui';
+import useScrollToElement from '@hooks/ui';
 import styles from './styles.module.scss';
 
 const NavList = ({ onClick }: { onClick?: () => void }): JSX.Element => {

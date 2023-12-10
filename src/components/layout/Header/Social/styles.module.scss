@@ -7,7 +7,7 @@
     display: flex;
 
     svg {
-      color: $colour-white;
+      color: $colour-font-primary;
       transition: 0.2s ease-in-out;
       font-size: 1.1rem;
     }
@@ -17,7 +17,7 @@
     }
 
     &.mail {
-      background-color: $colour-grey;
+      background-color: $colour-background-secondary;
       border: 1px solid transparent;
       width: 2.25rem;
       height: 2.25rem;
@@ -29,7 +29,7 @@
         border-color: $colour-blue;
 
         svg {
-          color: $colour-white;
+          color: $colour-font-primary;
         }
       }
     }

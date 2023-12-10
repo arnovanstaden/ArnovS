@@ -6,7 +6,7 @@
 
   .mail {
     display: flex;
-    background-color: $colour-black;
+    background-color: $colour-background-primary;
     padding: 1.25rem 3rem;
     align-items: center;
     transition: 0.3s ease-in-out;
@@ -22,7 +22,7 @@
       background-color: $colour-blue;
 
       svg {
-        color: $colour-white;
+        color: $colour-font-primary;
       }
     }
   }

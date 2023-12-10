@@ -1,3 +1,17 @@
+:root {
+  --colour-background-primary: #151618;
+  --colour-background-secondary: #242629;
+  --colour-font-primary: #ffffff;
+  --colour-font-secondary: #c5cdd3;
+}
+
+[data-theme="light"] {
+  --colour-background-primary: #F2F2F2;
+  --colour-background-secondary: #E0E0E0;
+  --colour-font-primary: #151618;
+  --colour-font-secondary: #242629;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,13 +22,13 @@ html {
 }
 
 body {
-  background-color: $colour-black;
+  background-color: $colour-background-primary;
   font-family: $font-body;
   font-size: 1rem;
   padding: 0;
   margin: 0;
   width: 100%;
-  color: $colour-white;
+  color: $colour-font-primary;
   transition: 0.3s ease-out;
   overflow-x: hidden;
   height: 100vh;
@@ -35,7 +49,7 @@ a {
   width: 6px;
 
   &-track {
-    background: $colour-black;
+    background: $colour-background-primary;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   }
 
@@ -45,7 +59,7 @@ a {
     transition: 0.4s ease-in-out;
 
     &:hover {
-      background: $colour-white;
+      background: $colour-font-primary;
     }
   }
 }

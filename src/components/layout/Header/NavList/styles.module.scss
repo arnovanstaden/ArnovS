@@ -1,5 +1,6 @@
 .NavList {
   display: flex;
+  align-items: center;
   gap: 1rem;
   @include resetList;
 
@@ -8,7 +9,7 @@
   }
 
   li {
-    color: $colour-white;
+    color: $colour-font-primary;
     font-weight: 500;
     font-size: 1.05rem;
     letter-spacing: 0.5px;

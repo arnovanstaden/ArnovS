@@ -25,13 +25,13 @@
     p {
       margin: 0;
       margin-top: 0.75rem;
-      color: $colour-white;
+      color: $colour-font-primary;
       font-size: 1rem;
       font-weight: 400;
     }
   }
 
   &.light {
-    background-color: $colour-grey;
+    background-color: $colour-background-secondary;
   }
 }

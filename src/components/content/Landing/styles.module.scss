@@ -1,7 +1,7 @@
 .Landing {
   height: 100vh;
   width: 100vw;
-  background-color: $colour-black;
+  background-color: $colour-background-primary;
   background-size: cover;
 
   .grid {
@@ -51,7 +51,7 @@
         align-items: center;
 
         p {
-          color: $colour-lightgrey;
+          color: $colour-font-secondary;
           margin: 0;
           margin-left: 1rem;
         }

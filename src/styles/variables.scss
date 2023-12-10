@@ -10,13 +10,17 @@ sans-serif;
 
 // COLOURS
 $colour-blue: #0061f0;
-$colour-black: #151618;
-$colour-grey: #242629;
-$colour-lightgrey: #c5cdd3;
-$colour-white: #ffffff;
 
 $breakpoint-xs: 576px;
 $breakpoint-sm: 767px;
 $breakpoint-md: 991px;
 $breakpoint-lg: 1199px;
 $breakpoint-xl: 1450px;
+
+$colour-accent-blue: #0061f0;
+
+$colour-background-primary: var(--colour-background-primary);
+$colour-background-secondary: var(--colour-background-secondary);
+$colour-font-primary: var(--colour-font-primary);
+$colour-font-secondary: var(--colour-font-secondary);
+$colour-font-on-colour: #ffffff

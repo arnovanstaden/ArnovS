@@ -11,7 +11,7 @@
     p {
       span {
         font-weight: 300;
-        color: $colour-lightgrey;
+        color: $colour-font-secondary;
         white-space: pre-wrap;
         font-family: $font-heading;
         font-size: 0.9rem;
@@ -49,7 +49,7 @@
           p {
             font-size: 0.9rem;
             margin: 0;
-            color: $colour-lightgrey;
+            color: $colour-font-secondary;
           }
         }
       }
@@ -75,7 +75,7 @@
 
           span {
             font-weight: 300;
-            color: $colour-lightgrey;
+            color: $colour-font-secondary;
           }
         }
       }

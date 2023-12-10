@@ -15,8 +15,6 @@ const NotFoundPage = (): JSX.Element => (
         </Link>
       </div>
     </div>
-
-    <img className={styles.logo} src="/images/logos/logo-light.svg" alt="" />
   </section>
 );
 
