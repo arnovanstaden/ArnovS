@@ -8,7 +8,7 @@
     align-items: center;
     width: 2rem;
     height: 2rem;
-    background-color: $colour-grey;
+    background-color: $colour-background-secondary;
 
     svg {
       font-size: 1.5rem;
@@ -20,7 +20,7 @@
       border-color: $colour-blue;
 
       svg {
-        color: $colour-white;
+        color: $colour-font-primary;
       }
     }
   }
@@ -28,7 +28,7 @@
   .overlay {
     width: 100vw;
     height: 100vh;
-    background-color: rgba($colour-grey, 0.5);
+    background-color: rgba($colour-background-secondary, 0.5);
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -53,7 +53,7 @@
 
     .menu {
       width: 100%;
-      background-color: $colour-black;
+      background-color: $colour-background-primary;
       border-left: 2px solid $colour-blue;
       display: flex;
       justify-content: center;
@@ -79,7 +79,7 @@
       .closeButton {
         @include reset-button;
         font-size: 1.5rem;
-        color: $colour-white;
+        color: $colour-font-primary;
         position: absolute;
         top: 1rem;
         right: 1rem;

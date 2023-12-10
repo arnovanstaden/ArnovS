@@ -35,7 +35,7 @@ const fontClasses = classNames(
 
 const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element => (
   <html lang="en" className={fontClasses}>
-    <body>
+    <body data-theme="light">
       <Header />
       {children}
       <Footer />

@@ -10,7 +10,7 @@
 
     input {
       @include resetInput;
-      color: $colour-white;
+      color: $colour-font-primary;
       text-align: center;
       width: 100%;
       display: block;
@@ -39,7 +39,7 @@
 
   .skill {
     display: flex;
-    background-color: $colour-grey;
+    background-color: $colour-background-secondary;
     padding: 0.75rem 1.5rem;
     align-items: center;
     transition: 0.3s ease-out;
