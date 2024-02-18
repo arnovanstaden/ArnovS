@@ -9,6 +9,7 @@ import ToolTip from '@components/system/display/ToolTip';
 import { ThemeProvider } from '@context/theme';
 import { generateCustomMetaData } from '@utils/metadata';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['latin'],
@@ -46,6 +47,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element =>
         <ToolTip />
       </ThemeProvider>
       <Analytics />
+      <SpeedInsights />
     </body>
   </html>
 );
