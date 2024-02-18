@@ -27,6 +27,7 @@ const skills = [
   'GIT',
   'MongoDB',
   'Firebase',
+  'Supabase',
   'Google Cloud',
   'AWS',
   'Vercel',
