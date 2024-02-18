@@ -69,7 +69,7 @@ const Skills = (): JSX.Element | null => {
       <ul className={styles.list}>
         {filteredSkills.map((skill) => (
           <li className={styles.skill} key={skill}>
-            <img src={getIconPath(skill)} alt={`${skill} icon`} />
+            <img src={getIconPath(skill)} alt={`${skill} icon`} loading="lazy" />
             {skill}
           </li>
         ))}
