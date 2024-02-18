@@ -10,7 +10,11 @@ const ThemeToggle = (): React.ReactElement | null => {
   const icon = theme === 'dark' ? <LightModeIcon /> : <DarkModeIcon />;
 
   return (
-    <button onClick={toggleTheme} className={styles.ThemeToggle}>
+    <button
+      onClick={toggleTheme}
+      className={styles.ThemeToggle}
+      aria-label="Theme Toggle"
+    >
       {icon}
     </button>
   );

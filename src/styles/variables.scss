@@ -9,18 +9,17 @@ Geneva,
 sans-serif;
 
 // COLOURS
-$colour-blue: #0061f0;
 
-$breakpoint-xs: 576px;
-$breakpoint-sm: 767px;
-$breakpoint-md: 991px;
-$breakpoint-lg: 1199px;
-$breakpoint-xl: 1450px;
-
-$colour-accent-blue: #0061f0;
-
+$colour-blue: var(--colour-primary);
 $colour-background-primary: var(--colour-background-primary);
 $colour-background-secondary: var(--colour-background-secondary);
 $colour-font-primary: var(--colour-font-primary);
 $colour-font-secondary: var(--colour-font-secondary);
-$colour-font-on-colour: #ffffff
+$colour-font-on-colour: #ffffff;
+
+// BREAKPOINTS
+$breakpoint-xs: 600px;
+$breakpoint-sm: 769px;
+$breakpoint-md: 991px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1440px;

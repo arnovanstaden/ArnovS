@@ -7,6 +7,7 @@ import Footer from '@components/layout/Footer/Footer';
 import Header from '@components/layout/Header/Header';
 import ToolTip from '@components/system/display/ToolTip';
 import { ThemeProvider } from '@context/theme';
+import { generateCustomMetaData } from '@utils/metadata';
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['latin'],
@@ -24,10 +25,10 @@ const sourceSansPro = Source_Sans_3({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
+export const metadata: Metadata = generateCustomMetaData({
   title: 'Arno van Staden | Frontend Engineer',
   description: 'Discover Arno van Staden, a Senior Frontend Engineer, skilled in React and TypeScript. Delve into his professional achievements and innovative approach to web development.',
-};
+});
 
 const fontClasses = classNames(
   sourceCodePro.variable,
