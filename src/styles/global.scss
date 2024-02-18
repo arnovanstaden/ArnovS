@@ -1,17 +1,17 @@
 :root {
   --colour-background-primary: #151618;
-  --colour-background-secondary: #242629;
+  --colour-background-secondary: #1F2123;
   --colour-font-primary: #ffffff;
   --colour-font-secondary: #c5cdd3;
-
-  --colour-primary: #0061f0
+  --colour-primary: #0061F0;
 }
 
 [data-theme="light"] {
   --colour-background-primary: #F2F2F2;
   --colour-background-secondary: #E0E0E0;
   --colour-font-primary: #151618;
-  --colour-font-secondary: #242629;
+  --colour-font-secondary: #1F2123;
+  --colour-primary: #0061F0
 }
 
 * {
