@@ -17,6 +17,7 @@ const skills = [
   'React',
   'Next.js',
   'Node.js',
+  'Astro',
   'Redux',
   'React Query',
   'StoryBook',
@@ -29,6 +30,8 @@ const skills = [
   'Google Cloud',
   'AWS',
   'Vercel',
+  'Sanity',
+  'Contentful',
   'Jira',
   'Confluence',
   'Figma',
@@ -38,7 +41,8 @@ const Skills = (): JSX.Element | null => {
   const [searchTerm, setSearchTerm] = useState('');
   const skillsRef = useRef() as MutableRefObject<HTMLDivElement>;
   const getIconPath = (skill: string) => `/images/icons/${skill.toLowerCase().replace(' ', '-')}.svg`;
-  const filteredSkills = skills.filter((skill) => skill.toLowerCase().includes(searchTerm.toLowerCase()));
+  const filteredSkills = skills.filter((skill) => skill.toLowerCase().includes(searchTerm.toLowerCase()),
+  );
 
   // Ensure the section height does not jump around when filtering skills
   useEffect(() => {
@@ -55,7 +59,12 @@ const Skills = (): JSX.Element | null => {
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Looking for something specific?"
         />
-        {searchTerm && <CancelIcon className={styles.clear} onClick={() => setSearchTerm('')} />}
+        {searchTerm && (
+          <CancelIcon
+            className={styles.clear}
+            onClick={() => setSearchTerm('')}
+          />
+        )}
       </div>
       <ul className={styles.list}>
         {filteredSkills.map((skill) => (
