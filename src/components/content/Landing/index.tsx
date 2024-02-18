@@ -17,7 +17,7 @@ const Landing = (): JSX.Element | null => (
         <div className={styles.image}>
           <Image
             src={LandingImage}
-            alt="My profile"
+            alt="Arno van Staden"
             priority
             quality={60}
           />
