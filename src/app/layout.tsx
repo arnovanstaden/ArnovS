@@ -8,6 +8,7 @@ import Header from '@components/layout/Header/Header';
 import ToolTip from '@components/system/display/ToolTip';
 import { ThemeProvider } from '@context/theme';
 import { generateCustomMetaData } from '@utils/metadata';
+import { Analytics } from '@vercel/analytics/react';
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['latin'],
@@ -44,6 +45,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element =>
         <Footer />
         <ToolTip />
       </ThemeProvider>
+      <Analytics />
     </body>
   </html>
 );
