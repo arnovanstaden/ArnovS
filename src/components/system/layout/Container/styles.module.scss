@@ -6,6 +6,10 @@
   height: 100%;
   width: 100%;
 
+  @media (max-width: $breakpoint-xl) {
+    max-width: 1350px;
+  }
+
   @media (max-width: $breakpoint-lg) {
     max-width: 1140px;
   }
