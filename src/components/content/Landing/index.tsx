@@ -8,6 +8,7 @@ import Social from '@components/layout/Header/Social';
 import typingData from '@data/typings.json';
 import EmailIcon from '@mui/icons-material/Email';
 import DescriptionIcon from '@mui/icons-material/Description';
+import LandingImage from '@public/images/landing.png';
 
 const Landing = (): JSX.Element | null => (
   <section className={styles.Landing}>
@@ -15,10 +16,8 @@ const Landing = (): JSX.Element | null => (
       <div className={styles.grid}>
         <div className={styles.image}>
           <Image
-            src="/images/landing.png"
+            src={LandingImage}
             alt="My profile"
-            width={600}
-            height={600}
             priority
             quality={60}
           />
