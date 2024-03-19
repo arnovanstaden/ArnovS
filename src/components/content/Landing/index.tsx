@@ -41,7 +41,7 @@ const Landing = (): JSX.Element | null => (
                 Let's Talk
               </Button>
             </a>
-            <a href="/CV - Arno van Staden - 2023.pdf" target="_blank">
+            <a href="/CV - Arno van Staden.pdf" target="_blank">
               <Button outlined>
                 <DescriptionIcon className={styles.icon} />
                 View my CV
