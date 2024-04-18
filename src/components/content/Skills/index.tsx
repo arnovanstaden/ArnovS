@@ -18,7 +18,6 @@ const skills = [
   'Next.js',
   'Node.js',
   'Astro',
-  'Redux',
   'React Query',
   'StoryBook',
   'Express.js',
